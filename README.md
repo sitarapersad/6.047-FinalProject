@@ -11,6 +11,8 @@ Reasonably chill process using https://github.com/bulik/ldsc. There are some use
 
 2. Download SNP data from the website
 
+Done, uploading to git. Be careful in the future, since these data files are so big, only git add . subfolders which are modified, to save time.
+
 ### December 2
 
 1. Write scripts to compute LD gene heritability using the aforementioned tools
