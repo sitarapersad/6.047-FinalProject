@@ -58,3 +58,19 @@ Is there any previous work that identifies genes/ regions that are biologically 
 
 ## Writeup
 https://www.overleaf.com/7238811cscdzymnmskg
+
+## Citations
+Neale et al., Meta-analysis of genome-wide association studies of attention-
+deficit/hyperactivity disorder. J. Am. Acad. Child Adolesc. Psychiatry 49, 884
+(Sep, 2010).
+
+Psychiatric GWAS Consortium Bipolar Disorder Working Group, Large-scale
+genome-wide association analysis of bipolar disorder identifies a new
+susceptibility locus near ODZ4. Nature Genetics 43, 977 (2011).
+
+Major Depressive Disorder Working Group of the PGC, A mega-analysis of
+genome-wide association studies for major depressive disorder. Molecular
+Psychiatry. (In press).
+
+Schizophrenia PGC, Genome-wide association study of schizophrenia identifies
+five novel loci. Nature Genetics 43, 969 (2011).
