@@ -5,3 +5,6 @@
 2. Download data from the website
 3. Cry profusely.
 
+## Writeup/ Random Notes for Now
+
+https://www.overleaf.com/7238811cscdzymnmskg
