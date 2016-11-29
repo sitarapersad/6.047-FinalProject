@@ -40,6 +40,21 @@ We're interested in knowing chromosome (col[1]) and base pair (col[2]) for analy
 
 We need a way to verify these regions compared with known regions of interest.
 
-## Writeup/ Random Notes for Now
+## Random Notes for Now
 
+IMPT: How do we force LDSC to compute the LD score over a particular chromosome region?
+We can do this by parsing the text file. This might be the job for a particular python script. Perhaps this is somehow build into LDSC.
+Parsing via text files will make this a slightly time-consuming process to create and destroy these large text files repeatedly.
+
+
+How do we parse the log file of outputs to obtain the genetic correlation?
+
+IMPT: How do we select a threshold beyond which a region no longer explains significant genetic correlation?
+
+How do we verify that regions we find are good regions?
+Is there any previous work that identifies genes/ regions that are biologically interesting?
+
+
+
+## Writeup
 https://www.overleaf.com/7238811cscdzymnmskg
