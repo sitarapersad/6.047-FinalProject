@@ -8,6 +8,7 @@ import pandas as pd
 import os
 import numpy as np
 import subprocess
+from StringIO import StringIO
 
 rootdir = '../6.047-Data/'  # Change this to the path to the data when running on your machine
 disease1_SNP = 'pgc.bip.full.2012-04.txt'
@@ -67,7 +68,7 @@ def get_genetic_corr(disease1_file, disease2_file):
     
     # Run mungestats on both disease files
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/'+disease2_file,
+                     '--sumstats', '../6.047-Data/'+disease1_file,
                      '--N', '11810',
                      '--out', 'disease1',
                      '--merge-alleles', '../6.047-Data/w_hm3.snplist']
@@ -88,16 +89,22 @@ def get_genetic_corr(disease1_file, disease2_file):
                      '--out', 'disease1_disease2']
                     )
                     
-    f = open('disease1_disease2.log')
-    grabbed = None
+    f = open('disease1_disease2.log', 'r')
     for line in f:
-        if not grabbed is None:
-            if grabbed < 3:
-                # grab line
-                grabbed += 1
-            
         if line =='Summary of Genetic Correlation Results\n':
-            grabbed = 0
+            break
+    total = 0
+    lines = []
+    for line in f:
+        if total == 2:
+            break
+        lines.append(' '.join(s for s in line.split(' ') if s!= ''))
+        total+=1
+
+    summary = StringIO(''.join(lines))
+
+    df = pd.read_csv(summary, sep=" ")
+
         
     # Remove files created by ldsc
     
