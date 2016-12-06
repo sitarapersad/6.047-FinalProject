@@ -57,9 +57,27 @@ def estimate_corr(chromosome, region_start, region_end):
     
 def get_genetic_corr(disease1_file, disease2_file):
     '''Runs mungestat and ldsc on two diseases to estimate the genetic correlation'''
-    
-    subprocess.call(['python', 'somescript.py', somescript_arg1, somescript_val1,...]).
-    
+
+    subprocess.call(['python', 'ldsc/munge_sumstats.py',
+                     '--sumstats', '../6.047-Data/pgc.cross.BIP11.2013-05.txt',
+                     '--N', '11810',
+                     '--out', 'bip',
+                     '--merge-alleles', '../6.047-Data/w_hm3.snplist']
+                    )
+
+    subprocess.call(['python', 'ldsc/munge_sumstats.py',
+                     '--sumstats', '../6.047-Data/pgc.cross.SCZ17.2013-05.txt',
+                     '--N', '17115',
+                     '--out', 'scz',
+                     '--merge-alleles', '../6.047-Data/w_hm3.snplist']
+                    )
+
+    subprocess.call(['python', 'ldsc/ldsc.py',
+                     '--rg', 'scz.sumstats.gz,bip.sumstats.gz',
+                     '--ref-ld-chr', '../6.047-Data/eur_w_ld_chr/',
+                     '--w-ld-chr', '../6.047-Data/eur_w_ld_chr/',
+                     '--out', 'scz_bip']
+                    )
     # TODO: Complete this
     
     # Remove files created by ldsc
@@ -97,5 +115,5 @@ def compute_minimal_regions():
         regions = get_minimal_regions(chromosome)
         minimal_regions[chromosome] = regions
     
-    
-    
+
+
