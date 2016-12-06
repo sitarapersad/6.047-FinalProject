@@ -2,18 +2,12 @@
 """
 This script loads the SNP data from a pair of diseases and estimates the 
 genetic correlation per chromosome
-
-Proposed methodology:
-
-For each chromosome:
-    Region = Whole Chromosome
-    
-
 """
 
 import pandas as pd
 import os
 import numpy as np
+import subprocess
 
 rootdir = '../6.047-Data/'  # Change this to the path to the data when running on your machine
 disease1_SNP = 'pgc.bip.full.2012-04.txt'
@@ -25,6 +19,9 @@ disease1 = pd.read_csv(rootdir+disease1_SNP, sep='\t',names=['snpid', 'hg18chr',
 disease2 = pd.read_csv(rootdir+disease2_SNP, sep='\t',names=['snpid', 'hg18chr', 'bp', 'a1', 'a2', 'or', 'se', 'pval', 'info', 'ngt', 'CEUaf'],skiprows=[0]) 
 
 # Convert the relevant columns to numeric values
+global disease1
+global disease2
+
 disease1[['bp']] = disease1[['bp']].apply(pd.to_numeric, errors='coerce')
 disease2[['bp']] = disease2[['bp']].apply(pd.to_numeric, errors='coerce')
 
@@ -56,17 +53,22 @@ def estimate_corr(chromosome, region_start, region_end):
     # Remove files from folder
     os.remove(rootdir+filename+'1.txt')
     os.remove(rootdir+filename+'2.txt')
-    
     return corr
     
 def get_genetic_corr(disease1_file, disease2_file):
     '''Runs mungestat and ldsc on two diseases to estimate the genetic correlation'''
+    
+    subprocess.call(['python', 'somescript.py', somescript_arg1, somescript_val1,...]).
+    
     # TODO: Complete this
+    
+    # Remove files created by ldsc
     pass
 
 def recursive_get_regions(chromosome, region_start, region_end):
     corr = estimate_corr(chromosome, region_start, region_end)
     # Base Case
+    # TODO: How do we determine the MIN_CORR?
     if corr < MIN_CORR or (region_end - region_start) <=1:
         return [(region_start, region_end, corr)]
     else:
