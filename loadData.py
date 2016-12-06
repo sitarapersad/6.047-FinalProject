@@ -80,14 +80,15 @@ def get_genetic_corr(disease1_file, disease2_file):
         lines.append(' '.join(s for s in line.split(' ') if s!= ''))
         total+=1
 
+    f.close()
     summary = StringIO(''.join(lines))
 
     df = pd.read_csv(summary, sep=" ")
 
-        
-    # Remove files created by ldsc
-
-    return 0
+    to_remove = ['disease1.log', 'disease1.sumstats.gz', 'disease2.log', 'disease2.sumstats.gz', 'disease1_disease2.log']
+    for file in to_remove:
+        os.remove(file)
+    return float(df['rg'])
     
 def estimate_corr(chromosome, region_start, region_end):
     '''Given a chromosome and region, creates a SNP data file for each disease,
