@@ -54,40 +54,54 @@ def estimate_corr(chromosome, region_start, region_end):
     d2_file.to_csv(rootdir+filename+'2.txt',sep='\t')
     
     # Estimate the genetic correlation
-    corr = get_genetic_corr(rootdir+filename+'1.txt', rootdir+filename+'2.txt')
+    corr = get_genetic_corr(filename+'1.txt', filename+'2.txt')
     
     # Remove files from folder
     os.remove(rootdir+filename+'1.txt')
     os.remove(rootdir+filename+'2.txt')
     return corr
-    
+
 def get_genetic_corr(disease1_file, disease2_file):
     '''Runs mungestat and ldsc on two diseases to estimate the genetic correlation'''
-
+    
+    
+    # Run mungestats on both disease files
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/pgc.cross.BIP11.2013-05.txt',
+                     '--sumstats', '../6.047-Data/'+disease2_file,
                      '--N', '11810',
-                     '--out', 'bip',
+                     '--out', 'disease1',
                      '--merge-alleles', '../6.047-Data/w_hm3.snplist']
                     )
 
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/pgc.cross.SCZ17.2013-05.txt',
+                     '--sumstats', '../6.047-Data/'+disease2_file,
                      '--N', '17115',
-                     '--out', 'scz',
+                     '--out', 'disease2',
                      '--merge-alleles', '../6.047-Data/w_hm3.snplist']
                     )
 
+   # Run ldsc
     subprocess.call(['python', 'ldsc/ldsc.py',
-                     '--rg', 'scz.sumstats.gz,bip.sumstats.gz',
+                     '--rg', 'disease1.sumstats.gz,disease2.sumstats.gz',
                      '--ref-ld-chr', '../6.047-Data/eur_w_ld_chr/',
                      '--w-ld-chr', '../6.047-Data/eur_w_ld_chr/',
-                     '--out', 'scz_bip']
+                     '--out', 'disease1_disease2']
                     )
-    # TODO: Complete this
-    
+                    
+    f = open('disease1_disease2.log')
+    grabbed = None
+    for line in f:
+        if not grabbed is None:
+            if grabbed < 3:
+                # grab line
+                grabbed += 1
+            
+        if line =='Summary of Genetic Correlation Results\n':
+            grabbed = 0
+        
     # Remove files created by ldsc
-    pass
+    
+    return 0
 
 def recursive_get_regions(chromosome, region_start, region_end):
     corr = estimate_corr(chromosome, region_start, region_end)
