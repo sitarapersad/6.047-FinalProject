@@ -34,6 +34,12 @@ print disease2.head()
 
 chromosomes = set(disease1.hg18chr + disease2.hg18chr)
 
+sample_sizes = {'aut': (4788 + 161, 4788 + 526),
+                'add': (1947 + 840, 1947 + 688),
+                'bip': (6990, 4820),
+                'mdd': (9227, 7383),
+                'scz': (9379, 7736)}
+
 def estimate_corr(chromosome, region_start, region_end):
     '''Given a chromosome and region, creates a SNP data file for each disease,
     computes the genetic correlation between the two diseases in that region, 
