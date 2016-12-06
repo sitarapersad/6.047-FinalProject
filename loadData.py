@@ -58,12 +58,18 @@ def estimate_corr(chromosome, region_start, region_end):
 def get_genetic_corr(disease1_file, disease2_file):
     '''Runs mungestat and ldsc on two diseases to estimate the genetic correlation'''
     
-    subprocess.call(['python', 'somescript.py', somescript_arg1, somescript_val1,...]).
+    # I think this is how to call a command line script from python
+    
+    # Run mungestats on both disease files
+    
+    # Run ldsc
+    subprocess.call(['python', 'ldsc.py', '--rg scz.sumstats.gz,bip.sumstats.g', '--ref-ld-chr eur_w_ld_chr', '--w-ld-chr eur_w_ld_chr', '--out scz_bip' ])    
     
     # TODO: Complete this
     
     # Remove files created by ldsc
-    pass
+    
+    return 
 
 def recursive_get_regions(chromosome, region_start, region_end):
     corr = estimate_corr(chromosome, region_start, region_end)
