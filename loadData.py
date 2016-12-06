@@ -8,6 +8,7 @@ import pandas as pd
 import os
 import numpy as np
 import subprocess
+from StringIO import StringIO
 
 rootdir = '../6.047-Data/'  # Change this to the path to the data when running on your machine
 disease1_SNP = 'pgc.cross.BIP11.2013-05.txt'
@@ -34,6 +35,11 @@ print disease2.head()
 
 chromosomes = set(disease1.hg18chr + disease2.hg18chr)
 
+sample_sizes = {'aut': (4788 + 161, 4788 + 526),
+                'add': (1947 + 840, 1947 + 688),
+                'bip': (6990, 4820),
+                'mdd': (9227, 7383),
+                'scz': (9379, 7736)}
 
 def get_genetic_corr(disease1_file, disease2_file):
     '''Runs mungestat and ldsc on two diseases to estimate the genetic correlation'''
@@ -41,7 +47,7 @@ def get_genetic_corr(disease1_file, disease2_file):
     
     # Run mungestats on both disease files
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/'+disease2_file,
+                     '--sumstats', '../6.047-Data/'+disease1_file,
                      '--N', '11810',
                      '--out', 'disease1',
                      '--merge-alleles', '../6.047-Data/w_hm3.snplist']
@@ -61,21 +67,26 @@ def get_genetic_corr(disease1_file, disease2_file):
                      '--w-ld-chr', '../6.047-Data/eur_w_ld_chr/',
                      '--out', 'disease1_disease2']
                     )
-#                    
-#    f = open('disease1_disease2.log')
-#    grabbed = None
-#    for line in f:
-#        break
-#        if not grabbed is None:
-#            if grabbed < 3:
-#                # grab line
-#                grabbed += 1
-#            
-#        if line =='Summary of Genetic Correlation Results\n':
-#            grabbed = 0
-#        
-#    # Remove files created by ldsc
-#    
+                    
+    f = open('disease1_disease2.log', 'r')
+    for line in f:
+        if line =='Summary of Genetic Correlation Results\n':
+            break
+    total = 0
+    lines = []
+    for line in f:
+        if total == 2:
+            break
+        lines.append(' '.join(s for s in line.split(' ') if s!= ''))
+        total+=1
+
+    summary = StringIO(''.join(lines))
+
+    df = pd.read_csv(summary, sep=" ")
+
+        
+    # Remove files created by ldsc
+
     return 0
     
 def estimate_corr(chromosome, region_start, region_end):
