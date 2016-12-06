@@ -14,7 +14,7 @@ For each chromosome:
 import pandas as pd
 import os
 
-rootdir = '/home/sitara/Documents/6.047-Data/'  # Change this to the path to the data when running on your machine
+rootdir = '../6.047-Data/'  # Change this to the path to the data when running on your machine
 disease1_SNP = 'pgc.bip.full.2012-04.txt'
 disease2_SNP = 'pgc.bip.full.2012-04.txt'
 
