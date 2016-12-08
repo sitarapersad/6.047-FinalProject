@@ -35,11 +35,13 @@ print disease2.head()
 
 chromosomes = set(disease1.hg18chr + disease2.hg18chr)
 
-sample_sizes = {'aut': (4788 + 161, 4788 + 526),
-                'add': (1947 + 840, 1947 + 688),
-                'bip': (6990, 4820),
-                'mdd': (9227, 7383),
-                'scz': (9379, 7736)}
+diseases = {}
+diseases['aut'] = {'sample_size': (4788 + 161, 4788 + 526), 'filename': 'pgc.cross.AUT8.2013-05.txt'}
+diseases['add'] = {'sample_size': (1947 + 840, 1947 + 688), 'filename': 'pgc.cross.ADD4.2013-05.txt'}
+diseases['bip'] = {'sample_size': (6990, 4820), 'filename': 'pgc.cross.BIP11.2013-05.txt'}
+diseases['mdd'] = {'sample_size': (9227, 7383), 'filename': 'pgc.cross.MDD9.2013-05.txt'}
+diseases['scz'] = {'sample_size': (9379, 7736), 'filename': 'pgc.cross.SCZ17.2013-05.txt'}
+
 
 def get_genetic_corr(disease1_file, disease2_file):
     '''Runs mungestat and ldsc on two diseases to estimate the genetic correlation'''
