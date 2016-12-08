@@ -22,8 +22,6 @@ disease1 = pd.read_csv(rootdir+disease1_SNP, sep='\t',names=['snpid', 'hg18chr',
 disease2 = pd.read_csv(rootdir+disease2_SNP, sep='\t',names=['snpid', 'hg18chr', 'bp', 'a1', 'a2', 'or', 'se', 'pval', 'info', 'ngt', 'CEUaf'],skiprows=[0]) 
 
 # Convert the relevant columns to numeric values
-
-
 disease1[['bp']] = disease1[['bp']].apply(pd.to_numeric, errors='coerce')
 disease2[['bp']] = disease2[['bp']].apply(pd.to_numeric, errors='coerce')
 
@@ -47,33 +45,47 @@ def get_genetic_corr(disease1_file, disease2_file):
     '''Runs mungestat and ldsc on two diseases to estimate the genetic correlation'''
     
     
-    # Run mungestats on both disease files
+sample_sizes = {'aut': (4788 + 161, 4788 + 526),
+                'add': (1947 + 840, 1947 + 688),
+                'bip': (6990, 4820),
+                'mdd': (9227, 7383),
+                'scz': (9379, 7736)}
+                
+def munge(disease1, disease2):
+    ''' Runs mungestat on two diseases in preparation for ldsc'''
+
+    disease1_file = diseases[disease1]
+    disease2_file = diseases[disease2]
+    
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
                      '--sumstats', '../6.047-Data/'+disease1_file,
                      '--N', '11810',
-                     '--out', 'disease1',
+                     '--out', str(disease1),
                      '--merge-alleles', '../6.047-Data/w_hm3.snplist']
                     )
 
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
                      '--sumstats', '../6.047-Data/'+disease2_file,
                      '--N', '17115',
-                     '--out', 'disease2',
+                     '--out', str(disease2),
                      '--merge-alleles', '../6.047-Data/w_hm3.snplist']
                     )
+    return None
 
-    partition_sumstats(1, 'disease1', disease1)
-    partition_sumstats(1, 'disease2', disease2)
+def get_genetic_corr(disease1, disease2):
+    '''Runs ldsc on two diseases to estimate the genetic correlation
+    between the two selected diseases. Assumes that the data has already
+    been munged and that the relevant .sumstats.gz files have been created'''
 
-    # Run ldsc
+    # Run ldsc 
     subprocess.call(['python', 'ldsc/ldsc.py',
-                     '--rg', 'disease1.sumstats.gz,disease2.sumstats.gz',
+                     '--rg', str(disease1)+'.sumstats.gz',str(disease2)+'.sumstats.gz',
                      '--ref-ld-chr', '../6.047-Data/eur_w_ld_chr/',
                      '--w-ld-chr', '../6.047-Data/eur_w_ld_chr/',
-                     '--out', 'disease1_disease2']
+                     '--out', str(disease1)+'_'+str(disease2)]
                     )
                     
-    f = open('disease1_disease2.log', 'r')
+    f = open(str(disease1)+'_'+str(disease2)+'.log', 'r')
     for line in f:
         if line =='Summary of Genetic Correlation Results\n':
             break
@@ -90,30 +102,37 @@ def get_genetic_corr(disease1_file, disease2_file):
 
     df = pd.read_csv(summary, sep=" ")
 
-    to_remove = ['disease1.log', 'disease1.sumstats.gz', 'disease2.log', 'disease2.sumstats.gz', 'disease1_disease2.log']
+    to_remove = [str(disease1)+'_'+str(disease2)+'.log']
     for file in to_remove:
         os.remove(file)
     return float(df['rg'])
 
-def partition_sumstats(chromosome, sumstats_name, original_data):
-    df = pd.read_table(sumstats_name+'.sumstats.gz', compression='gzip')
-    print df.head()
-    new = df.loc[df['SNP'].isin(set(original_data[original_data.hg18chr == chromosome]['snpid']))]
-    os.remove(sumstats_name+'.sumstats.gz')
-    new.to_csv(sumstats_name+'.sumstats.gz', sep='\t', compression='gzip', index=False)
+def get_SNPS_in_range(region_start, region_end, disease_df, chromosome):
+    ''' Returns a set of SNP ids within the desired range on the given chromosome 
+    in a disease dataframe.
+    '''
+    d1_file = disease_df[disease_df.hg18chr==chromosome][disease_df.bp>=region_start][disease_df.bp<=region_end]
+    SNPs = d1_file['snpid']
+    return set(SNPs)
+    
+    
+def partition_sumstats(sumstats_df, SNP_set):
+    ''' Given a sumstats_df and a set of target SNPids, return the 
+    sumstats dataframe with the desired partition only.
+    '''
+    ###     # Load sumstats data into dataframe
+    #sumstats_df = pd.read_table(sumstats_name+'.sumstats.gz', compression='gzip')
+    
+    # Get the rows that are in the region we want, based on the set of SNPs   
+    return sumstats_df.loc[sumstats_df['SNP'].isin(SNP_set)]
+    
 
 def estimate_corr(chromosome, region_start, region_end):
     '''Given a chromosome and region, creates a SNP data file for each disease,
     computes the genetic correlation between the two diseases in that region, 
     then deletes the created file.
     '''
-    d1_file = disease1[disease1.hg18chr==chromosome][disease1.bp>=region_start][disease1.bp<=region_end]    
-    d2_file = disease1[disease2.hg18chr==chromosome][disease2.bp>=region_start][disease2.bp<=region_end]
-
-    # Save dataframes to textfile 
-    filename = str(chromosome)+'_'+str(region_start)+'_'+str(region_end)
-    d1_file.to_csv(rootdir+filename+'1.txt',sep='\t')
-    d2_file.to_csv(rootdir+filename+'2.txt',sep='\t')
+    
     
     # Estimate the genetic correlation
     corr = get_genetic_corr(filename+'1.txt', filename+'2.txt')
@@ -123,9 +142,7 @@ def estimate_corr(chromosome, region_start, region_end):
     os.remove(rootdir+filename+'2.txt')
     return corr
 
-#(end, start)= (disease1[disease1.hg18chr==1].bp.max(),disease1[disease1.hg18chr==1].bp.min())
-#print 'Chromosome 1 Correlation: ', estimate_corr(1,start,end)
-get_genetic_corr(disease1_SNP, disease2_SNP)
+
 def recursive_get_regions(chromosome, region_start, region_end):
     corr = estimate_corr(chromosome, region_start, region_end)
     # Base Case
@@ -136,6 +153,7 @@ def recursive_get_regions(chromosome, region_start, region_end):
         # Recurse and find the minimum correlation regions in the upper half and lower half
         region_mid = np.ceil((region_start+region_end)/2)
         return  recursive_get_regions(chromosome, region_start, region_mid) + recursive_get_regions(chromosome, region_mid, region_end)         
+
 
 def get_minimal_regions(chromosome):
     '''Finds the minimal regions with significant genetic correlation'''
