@@ -60,7 +60,10 @@ def get_genetic_corr(disease1_file, disease2_file):
                      '--merge-alleles', '../6.047-Data/w_hm3.snplist']
                     )
 
-   # Run ldsc
+    partition_sumstats(1, 'disease1', disease1)
+    partition_sumstats(1, 'disease2', disease2)
+
+    # Run ldsc
     subprocess.call(['python', 'ldsc/ldsc.py',
                      '--rg', 'disease1.sumstats.gz,disease2.sumstats.gz',
                      '--ref-ld-chr', '../6.047-Data/eur_w_ld_chr/',
@@ -89,7 +92,14 @@ def get_genetic_corr(disease1_file, disease2_file):
     for file in to_remove:
         os.remove(file)
     return float(df['rg'])
-    
+
+def partition_sumstats(chromosome, sumstats_name, original_data):
+    df = pd.read_table(sumstats_name+'.sumstats.gz', compression='gzip')
+    print df.head()
+    new = df.loc[df['SNP'].isin(set(original_data[original_data.hg18chr == chromosome]['snpid']))]
+    os.remove(sumstats_name+'.sumstats.gz')
+    new.to_csv(sumstats_name+'.sumstats.gz', sep='\t', compression='gzip', index=False)
+
 def estimate_corr(chromosome, region_start, region_end):
     '''Given a chromosome and region, creates a SNP data file for each disease,
     computes the genetic correlation between the two diseases in that region, 
@@ -111,10 +121,9 @@ def estimate_corr(chromosome, region_start, region_end):
     os.remove(rootdir+filename+'2.txt')
     return corr
 
-
-(end, start)= (disease1[disease1.hg18chr==1].bp.max(),disease1[disease1.hg18chr==1].bp.min())
-print estimate_corr(1,start,end)
-
+#(end, start)= (disease1[disease1.hg18chr==1].bp.max(),disease1[disease1.hg18chr==1].bp.min())
+#print 'Chromosome 1 Correlation: ', estimate_corr(1,start,end)
+get_genetic_corr(disease1_SNP, disease2_SNP)
 def recursive_get_regions(chromosome, region_start, region_end):
     corr = estimate_corr(chromosome, region_start, region_end)
     # Base Case
