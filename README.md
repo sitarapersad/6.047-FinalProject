@@ -74,3 +74,7 @@ Psychiatry. (In press).
 
 Schizophrenia PGC, Genome-wide association study of schizophrenia identifies
 five novel loci. Nature Genetics 43, 969 (2011).
+
+Bulik-Sullivan, Brendan K., et al. "LD Score regression distinguishes confounding from polygenicity in genome-wide association studies." Nature genetics 47.3 (2015): 291-295.
+
+Bulik-Sullivan, Brendan, et al. "An atlas of genetic correlations across human diseases and traits." Nature genetics (2015).
