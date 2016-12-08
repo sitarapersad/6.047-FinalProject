@@ -33,18 +33,18 @@ print disease2.head()
 
 chromosomes = set(disease1.hg18chr + disease2.hg18chr)
 
-diseases = {}
-diseases['aut'] = {'sample_size': (4788 + 161, 4788 + 526), 'filename': 'pgc.cross.AUT8.2013-05.txt'}
-diseases['add'] = {'sample_size': (1947 + 840, 1947 + 688), 'filename': 'pgc.cross.ADD4.2013-05.txt'}
-diseases['bip'] = {'sample_size': (6990, 4820), 'filename': 'pgc.cross.BIP11.2013-05.txt'}
-diseases['mdd'] = {'sample_size': (9227, 7383), 'filename': 'pgc.cross.MDD9.2013-05.txt'}
-diseases['scz'] = {'sample_size': (9379, 7736), 'filename': 'pgc.cross.SCZ17.2013-05.txt'}
+DISEASES = {}
+DISEASES['aut'] = {'sample_size': (4788 + 161, 4788 + 526), 'filename': 'pgc.cross.AUT8.2013-05.txt'}
+DISEASES['add'] = {'sample_size': (1947 + 840, 1947 + 688), 'filename': 'pgc.cross.ADD4.2013-05.txt'}
+DISEASES['bip'] = {'sample_size': (6990, 4820), 'filename': 'pgc.cross.BIP11.2013-05.txt'}
+DISEASES['mdd'] = {'sample_size': (9227, 7383), 'filename': 'pgc.cross.MDD9.2013-05.txt'}
+DISEASES['scz'] = {'sample_size': (9379, 7736), 'filename': 'pgc.cross.SCZ17.2013-05.txt'}
 
 def munge(disease1, disease2):
     ''' Runs mungestat on two diseases in preparation for ldsc'''
 
-    disease1_file = diseases[disease1]
-    disease2_file = diseases[disease2]
+    disease1_file = DISEASES[disease1]
+    disease2_file = DISEASES[disease2]
     
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
                      '--sumstats', '../6.047-Data/'+disease1_file,
