@@ -125,8 +125,8 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
             region_end) + '.sumstats.gz'
         sumstats_filename2 = str(disease2) + '_' + str(chromosome) + '_' + str(region_start) + '_' + str(
             region_end) + '.sumstats.gz'
-        partition1.to_csv(sumstats_filename1, '\t', compression='gzip')
-        partition2.to_csv(sumstats_filename2, '\t', compression='gzip')
+        partition1.to_csv(sumstats_filename1, '\t', compression='gzip', index=False)
+        partition2.to_csv(sumstats_filename2, '\t', compression='gzip', index=False)
 
         # Estimate the genetic correlation
         corr = get_genetic_corr(sumstats_filename1, sumstats_filename2)
@@ -202,7 +202,7 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         print disease2_df.head()
 
     global chromosomes
-    chromosomes = set(disease1_df.hg18chr + disease2_df.hg18chr)
+    chromosomes = set(disease1_df.hg18chr) | set(disease2_df.hg18chr)
 
     # Munge data and load into a pandas df
     munge(disease1)
