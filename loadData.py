@@ -40,25 +40,25 @@ DISEASES['bip'] = {'sample_size': (6990, 4820), 'filename': 'pgc.cross.BIP11.201
 DISEASES['mdd'] = {'sample_size': (9227, 7383), 'filename': 'pgc.cross.MDD9.2013-05.txt'}
 DISEASES['scz'] = {'sample_size': (9379, 7736), 'filename': 'pgc.cross.SCZ17.2013-05.txt'}
 
-def munge(disease1, disease2):
+REF_SNP_LIST = 'w_hm3.snplist'  # For --merge-alleles in munging
+REF_LD_SCORES = 'eur_w_ld_chr'  # For --ref-ld-chr and --w-ld-chr in ldsc
+
+
+def munge(disease):
     ''' Runs mungestat on two diseases in preparation for ldsc'''
 
-    disease1_file = DISEASES[disease1]
-    disease2_file = DISEASES[disease2]
-    
-    subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/'+disease1_file,
-                     '--N', '11810',
-                     '--out', str(disease1),
-                     '--merge-alleles', '../6.047-Data/w_hm3.snplist']
-                    )
+    disease_file = DISEASES[disease]['filename']
+    disease_N = sum(DISEASES[disease]['sample_size'])
+    print disease_file
+    print disease_N
 
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/'+disease2_file,
-                     '--N', '17115',
-                     '--out', str(disease2),
-                     '--merge-alleles', '../6.047-Data/w_hm3.snplist']
+                     '--sumstats', rootdir+disease_file,
+                     '--N', str(disease_N),
+                     '--out', str(disease),
+                     '--merge-alleles', rootdir+REF_SNP_LIST]
                     )
+
     return None
 
 def get_genetic_corr(disease1, disease2):
@@ -133,6 +133,11 @@ def estimate_corr(chromosome, region_start, region_end):
 
 
 def recursive_get_regions(chromosome, region_start, region_end):
+    '''
+    :param chromosome:
+    :param region_start:
+    :param region_end:
+    :return:
     '''
     corr = estimate_corr(chromosome, region_start, region_end)
     # Base Case
