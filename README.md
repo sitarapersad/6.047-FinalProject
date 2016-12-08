@@ -57,7 +57,7 @@ Is there any previous work that identifies genes/ regions that are biologically 
 
 
 ## Writeup
-https://www.overleaf.com/7238811cscdzymnmskg
+https://www.overleaf.com/7368314nbjwcrnyrvjk#/25524531/
 
 ## Citations
 Neale et al., Meta-analysis of genome-wide association studies of attention-
