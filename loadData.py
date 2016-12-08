@@ -118,6 +118,7 @@ def OVERALL_FUNCTION(disease1, disease2):
         partition2 = partition_sumstats(disease2_sumstats_df, snpids2)
 
         # Save these to a .gz file
+        print 'REGION END'
         sumstats_filename1 = str(disease1) + '_' + str(chromosome) + '_' + str(region_start) + '_' + str(
             region_end) + '.sumstats.gz'
         sumstats_filename2 = str(disease2) + '_' + str(chromosome) + '_' + str(region_start) + '_' + str(
@@ -208,5 +209,17 @@ def OVERALL_FUNCTION(disease1, disease2):
     disease2_sumstats_df = pd.read_csv(disease2 + '.sumstats.gz', sep='\t', names=['SNP', 'A1', 'A2', 'Z', 'N'],
                                        skiprows=[0])
 
+    ### TEST: COMPUTE THE GENETIC CORRELATION OVER EVERY CHROMOSOME
+    for chromosome in chromosomes:
+        disease1_region_start = disease1_df[disease1_df.hg18chr == chromosome].bp.min()
+        disease1_region_end = disease1_df[disease1_df.hg18chr == chromosome].bp.max(),
+        disease2_region_start = disease2_df[disease2_df.hg18chr == chromosome].bp.min()
+        disease2_region_end = disease2_df[disease2_df.hg18chr == chromosome].bp.max(),
 
-
+        region_start = min(disease1_region_start, disease2_region_start)
+        region_end = max(disease1_region_end, disease2_region_end)
+        
+        corr = estimate_corr(chromosome, region_start, region_end)
+        print chromosome , ' : ', corr
+        
+OVERALL_FUNCTION('bip','scz')
