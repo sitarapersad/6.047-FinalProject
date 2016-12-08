@@ -25,7 +25,7 @@ REF_SNP_LIST = 'w_hm3.snplist'  # For --merge-alleles in munging
 REF_LD_SCORES = 'eur_w_ld_chr'  # For --ref-ld-chr and --w-ld-chr in ldsc
 
 
-def OVERALL_FUNCTION(disease1, disease2):
+def OVERALL_FUNCTION(disease1, disease2, verbose=False):
     global disease1_df
     global disease2_df
     global disease1_sumstats_df
@@ -42,11 +42,13 @@ def OVERALL_FUNCTION(disease1, disease2):
         disease_file = DISEASES[disease]['filename']
         disease_N = sum(DISEASES[disease]['sample_size'])
 
+        FNULL = open(os.devnull, 'w')
         subprocess.call(['python', 'ldsc/munge_sumstats.py',
                          '--sumstats', rootdir + disease_file,
                          '--N', str(disease_N),
                          '--out', str(disease),
-                         '--merge-alleles', rootdir + REF_SNP_LIST]
+                         '--merge-alleles', rootdir + REF_SNP_LIST],
+                         stdout=FNULL, stderr=subprocess.STDOUT
                         )
 
         return str(disease)
@@ -118,7 +120,7 @@ def OVERALL_FUNCTION(disease1, disease2):
         partition2 = partition_sumstats(disease2_sumstats_df, snpids2)
 
         # Save these to a .gz file
-        print 'REGION END'
+        print 'REGION END', region_end
         sumstats_filename1 = str(disease1) + '_' + str(chromosome) + '_' + str(region_start) + '_' + str(
             region_end) + '.sumstats.gz'
         sumstats_filename2 = str(disease2) + '_' + str(chromosome) + '_' + str(region_start) + '_' + str(
@@ -192,11 +194,12 @@ def OVERALL_FUNCTION(disease1, disease2):
     disease1_df[['bp']] = disease1_df[['bp']].apply(pd.to_numeric, errors='coerce')
     disease2_df[['bp']] = disease2_df[['bp']].apply(pd.to_numeric, errors='coerce')
 
-    print 'Loaded data'
-    print '\t Disease 1 ' + disease1 + ' : \n'
-    print disease1_df.head()
-    print '\t Disease 2 ' + disease2 + ' : \n'
-    print disease2_df.head()
+    if verbose:
+        print 'Loaded data'
+        print '\t Disease 1 ' + disease1 + ' : \n'
+        print disease1_df.head()
+        print '\t Disease 2 ' + disease2 + ' : \n'
+        print disease2_df.head()
 
     global chromosomes
     chromosomes = set(disease1_df.hg18chr + disease2_df.hg18chr)
@@ -209,12 +212,18 @@ def OVERALL_FUNCTION(disease1, disease2):
     disease2_sumstats_df = pd.read_csv(disease2 + '.sumstats.gz', sep='\t', names=['SNP', 'A1', 'A2', 'Z', 'N'],
                                        skiprows=[0])
 
-    ### TEST: COMPUTE THE GENETIC CORRELATION OVER EVERY CHROMOSOME
+    if verbose:
+        print 'Finished munging'
+        print disease1_sumstats_df.head()
+        print disease1_sumstats_df.head() 
+        
+        print 'Computing genetic correlations...'
+   ### TEST: COMPUTE THE GENETIC CORRELATION OVER EVERY CHROMOSOME
     for chromosome in chromosomes:
         disease1_region_start = disease1_df[disease1_df.hg18chr == chromosome].bp.min()
-        disease1_region_end = disease1_df[disease1_df.hg18chr == chromosome].bp.max(),
+        disease1_region_end = disease1_df[disease1_df.hg18chr == chromosome].bp.max()
         disease2_region_start = disease2_df[disease2_df.hg18chr == chromosome].bp.min()
-        disease2_region_end = disease2_df[disease2_df.hg18chr == chromosome].bp.max(),
+        disease2_region_end = disease2_df[disease2_df.hg18chr == chromosome].bp.max()
 
         region_start = min(disease1_region_start, disease2_region_start)
         region_end = max(disease1_region_end, disease2_region_end)
@@ -222,4 +231,4 @@ def OVERALL_FUNCTION(disease1, disease2):
         corr = estimate_corr(chromosome, region_start, region_end)
         print chromosome , ' : ', corr
         
-OVERALL_FUNCTION('bip','scz')
+OVERALL_FUNCTION('bip','scz',verbose=True)
