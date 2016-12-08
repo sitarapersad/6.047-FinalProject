@@ -14,24 +14,24 @@ rootdir = '../6.047-Data/'  # Change this to the path to the data when running o
 disease1_SNP = 'pgc.cross.BIP11.2013-05.txt'
 disease2_SNP = 'pgc.cross.SCZ17.2013-05.txt'
 
-global disease1
-global disease2
+global disease1_df
+global disease2_df
 
 # Load data into a pandas df
-disease1 = pd.read_csv(rootdir+disease1_SNP, sep='\t',names=['snpid', 'hg18chr', 'bp', 'a1', 'a2', 'or', 'se', 'pval', 'info', 'ngt', 'CEUaf'],skiprows=[0]) 
-disease2 = pd.read_csv(rootdir+disease2_SNP, sep='\t',names=['snpid', 'hg18chr', 'bp', 'a1', 'a2', 'or', 'se', 'pval', 'info', 'ngt', 'CEUaf'],skiprows=[0]) 
+disease1_df = pd.read_csv(rootdir+disease1_SNP, sep='\t',names=['snpid', 'hg18chr', 'bp', 'a1', 'a2', 'or', 'se', 'pval', 'info', 'ngt', 'CEUaf'],skiprows=[0]) 
+disease2_df = pd.read_csv(rootdir+disease2_SNP, sep='\t',names=['snpid', 'hg18chr', 'bp', 'a1', 'a2', 'or', 'se', 'pval', 'info', 'ngt', 'CEUaf'],skiprows=[0]) 
 
 # Convert the relevant columns to numeric values
-disease1[['bp']] = disease1[['bp']].apply(pd.to_numeric, errors='coerce')
-disease2[['bp']] = disease2[['bp']].apply(pd.to_numeric, errors='coerce')
+disease1_df[['bp']] = disease1_df[['bp']].apply(pd.to_numeric, errors='coerce')
+disease2_df[['bp']] = disease2_df[['bp']].apply(pd.to_numeric, errors='coerce')
 
 print 'Loaded data'
 print '\t Disease 1: \n'
-print disease1.head()
+print disease1_df.head()
 print '\t Disease 2: \n'
-print disease2.head()
+print disease2_df.head()
 
-chromosomes = set(disease1.hg18chr + disease2.hg18chr)
+chromosomes = set(disease1_df.hg18chr + disease2_df.hg18chr)
 
 DISEASES = {}
 DISEASES['aut'] = {'sample_size': (4788 + 161, 4788 + 526), 'filename': 'pgc.cross.AUT8.2013-05.txt'}
@@ -133,6 +133,7 @@ def estimate_corr(chromosome, region_start, region_end):
 
 
 def recursive_get_regions(chromosome, region_start, region_end):
+    '''
     corr = estimate_corr(chromosome, region_start, region_end)
     # Base Case
     # TODO: How do we determine the MIN_CORR?
@@ -148,8 +149,13 @@ def get_minimal_regions(chromosome):
     '''Finds the minimal regions with significant genetic correlation'''
     
     # Initialize region start and rend
-    region_start = disease1[disease1.hg18chr==chromosome].bp.min()
-    region_end = disease1[disease1.hg18chr==chromosome].bp.max(),
+    disease1_region_start = disease1_df[disease1_df.hg18chr==chromosome].bp.min()
+    disease1_region_end = disease1_df[disease1_df.hg18chr==chromosome].bp.max(),
+    disease2_region_start = disease2_df[disease2_df.hg18chr==chromosome].bp.min()
+    disease2_region_end = disease2_df[disease2_df.hg18chr==chromosome].bp.max(),
+    
+    region_start = min(disease1_region_start, disease2_region_start)
+    region_end = max(disease1_region_end, disease2_region_end)
     
     # Find the minimal regions with sufficient genetic correlation
     minimal_regions = recursive_get_regions(chromosome, region_start, region_end)
