@@ -132,8 +132,8 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         corr = get_genetic_corr(sumstats_filename1, sumstats_filename2)
 
         # Remove the .gz files
-        os.remove(rootdir + sumstats_filename1)
-        os.remove(rootdir + sumstats_filename2)
+        os.remove(sumstats_filename1)
+        os.remove(sumstats_filename2)
         return corr
 
     def recursive_get_regions(chromosome, region_start, region_end):
