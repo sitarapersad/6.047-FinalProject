@@ -45,25 +45,25 @@ chromosomes = set(disease1_df.hg18chr + disease2_df.hg18chr)
 
 
 
-def munge(disease1, disease2):
+REF_SNP_LIST = 'w_hm3.snplist'  # For --merge-alleles in munging
+REF_LD_SCORES = 'eur_w_ld_chr'  # For --ref-ld-chr and --w-ld-chr in ldsc
+
+
+def munge(disease):
     ''' Runs mungestat on two diseases in preparation for ldsc'''
 
-    disease1_file = DISEASES[disease1]
-    disease2_file = DISEASES[disease2]
-    
-    subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/'+disease1_file,
-                     '--N', '11810',
-                     '--out', str(disease1),
-                     '--merge-alleles', '../6.047-Data/w_hm3.snplist']
-                    )
+    disease_file = DISEASES[disease]['filename']
+    disease_N = sum(DISEASES[disease]['sample_size'])
+    print disease_file
+    print disease_N
 
     subprocess.call(['python', 'ldsc/munge_sumstats.py',
-                     '--sumstats', '../6.047-Data/'+disease2_file,
-                     '--N', '17115',
-                     '--out', str(disease2),
-                     '--merge-alleles', '../6.047-Data/w_hm3.snplist']
+                     '--sumstats', rootdir+disease_file,
+                     '--N', str(disease_N),
+                     '--out', str(disease),
+                     '--merge-alleles', rootdir+REF_SNP_LIST]
                     )
+
     return None
 
 def get_genetic_corr(disease1_sumstats_file, disease2_sumstats_file):
@@ -155,7 +155,6 @@ def recursive_get_regions(chromosome, region_start, region_end):
     ''' Given a chromosome and a start, stop coordinate, estimate the shared heritability between those two 
     diseases in that region.
     '''
-    #Estimate the correlation
     corr = estimate_corr(chromosome, region_start, region_end)
     
     # Base Case
