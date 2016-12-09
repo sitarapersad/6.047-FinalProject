@@ -1,0 +1,35 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr ../6.047-Data/eur_w_ld_chr/ \
+--out bip_2_91004588.0_94796209.0.sumstats.gz_scz_2_91004588.0_94796209.0.sumstats.gz \
+--rg bip_2_91004588.0_94796209.0.sumstats.gz,scz_2_91004588.0_94796209.0.sumstats.gz \
+--w-ld-chr ../6.047-Data/eur_w_ld_chr/ 
+
+Beginning analysis at Fri Dec  9 00:03:35 2016
+Reading summary statistics from bip_2_91004588.0_94796209.0.sumstats.gz ...
+Read summary statistics for 0 SNPs.
+Reading reference panel LD Score from ../6.047-Data/eur_w_ld_chr/[1-22] ...
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from ../6.047-Data/eur_w_ld_chr/[1-22] ...
+Read regression weight LD Scores for 1290028 SNPs.
+Traceback (most recent call last):
+  File "ldsc/ldsc.py", line 626, in <module>
+    sumstats.estimate_rg(args, log)
+  File "/home/sitara/Documents/6.047-FinalProject/ldsc/ldscore/sumstats.py", line 336, in estimate_rg
+    alleles=True, dropna=True)
+  File "/home/sitara/Documents/6.047-FinalProject/ldsc/ldscore/sumstats.py", line 247, in _read_ld_sumstats
+    sumstats = _merge_and_log(ref_ld, sumstats, 'reference panel LD', log)
+  File "/home/sitara/Documents/6.047-FinalProject/ldsc/ldscore/sumstats.py", line 233, in _merge_and_log
+    raise ValueError(msg.format(N=len(sumstats), F=noun))
+ValueError: After merging with reference panel LD, 0 SNPs remain.
+
+Analysis finished at Fri Dec  9 00:03:45 2016
+Total time elapsed: 10.35s

@@ -88,8 +88,6 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         if len(lines) > 0:
             summary = StringIO(''.join(lines))
             df = pd.read_csv(summary, sep=" ")
-            print df.head()
-            print 'holla'
         else: #zero SNPs remained in the region
             return 0, 0, 1, num_SNPs
             
@@ -154,7 +152,6 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         if np.isnan(corr):
             corr = 0
             pval = 0
-        print 'RESULT ',chromosome,' ',region_start,' ',region_end,' corr: ',corr,' pval: ',pval
         OUTPUT.write(str(chromosome) +'\t' + str(region_start) + '\t' + str(region_end) +'\t' + str(corr) +'\t'+str(pval) +'\t' + str(std_err) +'\t' +str(num_SNPs)+'\n')        
 
         # Base Case
@@ -231,9 +228,8 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         
    ### TEST: COMPUTE THE GENETIC CORRELATION OVER EVERY CHROMOSOME
     for chromosome in chromosomes:
-        if chromosome == 1: continue
         print get_minimal_regions(chromosome)
-        
+        print 'MOVING ON TO: ', chromosome
     # Save results to a dataframe
     OUTPUT.close()
         
