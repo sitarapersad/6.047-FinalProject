@@ -31,9 +31,13 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
     global disease1_sumstats_df
     global disease2_sumstats_df
 
+    global RESULTS_DF
     global MIN_CORR
     MIN_CORR = 0.01
-
+    
+    # Initialise results dataframe
+    RESULTS_DF = pd.DataFrame(data=None, index=None, columns=['chromosome','region_start','region_end','correlation','pvalue'])
+    
     #### DEFINE RELEVANT FUNCTIONS ####
 
     def munge(disease):
@@ -60,11 +64,13 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         have been created.'''
 
         # Run ldsc
+        FNULL = open(os.devnull, 'w')   
         subprocess.call(['python', 'ldsc/ldsc.py',
                          '--rg', disease1_sumstats_file + ',' + disease2_sumstats_file,
                          '--ref-ld-chr', rootdir + 'eur_w_ld_chr/',
                          '--w-ld-chr', rootdir + 'eur_w_ld_chr/',
-                         '--out', disease1_sumstats_file + '_' + disease2_sumstats_file]
+                         '--out', disease1_sumstats_file + '_' + disease2_sumstats_file],
+                         stdout=FNULL, stderr=subprocess.STDOUT
                         )
 
         f = open(disease1_sumstats_file + '_' + disease2_sumstats_file + '.log', 'r')
@@ -80,14 +86,21 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
             total += 1
 
         f.close()
-        summary = StringIO(''.join(lines))
-
-        df = pd.read_csv(summary, sep=" ")
+        if len(lines) > 0:
+            summary = StringIO(''.join(lines))
+            df = pd.read_csv(summary, sep=" ")
+        else: #zero SNPs remained in the region
+            f = open(disease1_sumstats_file + '_' + disease2_sumstats_file + '.log', 'r')
+            for line in f:
+                print line
+            f.close()
+            return 0, 0
+            
 
         to_remove = [disease1_sumstats_file + '_' + disease2_sumstats_file + '.log']
         for file in to_remove:
             os.remove(file)
-        return float(df['rg'])
+        return float(df['rg']),float(df['p'])
 
     def get_SNPS_in_range(region_start, region_end, disease_df, chromosome):
         ''' Returns a set of SNP ids within the desired range on the given chromosome
@@ -120,7 +133,6 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         partition2 = partition_sumstats(disease2_sumstats_df, snpids2)
 
         # Save these to a .gz file
-        print 'REGION END', region_end
         sumstats_filename1 = str(disease1) + '_' + str(chromosome) + '_' + str(region_start) + '_' + str(
             region_end) + '.sumstats.gz'
         sumstats_filename2 = str(disease2) + '_' + str(chromosome) + '_' + str(region_start) + '_' + str(
@@ -129,23 +141,28 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         partition2.to_csv(sumstats_filename2, '\t', compression='gzip', index=False)
 
         # Estimate the genetic correlation
-        corr = get_genetic_corr(sumstats_filename1, sumstats_filename2)
+        corr, pval = get_genetic_corr(sumstats_filename1, sumstats_filename2)
 
         # Remove the .gz files
         os.remove(sumstats_filename1)
         os.remove(sumstats_filename2)
-        return corr
+        return corr, pval
 
     def recursive_get_regions(chromosome, region_start, region_end):
         ''' Given a chromosome and a start, stop coordinate, estimate the shared heritability between those two
         diseases in that region.
         '''
         # Estimate the correlation
-        corr = estimate_corr(chromosome, region_start, region_end)
-
+        corr, pval = estimate_corr(chromosome, region_start, region_end)
+        if np.isnan(corr):
+            corr = 0
+            pval = 0
+        print 'RESULT ',chromosome,' ',region_start,' ',region_end,' corr: ',corr,' pval: ',pval
+        RESULTS_DF = RESULTS_DF.append(pd.DataFrame(np.array([[chromosome, region_start, region_end, corr, pval]]), columns=['chromosome','region_start','region_end','correlation','pvalue']), ignore_index = True)
+        
         # Base Case
         # TODO: How do we determine the MIN_CORR?
-        if corr < MIN_CORR or (region_end - region_start) <= 1:
+        if abs(corr) < MIN_CORR or (region_end - region_start) <= 5e5: #Terminate if we see zero correlation or if the region becomes to small
             return [(region_start, region_end, corr)]
         else:
             # Recurse and find the minimum correlation regions in the upper half and lower half
@@ -159,9 +176,9 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
 
         # Initialize region start and rend
         disease1_region_start = disease1_df[disease1_df.hg18chr == chromosome].bp.min()
-        disease1_region_end = disease1_df[disease1_df.hg18chr == chromosome].bp.max(),
+        disease1_region_end = disease1_df[disease1_df.hg18chr == chromosome].bp.max()
         disease2_region_start = disease2_df[disease2_df.hg18chr == chromosome].bp.min()
-        disease2_region_end = disease2_df[disease2_df.hg18chr == chromosome].bp.max(),
+        disease2_region_end = disease2_df[disease2_df.hg18chr == chromosome].bp.max()
 
         region_start = min(disease1_region_start, disease2_region_start)
         region_end = max(disease1_region_end, disease2_region_end)
@@ -170,15 +187,6 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         minimal_regions = recursive_get_regions(chromosome, region_start, region_end)
 
         return minimal_regions
-
-    def compute_minimal_regions():
-        ''' Computes the minimal regions with sufficient genetic correlation for
-        the two diseases'''
-
-        minimal_regions = {}
-        for chromosome in chromosomes:
-            regions = get_minimal_regions(chromosome)
-            minimal_regions[chromosome] = regions
 
     #### COMPUTE MINIMAL REGIONS ####
 
@@ -220,15 +228,6 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         print 'Computing genetic correlations...'
    ### TEST: COMPUTE THE GENETIC CORRELATION OVER EVERY CHROMOSOME
     for chromosome in chromosomes:
-        disease1_region_start = disease1_df[disease1_df.hg18chr == chromosome].bp.min()
-        disease1_region_end = disease1_df[disease1_df.hg18chr == chromosome].bp.max()
-        disease2_region_start = disease2_df[disease2_df.hg18chr == chromosome].bp.min()
-        disease2_region_end = disease2_df[disease2_df.hg18chr == chromosome].bp.max()
-
-        region_start = min(disease1_region_start, disease2_region_start)
-        region_end = max(disease1_region_end, disease2_region_end)
-        
-        corr = estimate_corr(chromosome, region_start, region_end)
-        print chromosome , ' : ', corr
+        print get_minimal_regions(chromosome)
         
 OVERALL_FUNCTION('bip','scz',verbose=True)
