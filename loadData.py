@@ -26,17 +26,14 @@ REF_LD_SCORES = 'eur_w_ld_chr'  # For --ref-ld-chr and --w-ld-chr in ldsc
 
 
 def OVERALL_FUNCTION(disease1, disease2, verbose=False):
+    
     global disease1_df
     global disease2_df
     global disease1_sumstats_df
     global disease2_sumstats_df
 
-    global RESULTS_DF
     global MIN_CORR
     MIN_CORR = 0.01
-    
-    # Initialise results dataframe
-    RESULTS_DF = pd.DataFrame(data=None, index=None, columns=['chromosome','region_start','region_end','correlation','pvalue'])
     
     #### DEFINE RELEVANT FUNCTIONS ####
 
@@ -72,9 +69,11 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
                          '--out', disease1_sumstats_file + '_' + disease2_sumstats_file],
                          stdout=FNULL, stderr=subprocess.STDOUT
                         )
-
+        num_SNPs = np.nan
         f = open(disease1_sumstats_file + '_' + disease2_sumstats_file + '.log', 'r')
         for line in f:
+            if line.split(' ')[1:] == ['SNPs', 'with', 'valid', 'alleles.\n']:
+                num_SNPs = float(line.split(' ')[0])
             if line == 'Summary of Genetic Correlation Results\n':
                 break
         total = 0
@@ -89,18 +88,16 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         if len(lines) > 0:
             summary = StringIO(''.join(lines))
             df = pd.read_csv(summary, sep=" ")
+            print df.head()
+            print 'holla'
         else: #zero SNPs remained in the region
-            f = open(disease1_sumstats_file + '_' + disease2_sumstats_file + '.log', 'r')
-            for line in f:
-                print line
-            f.close()
-            return 0, 0
+            return 0, 0, 1, num_SNPs
             
 
         to_remove = [disease1_sumstats_file + '_' + disease2_sumstats_file + '.log']
         for file in to_remove:
             os.remove(file)
-        return float(df['rg']),float(df['p'])
+        return float(df['rg']),float(df['p']), float(df['se']), num_SNPs
 
     def get_SNPS_in_range(region_start, region_end, disease_df, chromosome):
         ''' Returns a set of SNP ids within the desired range on the given chromosome
@@ -141,25 +138,25 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         partition2.to_csv(sumstats_filename2, '\t', compression='gzip', index=False)
 
         # Estimate the genetic correlation
-        corr, pval = get_genetic_corr(sumstats_filename1, sumstats_filename2)
+        corr, pval, std_err, num_SNPs = get_genetic_corr(sumstats_filename1, sumstats_filename2)
 
         # Remove the .gz files
         os.remove(sumstats_filename1)
         os.remove(sumstats_filename2)
-        return corr, pval
+        return corr, pval, std_err, num_SNPs
 
     def recursive_get_regions(chromosome, region_start, region_end):
         ''' Given a chromosome and a start, stop coordinate, estimate the shared heritability between those two
         diseases in that region.
         '''
         # Estimate the correlation
-        corr, pval = estimate_corr(chromosome, region_start, region_end)
+        corr, pval, std_err, num_SNPs = estimate_corr(chromosome, region_start, region_end)
         if np.isnan(corr):
             corr = 0
             pval = 0
         print 'RESULT ',chromosome,' ',region_start,' ',region_end,' corr: ',corr,' pval: ',pval
-        RESULTS_DF = RESULTS_DF.append(pd.DataFrame(np.array([[chromosome, region_start, region_end, corr, pval]]), columns=['chromosome','region_start','region_end','correlation','pvalue']), ignore_index = True)
-        
+        OUTPUT.write(str(chromosome) +'\t' + str(region_start) + '\t' + str(region_end) +'\t' + str(corr) +'\t'+str(pval) +'\t' + str(std_err) +'\t' +str(num_SNPs)+'\n')        
+
         # Base Case
         # TODO: How do we determine the MIN_CORR?
         if abs(corr) < MIN_CORR or (region_end - region_start) <= 5e5: #Terminate if we see zero correlation or if the region becomes to small
@@ -174,7 +171,8 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
     def get_minimal_regions(chromosome):
         '''Finds the minimal regions with significant genetic correlation'''
 
-        # Initialize region start and rend
+        # Initialize region start and end
+
         disease1_region_start = disease1_df[disease1_df.hg18chr == chromosome].bp.min()
         disease1_region_end = disease1_df[disease1_df.hg18chr == chromosome].bp.max()
         disease2_region_start = disease2_df[disease2_df.hg18chr == chromosome].bp.min()
@@ -224,10 +222,19 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         print 'Finished munging'
         print disease1_sumstats_df.head()
         print disease1_sumstats_df.head() 
-        
+               
         print 'Computing genetic correlations...'
+        
+    global OUTPUT
+    OUTPUT = open('RESULTS_'+disease1+'_'+disease2+'.txt', 'w+')
+    OUTPUT.write('chromosome \t region_start \t region_end \t correlation \t pvalue \t std_err \t SNPs \n')
+        
    ### TEST: COMPUTE THE GENETIC CORRELATION OVER EVERY CHROMOSOME
     for chromosome in chromosomes:
+        if chromosome == 1: continue
         print get_minimal_regions(chromosome)
+        
+    # Save results to a dataframe
+    OUTPUT.close()
         
 OVERALL_FUNCTION('bip','scz',verbose=True)

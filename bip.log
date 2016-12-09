@@ -1,0 +1,47 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--out bip \
+--merge-alleles ../6.047-Data/w_hm3.snplist \
+--N 11810.0 \
+--sumstats ../6.047-Data/pgc.cross.BIP11.2013-05.txt 
+
+Interpreting column names as follows:
+info:	INFO score (imputation quality; higher --> better imputation)
+snpid:	Variant ID (e.g., rs number)
+a1:	Allele 1, interpreted as ref allele for signed sumstat.
+pval:	p-Value
+a2:	Allele 2, interpreted as non-ref allele for signed sumstat.
+or:	Odds ratio (1 --> no effect; above 1 --> A1 is risk increasing)
+
+Reading list of SNPs for allele merge from ../6.047-Data/w_hm3.snplist
+Read 1217311 SNPs for allele merge.
+Reading sumstats from ../6.047-Data/pgc.cross.BIP11.2013-05.txt into memory 5000000 SNPs at a time.
+Read 1233533 SNPs from --sumstats file.
+Removed 133561 SNPs not in --merge-alleles.
+Removed 0 SNPs with missing values.
+Removed 282630 SNPs with INFO <= 0.9.
+Removed 0 SNPs with MAF <= 0.01.
+Removed 0 SNPs with out-of-bounds p-values.
+Removed 3 variants that were not SNPs or were strand-ambiguous.
+817339 SNPs remain.
+Removed 0 SNPs with duplicated rs numbers (817339 SNPs remain).
+Using N = 11810.0
+Median value of or was 1.0, which seems sensible.
+Removed 39 SNPs whose alleles did not match --merge-alleles (817300 SNPs remain).
+Writing summary statistics for 1217311 SNPs (817300 with nonmissing beta) to bip.sumstats.gz.
+
+Metadata:
+Mean chi^2 = 1.141
+Lambda GC = 1.135
+Max chi^2 = 40.28
+12 Genome-wide significant SNPs (some may have been removed by filtering).
+
+Conversion finished at Thu Dec  8 23:37:37 2016
+Total time elapsed: 17.79s
