@@ -6,6 +6,7 @@ genetic correlation per chromosome
 
 import pandas as pd
 import os
+import sys
 import numpy as np
 import subprocess
 from StringIO import StringIO
@@ -232,5 +233,11 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         print 'MOVING ON TO: ', chromosome
     # Save results to a dataframe
     OUTPUT.close()
-        
-OVERALL_FUNCTION('bip','scz',verbose=True)
+    
+def main(argv):
+    print 'Disease 1:', argv[0]
+    print 'Disease 2:', argv[1]
+    OVERALL_FUNCTION('bip','scz',verbose=True)
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
