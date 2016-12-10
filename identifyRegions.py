@@ -6,7 +6,7 @@ Main code for identifying regions of interest
 import loadData as ld
 import pandas as pd
 import numpy as np
-
+import geneAnnotate as ga
 def find_regions(disease1, disease2, cutoff_pval=0.05):
     df = pd.read_csv('RESULTS_' + disease1 + '_' + disease2 + '.txt',
                      sep='\t', names=['chromosome', 'region_start', 'region_end', 'correlation', 'pvalue', 'std_err', 'SNPs']
@@ -29,7 +29,16 @@ def find_regions(disease1, disease2, cutoff_pval=0.05):
     for layer in set(df['layer']):
         correction[layer] = len(df[df.layer==layer])
 
-    print df.head()
-    print correction
-    return df[df.pvalue <= pd.Series([cutoff_pval/correction[layer] for layer in df.layer])][df.pvalue > 0][np.abs(df.correlation) < 1].sort_values(by=['chromosome', 'region_start'])
+    #return df[df.pvalue <= pd.Series([cutoff_pval/correction[layer] for layer in df.layer])][df.pvalue > 0][np.abs(df.correlation) < 1].sort_values(by=['chromosome', 'region_start'])
+    output = df[df.pvalue <= cutoff_pval/len(df)][df.pvalue > 0][np.abs(df.correlation) < 1].sort_values(by=['chromosome', 'region_start'])[['chromosome', 'region_start', 'region_end']]
+    return output.values.tolist()
 
+if __name__ == '__main__':
+    diseases = ['aut', 'add', 'bip', 'mdd', 'scz']
+    for i in xrange(len(diseases) - 1):
+        for j in xrange(i + 1, len(diseases)):
+            if j == 4 and i == 3:
+                continue
+            print diseases[i], diseases[j]
+            roi = find_regions(diseases[i], diseases[j])
+            ga.region_to_bed('roi_bed/roi_'+diseases[i]+'_'+diseases[j]+'.bed', roi)
