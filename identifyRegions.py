@@ -9,8 +9,10 @@ import numpy as np
 
 def find_regions(disease1, disease2, cutoff_pval=0.05):
     df = pd.read_csv('RESULTS_' + disease1 + '_' + disease2 + '.txt',
-                     sep='\t'
+                     sep='\t', names=['chromosome', 'region_start', 'region_end', 'correlation', 'pvalue', 'std_err', 'SNPs']
                      )
+    df = df.apply(pd.to_numeric, errors='coerce')
+
     layer = [0]
     for i in xrange(len(df)-1):
         row_1 = df.loc[i]
@@ -27,5 +29,7 @@ def find_regions(disease1, disease2, cutoff_pval=0.05):
     for layer in set(df['layer']):
         correction[layer] = len(df[df.layer==layer])
 
-    return df[df.pvalue <= pd.Series([cutoff_pval/correction[layer] for layer in df.layer])].sort_values(by=['chromosome', 'region_start'])
+    print df.head()
+    print correction
+    return df[df.pvalue <= pd.Series([cutoff_pval/correction[layer] for layer in df.layer])][df.pvalue > 0][np.abs(df.correlation) < 1].sort_values(by=['chromosome', 'region_start'])
 
