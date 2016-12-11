@@ -1,0 +1,1303 @@
+,symbol,acc,name,term_type,full_name
+0,ACTR1B,GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,biological_process,Beta-centractin
+1,ACTR1B,GO:0005737,cytoplasm,cellular_component,Beta-centractin
+2,ACTR1B,GO:0005813,centrosome,cellular_component,Beta-centractin
+3,ACTR1B,GO:0005815,microtubule organizing center,cellular_component,Beta-centractin
+4,ACTR1B,GO:0005829,cytosol,cellular_component,Beta-centractin
+5,ACTR1B,GO:0005856,cytoskeleton,cellular_component,Beta-centractin
+6,ACTR1B,GO:0005869,dynactin complex,cellular_component,Beta-centractin
+7,ACTR1B,GO:0015630,microtubule cytoskeleton,cellular_component,Beta-centractin
+8,ACTR1B,GO:0016020,membrane,cellular_component,Beta-centractin
+9,ACTR1B,GO:0070062,extracellular exosome,cellular_component,Beta-centractin
+10,ACTR1B,GO:1990752,microtubule end,cellular_component,Beta-centractin
+11,ACTR1B,GO:0000166,nucleotide binding,molecular_function,Beta-centractin
+12,ACTR1B,GO:0005515,protein binding,molecular_function,Beta-centractin
+13,ACTR1B,GO:0005524,ATP binding,molecular_function,Beta-centractin
+14,ADRA2B,GO:0000187,activation of MAPK activity,biological_process,"Adrenergic, alpha-2B-, receptor"
+15,ADRA2B,GO:0003056,regulation of vascular smooth muscle contraction,biological_process,"Adrenergic, alpha-2B-, receptor"
+16,ADRA2B,GO:0006940,regulation of smooth muscle contraction,biological_process,"Adrenergic, alpha-2B-, receptor"
+17,ADRA2B,GO:0006940,regulation of smooth muscle contraction,biological_process,Alpha-2B adrenergic receptor
+18,ADRA2B,GO:0007165,signal transduction,biological_process,"Adrenergic, alpha-2B-, receptor"
+19,ADRA2B,GO:0007165,signal transduction,biological_process,Alpha-2B adrenergic receptor
+20,ADRA2B,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,"Adrenergic, alpha-2B-, receptor"
+21,ADRA2B,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,Alpha-2B adrenergic receptor
+22,ADRA2B,GO:0007267,cell-cell signaling,biological_process,Alpha-2B adrenergic receptor
+23,ADRA2B,GO:0007565,female pregnancy,biological_process,"Adrenergic, alpha-2B-, receptor"
+24,ADRA2B,GO:0010700,negative regulation of norepinephrine secretion,biological_process,Alpha-2B adrenergic receptor
+25,ADRA2B,GO:0019229,regulation of vasoconstriction,biological_process,"Adrenergic, alpha-2B-, receptor"
+26,ADRA2B,GO:0019229,regulation of vasoconstriction,biological_process,Alpha-2B adrenergic receptor
+27,ADRA2B,GO:0030168,platelet activation,biological_process,"Adrenergic, alpha-2B-, receptor"
+28,ADRA2B,GO:0030168,platelet activation,biological_process,Alpha-2B adrenergic receptor
+29,ADRA2B,GO:0032148,activation of protein kinase B activity,biological_process,Alpha-2B adrenergic receptor
+30,ADRA2B,GO:0032811,negative regulation of epinephrine secretion,biological_process,Alpha-2B adrenergic receptor
+31,ADRA2B,GO:0035625,epidermal growth factor-activated receptor transactivation by G-protein coupled receptor signaling pathway,biological_process,Alpha-2B adrenergic receptor
+32,ADRA2B,GO:0045666,positive regulation of neuron differentiation,biological_process,Alpha-2B adrenergic receptor
+33,ADRA2B,GO:0045777,positive regulation of blood pressure,biological_process,"Adrenergic, alpha-2B-, receptor"
+34,ADRA2B,GO:0070474,positive regulation of uterine smooth muscle contraction,biological_process,"Adrenergic, alpha-2B-, receptor"
+35,ADRA2B,GO:0071875,adrenergic receptor signaling pathway,biological_process,"Adrenergic, alpha-2B-, receptor"
+36,ADRA2B,GO:0071880,adenylate cyclase-activating adrenergic receptor signaling pathway,biological_process,Alpha-2B adrenergic receptor
+37,ADRA2B,GO:0071883,activation of MAPK activity by adrenergic receptor signaling pathway,biological_process,Alpha-2B adrenergic receptor
+38,ADRA2B,GO:0005886,plasma membrane,cellular_component,"Adrenergic, alpha-2B-, receptor"
+39,ADRA2B,GO:0005886,plasma membrane,cellular_component,Alpha-2B adrenergic receptor
+40,ADRA2B,GO:0005887,integral component of plasma membrane,cellular_component,Alpha-2B adrenergic receptor
+41,ADRA2B,GO:0016020,membrane,cellular_component,"Adrenergic, alpha-2B-, receptor"
+42,ADRA2B,GO:0016020,membrane,cellular_component,Alpha-2B adrenergic receptor
+43,ADRA2B,GO:0016021,integral component of membrane,cellular_component,"Adrenergic, alpha-2B-, receptor"
+44,ADRA2B,GO:0016021,integral component of membrane,cellular_component,Alpha-2B adrenergic receptor
+45,ADRA2B,GO:0004871,signal transducer activity,molecular_function,"Adrenergic, alpha-2B-, receptor"
+46,ADRA2B,GO:0004871,signal transducer activity,molecular_function,Alpha-2B adrenergic receptor
+47,ADRA2B,GO:0004930,G-protein coupled receptor activity,molecular_function,"Adrenergic, alpha-2B-, receptor"
+48,ADRA2B,GO:0004930,G-protein coupled receptor activity,molecular_function,Alpha-2B adrenergic receptor
+49,ADRA2B,GO:0004935,adrenergic receptor activity,molecular_function,"Adrenergic, alpha-2B-, receptor"
+50,ADRA2B,GO:0004935,adrenergic receptor activity,molecular_function,Alpha-2B adrenergic receptor
+51,ADRA2B,GO:0004938,alpha2-adrenergic receptor activity,molecular_function,"Adrenergic, alpha-2B-, receptor"
+52,ADRA2B,GO:0004938,alpha2-adrenergic receptor activity,molecular_function,Alpha-2B adrenergic receptor
+53,ADRA2B,GO:0005515,protein binding,molecular_function,Alpha-2B adrenergic receptor
+54,ADRA2B,GO:0051379,epinephrine binding,molecular_function,Alpha-2B adrenergic receptor
+55,ANKRD23,GO:0009612,response to mechanical stimulus,biological_process,Ankyrin repeat domain-containing protein 23
+56,ANKRD23,GO:0005634,nucleus,cellular_component,Ankyrin repeat domain-containing protein 23
+57,ANKRD23,GO:0005654,nucleoplasm,cellular_component,Ankyrin repeat domain-containing protein 23
+58,ANKRD23,GO:0005737,cytoplasm,cellular_component,Ankyrin repeat domain-containing protein 23
+59,ANKRD23,GO:0014704,intercalated disc,cellular_component,Ankyrin repeat domain-containing protein 23
+60,ANKRD23,GO:0015629,actin cytoskeleton,cellular_component,Ankyrin repeat domain-containing protein 23
+61,ANKRD23,GO:0030016,myofibril,cellular_component,Ankyrin repeat domain-containing protein 23
+62,ANKRD23,GO:0031432,titin binding,molecular_function,Ankyrin repeat domain-containing protein 23
+63,ANKRD36B,GO:0005515,protein binding,molecular_function,Ankyrin repeat domain-containing protein 36B
+64,ANKRD36C,GO:0008200,ion channel inhibitor activity,molecular_function,Ankyrin repeat domain-containing protein 36C
+65,ANKRD39,GO:0008150,biological_process,biological_process,Ankyrin repeat domain-containing protein 39
+66,ANKRD39,GO:0005575,cellular_component,cellular_component,Ankyrin repeat domain-containing protein 39
+67,ANKRD39,GO:0003674,molecular_function,molecular_function,Ankyrin repeat domain-containing protein 39
+68,AOX1,GO:0006954,inflammatory response,biological_process,Aldehyde oxidase
+69,AOX1,GO:0009115,xanthine catabolic process,biological_process,Aldehyde oxidase
+70,AOX1,GO:0042816,vitamin B6 metabolic process,biological_process,Aldehyde oxidase
+71,AOX1,GO:0055114,oxidation-reduction process,biological_process,Aldehyde oxidase
+72,AOX1,GO:0072593,reactive oxygen species metabolic process,biological_process,Aldehyde oxidase
+73,AOX1,GO:0005737,cytoplasm,cellular_component,Aldehyde oxidase
+74,AOX1,GO:0005829,cytosol,cellular_component,Aldehyde oxidase
+75,AOX1,GO:0070062,extracellular exosome,cellular_component,Aldehyde oxidase
+76,AOX1,GO:0003824,catalytic activity,molecular_function,Aldehyde oxidase
+77,AOX1,GO:0004031,aldehyde oxidase activity,molecular_function,Aldehyde oxidase
+78,AOX1,GO:0004854,xanthine dehydrogenase activity,molecular_function,Aldehyde oxidase
+79,AOX1,GO:0005506,iron ion binding,molecular_function,Aldehyde oxidase
+80,AOX1,GO:0009055,electron carrier activity,molecular_function,Aldehyde oxidase
+81,AOX1,GO:0016491,oxidoreductase activity,molecular_function,Aldehyde oxidase
+82,AOX1,GO:0016614,"oxidoreductase activity, acting on CH-OH group of donors",molecular_function,Aldehyde oxidase
+83,AOX1,GO:0043546,molybdopterin cofactor binding,molecular_function,Aldehyde oxidase
+84,AOX1,GO:0046872,metal ion binding,molecular_function,Aldehyde oxidase
+85,AOX1,GO:0050660,flavin adenine dinucleotide binding,molecular_function,Aldehyde oxidase
+86,AOX1,GO:0051287,NAD binding,molecular_function,Aldehyde oxidase
+87,AOX1,GO:0051536,iron-sulfur cluster binding,molecular_function,Aldehyde oxidase
+88,AOX1,GO:0051537,"2 iron, 2 sulfur cluster binding",molecular_function,Aldehyde oxidase
+89,ARID5A,GO:0006351,"transcription, DNA-templated",biological_process,AT-rich interactive domain-containing protein 5A
+90,ARID5A,GO:0006355,"regulation of transcription, DNA-templated",biological_process,AT-rich interactive domain-containing protein 5A
+91,ARID5A,GO:0006357,regulation of transcription from RNA polymerase II promoter,biological_process,AT-rich interactive domain-containing protein 5A
+92,ARID5A,GO:0045892,"negative regulation of transcription, DNA-templated",biological_process,AT-rich interactive domain-containing protein 5A
+93,ARID5A,GO:0005634,nucleus,cellular_component,"AT rich interactive domain 5A (MRF1-like), isoform CRA_a"
+94,ARID5A,GO:0005634,nucleus,cellular_component,AT-rich interactive domain-containing protein 5A
+95,ARID5A,GO:0005654,nucleoplasm,cellular_component,"AT rich interactive domain 5A (MRF1-like), isoform CRA_a"
+96,ARID5A,GO:0005654,nucleoplasm,cellular_component,AT-rich interactive domain-containing protein 5A
+97,ARID5A,GO:0005730,nucleolus,cellular_component,"AT rich interactive domain 5A (MRF1-like), isoform CRA_a"
+98,ARID5A,GO:0005730,nucleolus,cellular_component,AT-rich interactive domain-containing protein 5A
+99,ARID5A,GO:0003677,DNA binding,molecular_function,"AT rich interactive domain 5A (MRF1-like), isoform CRA_a"
+100,ARID5A,GO:0003677,DNA binding,molecular_function,AT-rich interactive domain-containing protein 5A
+101,ARID5A,GO:0005515,protein binding,molecular_function,"AT rich interactive domain 5A (MRF1-like), isoform CRA_a"
+102,ARID5A,GO:0005515,protein binding,molecular_function,AT-rich interactive domain-containing protein 5A
+103,ARID5A,GO:0044212,transcription regulatory region DNA binding,molecular_function,AT-rich interactive domain-containing protein 5A
+104,ASTL,GO:0006508,proteolysis,biological_process,Astacin-like metalloendopeptidase
+105,ASTL,GO:0006508,proteolysis,biological_process,Metalloendopeptidase
+106,ASTL,GO:0007155,cell adhesion,biological_process,Astacin-like metalloendopeptidase
+107,ASTL,GO:0007338,single fertilization,biological_process,Astacin-like metalloendopeptidase
+108,ASTL,GO:0009566,fertilization,biological_process,Astacin-like metalloendopeptidase
+109,ASTL,GO:0010954,positive regulation of protein processing,biological_process,Astacin-like metalloendopeptidase
+110,ASTL,GO:0060468,prevention of polyspermy,biological_process,Astacin-like metalloendopeptidase
+111,ASTL,GO:2000360,negative regulation of binding of sperm to zona pellucida,biological_process,Astacin-like metalloendopeptidase
+112,ASTL,GO:0005737,cytoplasm,cellular_component,Astacin-like metalloendopeptidase
+113,ASTL,GO:0005886,plasma membrane,cellular_component,Astacin-like metalloendopeptidase
+114,ASTL,GO:0016020,membrane,cellular_component,Astacin-like metalloendopeptidase
+115,ASTL,GO:0030133,transport vesicle,cellular_component,Astacin-like metalloendopeptidase
+116,ASTL,GO:0031410,cytoplasmic vesicle,cellular_component,Astacin-like metalloendopeptidase
+117,ASTL,GO:0060473,cortical granule,cellular_component,Astacin-like metalloendopeptidase
+118,ASTL,GO:0004222,metalloendopeptidase activity,molecular_function,Astacin-like metalloendopeptidase
+119,ASTL,GO:0004222,metalloendopeptidase activity,molecular_function,Metalloendopeptidase
+120,ASTL,GO:0008233,peptidase activity,molecular_function,Astacin-like metalloendopeptidase
+121,ASTL,GO:0008233,peptidase activity,molecular_function,Metalloendopeptidase
+122,ASTL,GO:0008237,metallopeptidase activity,molecular_function,Astacin-like metalloendopeptidase
+123,ASTL,GO:0008237,metallopeptidase activity,molecular_function,Metalloendopeptidase
+124,ASTL,GO:0008270,zinc ion binding,molecular_function,Astacin-like metalloendopeptidase
+125,ASTL,GO:0008270,zinc ion binding,molecular_function,Metalloendopeptidase
+126,ASTL,GO:0016787,hydrolase activity,molecular_function,Astacin-like metalloendopeptidase
+127,ASTL,GO:0016787,hydrolase activity,molecular_function,Metalloendopeptidase
+128,ASTL,GO:0046872,metal ion binding,molecular_function,Astacin-like metalloendopeptidase
+129,ASTL,GO:0046872,metal ion binding,molecular_function,Metalloendopeptidase
+130,ASTL,GO:0070001,aspartic-type peptidase activity,molecular_function,Astacin-like metalloendopeptidase
+131,ASTL,GO:0070002,glutamic-type peptidase activity,molecular_function,Astacin-like metalloendopeptidase
+132,BPHL,GO:0006520,cellular amino acid metabolic process,biological_process,Valacyclovir hydrolase
+133,BPHL,GO:0006805,xenobiotic metabolic process,biological_process,Valacyclovir hydrolase
+134,BPHL,GO:0009636,response to toxic substance,biological_process,Valacyclovir hydrolase
+135,BPHL,GO:0005739,mitochondrion,cellular_component,Valacyclovir hydrolase
+136,BPHL,GO:0005741,mitochondrial outer membrane,cellular_component,Valacyclovir hydrolase
+137,BPHL,GO:0070062,extracellular exosome,cellular_component,Valacyclovir hydrolase
+138,BPHL,GO:0016787,hydrolase activity,molecular_function,Valacyclovir hydrolase
+139,BPHL,GO:0016787,hydrolase activity,molecular_function,BPHL protein
+140,BPHL,GO:0016787,hydrolase activity,molecular_function,"Biphenyl hydrolase-like (Serine hydrolase breast epithelial mucin-associated antigen), isoform CRA_d"
+141,BPHL,GO:0047658,alpha-amino-acid esterase activity,molecular_function,Valacyclovir hydrolase
+142,BRE,GO:0006281,DNA repair,biological_process,BRCA1-A complex subunit BRE
+143,BRE,GO:0006302,double-strand break repair,biological_process,BRCA1-A complex subunit BRE
+144,BRE,GO:0006303,double-strand break repair via nonhomologous end joining,biological_process,BRCA1-A complex subunit BRE
+145,BRE,GO:0006915,apoptotic process,biological_process,BRCA1-A complex subunit BRE
+146,BRE,GO:0006974,cellular response to DNA damage stimulus,biological_process,BRCA1-A complex subunit BRE
+147,BRE,GO:0007049,cell cycle,biological_process,BRCA1-A complex subunit BRE
+148,BRE,GO:0007067,mitotic nuclear division,biological_process,BRCA1-A complex subunit BRE
+149,BRE,GO:0007165,signal transduction,biological_process,BRCA1-A complex subunit BRE
+150,BRE,GO:0010212,response to ionizing radiation,biological_process,BRCA1-A complex subunit BRE
+151,BRE,GO:0016568,chromatin modification,biological_process,BRCA1-A complex subunit BRE
+152,BRE,GO:0031572,G2 DNA damage checkpoint,biological_process,BRCA1-A complex subunit BRE
+153,BRE,GO:0045739,positive regulation of DNA repair,biological_process,BRCA1-A complex subunit BRE
+154,BRE,GO:0051301,cell division,biological_process,BRCA1-A complex subunit BRE
+155,BRE,GO:0070536,protein K63-linked deubiquitination,biological_process,BRCA1-A complex subunit BRE
+156,BRE,GO:0000152,nuclear ubiquitin ligase complex,cellular_component,BRCA1-A complex subunit BRE
+157,BRE,GO:0005634,nucleus,cellular_component,BRCA1-A complex subunit BRE
+158,BRE,GO:0005654,nucleoplasm,cellular_component,BRCA1-A complex subunit BRE
+159,BRE,GO:0005737,cytoplasm,cellular_component,BRCA1-A complex subunit BRE
+160,BRE,GO:0070531,BRCA1-A complex,cellular_component,BRCA1-A complex subunit BRE
+161,BRE,GO:0070552,BRISC complex,cellular_component,BRCA1-A complex subunit BRE
+162,BRE,GO:0000268,peroxisome targeting sequence binding,molecular_function,BRCA1-A complex subunit BRE
+163,BRE,GO:0005164,tumor necrosis factor receptor binding,molecular_function,BRCA1-A complex subunit BRE
+164,BRE,GO:0005515,protein binding,molecular_function,BRCA1-A complex subunit BRE
+165,BRE,GO:0031593,polyubiquitin binding,molecular_function,BRCA1-A complex subunit BRE
+166,BZW1,GO:0006351,"transcription, DNA-templated",biological_process,Basic leucine zipper and W2 domain-containing protein 1
+167,BZW1,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Basic leucine zipper and W2 domain-containing protein 1
+168,BZW1,GO:0005737,cytoplasm,cellular_component,Basic leucine zipper and W2 domain-containing protein 1
+169,BZW1,GO:0016020,membrane,cellular_component,Basic leucine zipper and W2 domain-containing protein 1
+170,BZW1,GO:0044822,poly(A) RNA binding,molecular_function,Basic leucine zipper and W2 domain-containing protein 1
+171,C2orf16,GO:0005634,nucleus,cellular_component,Uncharacterized protein C2orf16
+172,C2orf16,GO:0070062,extracellular exosome,cellular_component,Uncharacterized protein C2orf16
+173,CCDC121,GO:0005515,protein binding,molecular_function,Coiled-coil domain-containing protein 121
+174,CIAO1,GO:0006357,regulation of transcription from RNA polymerase II promoter,biological_process,Probable cytosolic iron-sulfur protein assembly protein CIAO1
+175,CIAO1,GO:0007059,chromosome segregation,biological_process,Probable cytosolic iron-sulfur protein assembly protein CIAO1
+176,CIAO1,GO:0008284,positive regulation of cell proliferation,biological_process,Probable cytosolic iron-sulfur protein assembly protein CIAO1
+177,CIAO1,GO:0016226,iron-sulfur cluster assembly,biological_process,Probable cytosolic iron-sulfur protein assembly protein CIAO1
+178,CIAO1,GO:0071817,MMXD complex,cellular_component,Probable cytosolic iron-sulfur protein assembly protein CIAO1
+179,CIAO1,GO:0097361,CIA complex,cellular_component,Probable cytosolic iron-sulfur protein assembly protein CIAO1
+180,CIAO1,GO:0005515,protein binding,molecular_function,Probable cytosolic iron-sulfur protein assembly protein CIAO1
+181,CLK1,GO:0006468,protein phosphorylation,biological_process,Dual-specificity protein kinase CLK1
+182,CLK1,GO:0006468,protein phosphorylation,biological_process,Dual specificity protein kinase CLK1
+183,CLK1,GO:0008283,cell proliferation,biological_process,Dual specificity protein kinase CLK1
+184,CLK1,GO:0016310,phosphorylation,biological_process,Dual specificity protein kinase CLK1
+185,CLK1,GO:0018105,peptidyl-serine phosphorylation,biological_process,Dual specificity protein kinase CLK1
+186,CLK1,GO:0018107,peptidyl-threonine phosphorylation,biological_process,Dual specificity protein kinase CLK1
+187,CLK1,GO:0018108,peptidyl-tyrosine phosphorylation,biological_process,Dual specificity protein kinase CLK1
+188,CLK1,GO:0043484,regulation of RNA splicing,biological_process,Dual specificity protein kinase CLK1
+189,CLK1,GO:0046777,protein autophosphorylation,biological_process,Dual specificity protein kinase CLK1
+190,CLK1,GO:0005634,nucleus,cellular_component,Dual specificity protein kinase CLK1
+191,CLK1,GO:0005737,cytoplasm,cellular_component,Dual specificity protein kinase CLK1
+192,CLK1,GO:0000166,nucleotide binding,molecular_function,Dual-specificity protein kinase CLK1
+193,CLK1,GO:0000166,nucleotide binding,molecular_function,Dual specificity protein kinase CLK1
+194,CLK1,GO:0004672,protein kinase activity,molecular_function,Dual-specificity protein kinase CLK1
+195,CLK1,GO:0004672,protein kinase activity,molecular_function,Dual specificity protein kinase CLK1
+196,CLK1,GO:0004674,protein serine/threonine kinase activity,molecular_function,Dual-specificity protein kinase CLK1
+197,CLK1,GO:0004674,protein serine/threonine kinase activity,molecular_function,Dual specificity protein kinase CLK1
+198,CLK1,GO:0004712,protein serine/threonine/tyrosine kinase activity,molecular_function,Dual specificity protein kinase CLK1
+199,CLK1,GO:0004713,protein tyrosine kinase activity,molecular_function,Dual specificity protein kinase CLK1
+200,CLK1,GO:0004715,non-membrane spanning protein tyrosine kinase activity,molecular_function,Dual specificity protein kinase CLK1
+201,CLK1,GO:0005515,protein binding,molecular_function,Dual specificity protein kinase CLK1
+202,CLK1,GO:0005524,ATP binding,molecular_function,Dual-specificity protein kinase CLK1
+203,CLK1,GO:0005524,ATP binding,molecular_function,Dual specificity protein kinase CLK1
+204,CLK1,GO:0016301,kinase activity,molecular_function,Dual specificity protein kinase CLK1
+205,CLK1,GO:0016740,transferase activity,molecular_function,Dual specificity protein kinase CLK1
+206,CNGA3,GO:0006810,transport,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+207,CNGA3,GO:0006811,ion transport,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+208,CNGA3,GO:0006812,cation transport,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+209,CNGA3,GO:0007165,signal transduction,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+210,CNGA3,GO:0007601,visual perception,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+211,CNGA3,GO:0031960,response to corticosteroid,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+212,CNGA3,GO:0032026,response to magnesium ion,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+213,CNGA3,GO:0034220,ion transmembrane transport,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+214,CNGA3,GO:0042391,regulation of membrane potential,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+215,CNGA3,GO:0050896,response to stimulus,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+216,CNGA3,GO:0051591,response to cAMP,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+217,CNGA3,GO:0055085,transmembrane transport,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+218,CNGA3,GO:0071805,potassium ion transmembrane transport,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+219,CNGA3,GO:0098655,cation transmembrane transport,biological_process,Cyclic nucleotide-gated cation channel alpha-3
+220,CNGA3,GO:0005737,cytoplasm,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+221,CNGA3,GO:0005887,integral component of plasma membrane,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+222,CNGA3,GO:0016020,membrane,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+223,CNGA3,GO:0016021,integral component of membrane,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+224,CNGA3,GO:0030425,dendrite,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+225,CNGA3,GO:0042622,photoreceptor outer segment membrane,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+226,CNGA3,GO:0043025,neuronal cell body,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+227,CNGA3,GO:0043204,perikaryon,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+228,CNGA3,GO:1902495,transmembrane transporter complex,cellular_component,Cyclic nucleotide-gated cation channel alpha-3
+229,CNGA3,GO:0000166,nucleotide binding,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+230,CNGA3,GO:0005216,ion channel activity,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+231,CNGA3,GO:0005222,intracellular cAMP activated cation channel activity,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+232,CNGA3,GO:0005223,intracellular cGMP activated cation channel activity,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+233,CNGA3,GO:0005249,voltage-gated potassium channel activity,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+234,CNGA3,GO:0008022,protein C-terminus binding,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+235,CNGA3,GO:0015276,ligand-gated ion channel activity,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+236,CNGA3,GO:0030553,cGMP binding,molecular_function,Cyclic nucleotide-gated cation channel alpha-3
+237,CNNM3,GO:0006810,transport,biological_process,Metal transporter CNNM3
+238,CNNM3,GO:0006811,ion transport,biological_process,Metal transporter CNNM3
+239,CNNM3,GO:0005886,plasma membrane,cellular_component,Metal transporter CNNM3
+240,CNNM3,GO:0016020,membrane,cellular_component,Metal transporter CNNM3
+241,CNNM3,GO:0016021,integral component of membrane,cellular_component,Metal transporter CNNM3
+242,CNNM3,GO:0005515,protein binding,molecular_function,Metal transporter CNNM3
+243,CNNM4,GO:0006810,transport,biological_process,Metal transporter CNNM4
+244,CNNM4,GO:0006811,ion transport,biological_process,Metal transporter CNNM4
+245,CNNM4,GO:0007601,visual perception,biological_process,Metal transporter CNNM4
+246,CNNM4,GO:0010960,magnesium ion homeostasis,biological_process,Metal transporter CNNM4
+247,CNNM4,GO:0015693,magnesium ion transport,biological_process,Metal transporter CNNM4
+248,CNNM4,GO:0031214,biomineral tissue development,biological_process,Metal transporter CNNM4
+249,CNNM4,GO:0035725,sodium ion transmembrane transport,biological_process,Metal transporter CNNM4
+250,CNNM4,GO:0050896,response to stimulus,biological_process,Metal transporter CNNM4
+251,CNNM4,GO:0070166,enamel mineralization,biological_process,Metal transporter CNNM4
+252,CNNM4,GO:1903830,magnesium ion transmembrane transport,biological_process,Metal transporter CNNM4
+253,CNNM4,GO:0005886,plasma membrane,cellular_component,Metal transporter CNNM4
+254,CNNM4,GO:0016020,membrane,cellular_component,Metal transporter CNNM4
+255,CNNM4,GO:0016021,integral component of membrane,cellular_component,Metal transporter CNNM4
+256,CNNM4,GO:0016323,basolateral plasma membrane,cellular_component,Metal transporter CNNM4
+257,CNNM4,GO:0015081,sodium ion transmembrane transporter activity,molecular_function,Metal transporter CNNM4
+258,CNNM4,GO:0015095,magnesium ion transmembrane transporter activity,molecular_function,Metal transporter CNNM4
+259,COX5B,GO:0006123,"mitochondrial electron transport, cytochrome c to oxygen",biological_process,"Cytochrome c oxidase subunit 5B, mitochondrial"
+260,COX5B,GO:0007585,respiratory gaseous exchange,biological_process,"Cytochrome c oxidase subunit 5B, mitochondrial"
+261,COX5B,GO:1902600,hydrogen ion transmembrane transport,biological_process,"Cytochrome c oxidase subunit 5B, mitochondrial"
+262,COX5B,GO:1902600,hydrogen ion transmembrane transport,biological_process,COX5B protein
+263,COX5B,GO:0005739,mitochondrion,cellular_component,"Cytochrome c oxidase subunit 5B, mitochondrial"
+264,COX5B,GO:0005740,mitochondrial envelope,cellular_component,"Cytochrome c oxidase subunit 5B, mitochondrial"
+265,COX5B,GO:0005740,mitochondrial envelope,cellular_component,COX5B protein
+266,COX5B,GO:0005743,mitochondrial inner membrane,cellular_component,"Cytochrome c oxidase subunit 5B, mitochondrial"
+267,COX5B,GO:0016020,membrane,cellular_component,"Cytochrome c oxidase subunit 5B, mitochondrial"
+268,COX5B,GO:0070062,extracellular exosome,cellular_component,"Cytochrome c oxidase subunit 5B, mitochondrial"
+269,COX5B,GO:0004129,cytochrome-c oxidase activity,molecular_function,"Cytochrome c oxidase subunit 5B, mitochondrial"
+270,COX5B,GO:0004129,cytochrome-c oxidase activity,molecular_function,COX5B protein
+271,COX5B,GO:0005515,protein binding,molecular_function,"Cytochrome c oxidase subunit 5B, mitochondrial"
+272,COX5B,GO:0046872,metal ion binding,molecular_function,"Cytochrome c oxidase subunit 5B, mitochondrial"
+273,DCLK3,GO:0006468,protein phosphorylation,biological_process,Serine/threonine-protein kinase DCLK3
+274,DCLK3,GO:0016310,phosphorylation,biological_process,Serine/threonine-protein kinase DCLK3
+275,DCLK3,GO:0005634,nucleus,cellular_component,Serine/threonine-protein kinase DCLK3
+276,DCLK3,GO:0005737,cytoplasm,cellular_component,Serine/threonine-protein kinase DCLK3
+277,DCLK3,GO:0000166,nucleotide binding,molecular_function,Serine/threonine-protein kinase DCLK3
+278,DCLK3,GO:0004672,protein kinase activity,molecular_function,Serine/threonine-protein kinase DCLK3
+279,DCLK3,GO:0004674,protein serine/threonine kinase activity,molecular_function,Serine/threonine-protein kinase DCLK3
+280,DCLK3,GO:0005524,ATP binding,molecular_function,Serine/threonine-protein kinase DCLK3
+281,DCLK3,GO:0016301,kinase activity,molecular_function,Serine/threonine-protein kinase DCLK3
+282,DCLK3,GO:0016740,transferase activity,molecular_function,Serine/threonine-protein kinase DCLK3
+283,DIMT1,GO:0000154,rRNA modification,biological_process,rRNA adenine N(6)-methyltransferase
+284,DIMT1,GO:0000154,rRNA modification,biological_process,Probable dimethyladenosine transferase
+285,DIMT1,GO:0006364,rRNA processing,biological_process,rRNA adenine N(6)-methyltransferase
+286,DIMT1,GO:0006364,rRNA processing,biological_process,Probable dimethyladenosine transferase
+287,DIMT1,GO:0031167,rRNA methylation,biological_process,rRNA adenine N(6)-methyltransferase
+288,DIMT1,GO:0031167,rRNA methylation,biological_process,Probable dimethyladenosine transferase
+289,DIMT1,GO:0032259,methylation,biological_process,rRNA adenine N(6)-methyltransferase
+290,DIMT1,GO:0032259,methylation,biological_process,Probable dimethyladenosine transferase
+291,DIMT1,GO:0005634,nucleus,cellular_component,Probable dimethyladenosine transferase
+292,DIMT1,GO:0005654,nucleoplasm,cellular_component,Probable dimethyladenosine transferase
+293,DIMT1,GO:0005730,nucleolus,cellular_component,Probable dimethyladenosine transferase
+294,DIMT1,GO:0005737,cytoplasm,cellular_component,Probable dimethyladenosine transferase
+295,DIMT1,GO:0005759,mitochondrial matrix,cellular_component,Probable dimethyladenosine transferase
+296,DIMT1,GO:0000179,"rRNA (adenine-N6,N6-)-dimethyltransferase activity",molecular_function,rRNA adenine N(6)-methyltransferase
+297,DIMT1,GO:0000179,"rRNA (adenine-N6,N6-)-dimethyltransferase activity",molecular_function,Probable dimethyladenosine transferase
+298,DIMT1,GO:0003723,RNA binding,molecular_function,Probable dimethyladenosine transferase
+299,DIMT1,GO:0008168,methyltransferase activity,molecular_function,rRNA adenine N(6)-methyltransferase
+300,DIMT1,GO:0008168,methyltransferase activity,molecular_function,Probable dimethyladenosine transferase
+301,DIMT1,GO:0008649,rRNA methyltransferase activity,molecular_function,rRNA adenine N(6)-methyltransferase
+302,DIMT1,GO:0008649,rRNA methyltransferase activity,molecular_function,Probable dimethyladenosine transferase
+303,DIMT1,GO:0016740,transferase activity,molecular_function,rRNA adenine N(6)-methyltransferase
+304,DIMT1,GO:0016740,transferase activity,molecular_function,Probable dimethyladenosine transferase
+305,DIMT1,GO:0044822,poly(A) RNA binding,molecular_function,Probable dimethyladenosine transferase
+306,DIMT1,GO:0052909,18S rRNA (adenine(1779)-N(6)/adenine(1780)-N(6))-dimethyltransferase activity,molecular_function,Probable dimethyladenosine transferase
+307,DUSP2,GO:0000188,inactivation of MAPK activity,biological_process,Dual specificity protein phosphatase 2
+308,DUSP2,GO:0001706,endoderm formation,biological_process,Dual specificity protein phosphatase 2
+309,DUSP2,GO:0006470,protein dephosphorylation,biological_process,Dual specificity protein phosphatase 2
+310,DUSP2,GO:0016311,dephosphorylation,biological_process,Dual specificity protein phosphatase 2
+311,DUSP2,GO:0035335,peptidyl-tyrosine dephosphorylation,biological_process,Dual specificity protein phosphatase 2
+312,DUSP2,GO:0005634,nucleus,cellular_component,Dual specificity protein phosphatase 2
+313,DUSP2,GO:0004721,phosphoprotein phosphatase activity,molecular_function,Dual specificity protein phosphatase 2
+314,DUSP2,GO:0004725,protein tyrosine phosphatase activity,molecular_function,Dual specificity protein phosphatase 2
+315,DUSP2,GO:0005515,protein binding,molecular_function,Dual specificity protein phosphatase 2
+316,DUSP2,GO:0008138,protein tyrosine/serine/threonine phosphatase activity,molecular_function,Dual specificity protein phosphatase 2
+317,DUSP2,GO:0008330,protein tyrosine/threonine phosphatase activity,molecular_function,Dual specificity protein phosphatase 2
+318,DUSP2,GO:0016787,hydrolase activity,molecular_function,Dual specificity protein phosphatase 2
+319,DUSP2,GO:0016791,phosphatase activity,molecular_function,Dual specificity protein phosphatase 2
+320,DUSP2,GO:0017017,MAP kinase tyrosine/serine/threonine phosphatase activity,molecular_function,Dual specificity protein phosphatase 2
+321,DUSP2,GO:0051019,mitogen-activated protein kinase binding,molecular_function,Dual specificity protein phosphatase 2
+322,EMB,GO:0035879,plasma membrane lactate transport,biological_process,Embigin
+323,EMB,GO:0005886,plasma membrane,cellular_component,Embigin
+324,EMB,GO:0005887,integral component of plasma membrane,cellular_component,Embigin
+325,EMB,GO:0016020,membrane,cellular_component,Embigin
+326,EMB,GO:0016021,integral component of membrane,cellular_component,Embigin
+327,EMB,GO:0030054,cell junction,cellular_component,Embigin
+328,EMB,GO:0045202,synapse,cellular_component,Embigin
+329,EMB,GO:0008028,monocarboxylic acid transmembrane transporter activity,molecular_function,Embigin
+330,EPM2AIP1,GO:0006357,regulation of transcription from RNA polymerase II promoter,biological_process,EPM2A-interacting protein 1
+331,EPM2AIP1,GO:0032868,response to insulin,biological_process,EPM2A-interacting protein 1
+332,EPM2AIP1,GO:0045725,positive regulation of glycogen biosynthetic process,biological_process,EPM2A-interacting protein 1
+333,EPM2AIP1,GO:2000467,positive regulation of glycogen (starch) synthase activity,biological_process,EPM2A-interacting protein 1
+334,EPM2AIP1,GO:0005634,nucleus,cellular_component,EPM2A-interacting protein 1
+335,EPM2AIP1,GO:0005654,nucleoplasm,cellular_component,EPM2A-interacting protein 1
+336,EPM2AIP1,GO:0005737,cytoplasm,cellular_component,EPM2A-interacting protein 1
+337,EPM2AIP1,GO:0005783,endoplasmic reticulum,cellular_component,EPM2A-interacting protein 1
+338,EPM2AIP1,GO:0000981,"RNA polymerase II transcription factor activity, sequence-specific DNA binding",molecular_function,EPM2A-interacting protein 1
+339,EPM2AIP1,GO:0003677,DNA binding,molecular_function,EPM2A-interacting protein 1
+340,EPM2AIP1,GO:0005515,protein binding,molecular_function,EPM2A-interacting protein 1
+341,FAHD2A,GO:0008152,metabolic process,biological_process,Fumarylacetoacetate hydrolase domain-containing protein 2A
+342,FAHD2A,GO:0008152,metabolic process,biological_process,"Fumarylacetoacetate hydrolase domain containing 2A, isoform CRA_a"
+343,FAHD2A,GO:0003824,catalytic activity,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2A
+344,FAHD2A,GO:0003824,catalytic activity,molecular_function,"Fumarylacetoacetate hydrolase domain containing 2A, isoform CRA_a"
+345,FAHD2A,GO:0016787,hydrolase activity,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2A
+346,FAHD2A,GO:0016787,hydrolase activity,molecular_function,"Fumarylacetoacetate hydrolase domain containing 2A, isoform CRA_a"
+347,FAHD2A,GO:0046872,metal ion binding,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2A
+348,FAHD2B,GO:0008152,metabolic process,biological_process,Fumarylacetoacetate hydrolase domain-containing protein 2B
+349,FAHD2B,GO:0003824,catalytic activity,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2B
+350,FAHD2B,GO:0016787,hydrolase activity,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2B
+351,FAHD2B,GO:0046872,metal ion binding,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2B
+352,FER1L5,GO:0007520,myoblast fusion,biological_process,Fer-1-like protein 5
+353,FER1L5,GO:0007520,myoblast fusion,biological_process,FER1L5 protein
+354,FER1L5,GO:0005886,plasma membrane,cellular_component,Fer-1-like protein 5
+355,FER1L5,GO:0016020,membrane,cellular_component,Fer-1-like protein 5
+356,FER1L5,GO:0016020,membrane,cellular_component,FER1L5 protein
+357,FER1L5,GO:0016021,integral component of membrane,cellular_component,Fer-1-like protein 5
+358,FER1L5,GO:0016021,integral component of membrane,cellular_component,FER1L5 protein
+359,FNDC4,GO:0005783,endoplasmic reticulum,cellular_component,Fibronectin type III domain-containing protein 4
+360,FNDC4,GO:0005886,plasma membrane,cellular_component,Fibronectin type III domain-containing protein 4
+361,FNDC4,GO:0016020,membrane,cellular_component,Fibronectin type III domain-containing protein 4
+362,FNDC4,GO:0016021,integral component of membrane,cellular_component,Fibronectin type III domain-containing protein 4
+363,GCKR,GO:0000060,"protein import into nucleus, translocation",biological_process,Glucokinase (Hexokinase 4) regulator
+364,GCKR,GO:0000060,"protein import into nucleus, translocation",biological_process,Glucokinase regulatory protein
+365,GCKR,GO:0001678,cellular glucose homeostasis,biological_process,Glucokinase (Hexokinase 4) regulator
+366,GCKR,GO:0005975,carbohydrate metabolic process,biological_process,Glucokinase (Hexokinase 4) regulator
+367,GCKR,GO:0005975,carbohydrate metabolic process,biological_process,Glucokinase regulatory protein
+368,GCKR,GO:0009750,response to fructose,biological_process,Glucokinase (Hexokinase 4) regulator
+369,GCKR,GO:0009750,response to fructose,biological_process,Glucokinase regulatory protein
+370,GCKR,GO:0010827,regulation of glucose transport,biological_process,Glucokinase regulatory protein
+371,GCKR,GO:0016310,phosphorylation,biological_process,Glucokinase (Hexokinase 4) regulator
+372,GCKR,GO:0033132,negative regulation of glucokinase activity,biological_process,Glucokinase (Hexokinase 4) regulator
+373,GCKR,GO:0033132,negative regulation of glucokinase activity,biological_process,Glucokinase regulatory protein
+374,GCKR,GO:0033133,positive regulation of glucokinase activity,biological_process,Glucokinase (Hexokinase 4) regulator
+375,GCKR,GO:0034504,protein localization to nucleus,biological_process,Glucokinase (Hexokinase 4) regulator
+376,GCKR,GO:0043086,negative regulation of catalytic activity,biological_process,Glucokinase (Hexokinase 4) regulator
+377,GCKR,GO:0046415,urate metabolic process,biological_process,Glucokinase regulatory protein
+378,GCKR,GO:0070328,triglyceride homeostasis,biological_process,Glucokinase regulatory protein
+379,GCKR,GO:0005634,nucleus,cellular_component,Glucokinase (Hexokinase 4) regulator
+380,GCKR,GO:0005634,nucleus,cellular_component,Glucokinase regulatory protein
+381,GCKR,GO:0005654,nucleoplasm,cellular_component,Glucokinase (Hexokinase 4) regulator
+382,GCKR,GO:0005654,nucleoplasm,cellular_component,Glucokinase regulatory protein
+383,GCKR,GO:0005737,cytoplasm,cellular_component,Glucokinase (Hexokinase 4) regulator
+384,GCKR,GO:0005737,cytoplasm,cellular_component,Glucokinase regulatory protein
+385,GCKR,GO:0005739,mitochondrion,cellular_component,Glucokinase (Hexokinase 4) regulator
+386,GCKR,GO:0005829,cytosol,cellular_component,Glucokinase (Hexokinase 4) regulator
+387,GCKR,GO:0005829,cytosol,cellular_component,Glucokinase regulatory protein
+388,GCKR,GO:0004857,enzyme inhibitor activity,molecular_function,Glucokinase (Hexokinase 4) regulator
+389,GCKR,GO:0005515,protein binding,molecular_function,Glucokinase regulatory protein
+390,GCKR,GO:0016301,kinase activity,molecular_function,Glucokinase (Hexokinase 4) regulator
+391,GCKR,GO:0019899,enzyme binding,molecular_function,Glucokinase (Hexokinase 4) regulator
+392,GCKR,GO:0019904,protein domain specific binding,molecular_function,Glucokinase (Hexokinase 4) regulator
+393,GCKR,GO:0030246,carbohydrate binding,molecular_function,Glucokinase (Hexokinase 4) regulator
+394,GCKR,GO:0030246,carbohydrate binding,molecular_function,Glucokinase regulatory protein
+395,GCKR,GO:0070095,fructose-6-phosphate binding,molecular_function,Glucokinase regulatory protein
+396,GOLGA4,GO:0000042,protein targeting to Golgi,biological_process,Golgin subfamily A member 4
+397,GOLGA4,GO:0016192,vesicle-mediated transport,biological_process,Golgin subfamily A member 4
+398,GOLGA4,GO:0043001,Golgi to plasma membrane protein transport,biological_process,Golgin subfamily A member 4
+399,GOLGA4,GO:0045773,positive regulation of axon extension,biological_process,Golgin subfamily A member 4
+400,GOLGA4,GO:0000139,Golgi membrane,cellular_component,Golgin subfamily A member 4
+401,GOLGA4,GO:0005654,nucleoplasm,cellular_component,Golgin subfamily A member 4
+402,GOLGA4,GO:0005737,cytoplasm,cellular_component,Golgin subfamily A member 4
+403,GOLGA4,GO:0005794,Golgi apparatus,cellular_component,Golgin subfamily A member 4
+404,GOLGA4,GO:0005802,trans-Golgi network,cellular_component,Golgin subfamily A member 4
+405,GOLGA4,GO:0005829,cytosol,cellular_component,Golgin subfamily A member 4
+406,GOLGA4,GO:0016020,membrane,cellular_component,Golgin subfamily A member 4
+407,GOLGA4,GO:0043231,intracellular membrane-bounded organelle,cellular_component,Golgin subfamily A member 4
+408,GOLGA4,GO:0070062,extracellular exosome,cellular_component,Golgin subfamily A member 4
+409,GOLGA4,GO:0005515,protein binding,molecular_function,Golgin subfamily A member 4
+410,GOLGA4,GO:0051020,GTPase binding,molecular_function,Golgin subfamily A member 4
+411,GPAT2,GO:0006072,glycerol-3-phosphate metabolic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+412,GPAT2,GO:0006629,lipid metabolic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+413,GPAT2,GO:0006654,phosphatidic acid biosynthetic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+414,GPAT2,GO:0008152,metabolic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+415,GPAT2,GO:0008654,phospholipid biosynthetic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+416,GPAT2,GO:0016024,CDP-diacylglycerol biosynthetic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+417,GPAT2,GO:0019432,triglyceride biosynthetic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+418,GPAT2,GO:0044255,cellular lipid metabolic process,biological_process,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+419,GPAT2,GO:0005739,mitochondrion,cellular_component,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+420,GPAT2,GO:0005741,mitochondrial outer membrane,cellular_component,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+421,GPAT2,GO:0016020,membrane,cellular_component,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+422,GPAT2,GO:0016021,integral component of membrane,cellular_component,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+423,GPAT2,GO:0004366,glycerol-3-phosphate O-acyltransferase activity,molecular_function,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+424,GPAT2,GO:0008374,O-acyltransferase activity,molecular_function,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+425,GPAT2,GO:0016740,transferase activity,molecular_function,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+426,GPAT2,GO:0016746,"transferase activity, transferring acyl groups",molecular_function,"Glycerol-3-phosphate acyltransferase 2, mitochondrial"
+427,GPN1,GO:0005634,nucleus,cellular_component,GPN-loop GTPase 1
+428,GPN1,GO:0005654,nucleoplasm,cellular_component,GPN-loop GTPase 1
+429,GPN1,GO:0005737,cytoplasm,cellular_component,GPN-loop GTPase 1
+430,GPN1,GO:0005739,mitochondrion,cellular_component,GPN-loop GTPase 1
+431,GPN1,GO:0000166,nucleotide binding,molecular_function,GPN-loop GTPase 1
+432,GPN1,GO:0003924,GTPase activity,molecular_function,GPN-loop GTPase 1
+433,GPN1,GO:0005515,protein binding,molecular_function,GPN-loop GTPase 1
+434,GPN1,GO:0005525,GTP binding,molecular_function,GPN-loop GTPase 1
+435,GPN1,GO:0016787,hydrolase activity,molecular_function,GPN-loop GTPase 1
+436,HCN1,GO:0006810,transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+437,HCN1,GO:0006810,transport,biological_process,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+438,HCN1,GO:0006811,ion transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+439,HCN1,GO:0006811,ion transport,biological_process,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+440,HCN1,GO:0006813,potassium ion transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+441,HCN1,GO:0006813,potassium ion transport,biological_process,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+442,HCN1,GO:0006814,sodium ion transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+443,HCN1,GO:0034765,regulation of ion transmembrane transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+444,HCN1,GO:0035725,sodium ion transmembrane transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+445,HCN1,GO:0035725,sodium ion transmembrane transport,biological_process,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+446,HCN1,GO:0042391,regulation of membrane potential,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+447,HCN1,GO:0045176,apical protein localization,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+448,HCN1,GO:0046549,retinal cone cell development,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+449,HCN1,GO:0055085,transmembrane transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+450,HCN1,GO:0055085,transmembrane transport,biological_process,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+451,HCN1,GO:0060078,regulation of postsynaptic membrane potential,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+452,HCN1,GO:0071320,cellular response to cAMP,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+453,HCN1,GO:0071805,potassium ion transmembrane transport,biological_process,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+454,HCN1,GO:0071805,potassium ion transmembrane transport,biological_process,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+455,HCN1,GO:0005886,plasma membrane,cellular_component,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+456,HCN1,GO:0005887,integral component of plasma membrane,cellular_component,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+457,HCN1,GO:0005887,integral component of plasma membrane,cellular_component,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+458,HCN1,GO:0016020,membrane,cellular_component,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+459,HCN1,GO:0016020,membrane,cellular_component,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+460,HCN1,GO:0016021,integral component of membrane,cellular_component,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+461,HCN1,GO:0016021,integral component of membrane,cellular_component,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+462,HCN1,GO:0030424,axon,cellular_component,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+463,HCN1,GO:0030425,dendrite,cellular_component,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+464,HCN1,GO:0000166,nucleotide binding,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+465,HCN1,GO:0005216,ion channel activity,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+466,HCN1,GO:0005216,ion channel activity,molecular_function,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+467,HCN1,GO:0005222,intracellular cAMP activated cation channel activity,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+468,HCN1,GO:0005244,voltage-gated ion channel activity,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+469,HCN1,GO:0005248,voltage-gated sodium channel activity,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+470,HCN1,GO:0005249,voltage-gated potassium channel activity,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+471,HCN1,GO:0005249,voltage-gated potassium channel activity,molecular_function,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+472,HCN1,GO:0005267,potassium channel activity,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+473,HCN1,GO:0005272,sodium channel activity,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+474,HCN1,GO:0030552,cAMP binding,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+475,HCN1,GO:0030552,cAMP binding,molecular_function,Hyperpolarization activated cyclic nucleotide-gated potassium channel
+476,HCN1,GO:0042802,identical protein binding,molecular_function,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1
+477,INPP4A,GO:0006661,phosphatidylinositol biosynthetic process,biological_process,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+478,INPP4A,GO:0007165,signal transduction,biological_process,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+479,INPP4A,GO:0016311,dephosphorylation,biological_process,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+480,INPP4A,GO:0036092,phosphatidylinositol-3-phosphate biosynthetic process,biological_process,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+481,INPP4A,GO:0043647,inositol phosphate metabolic process,biological_process,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+482,INPP4A,GO:0005737,cytoplasm,cellular_component,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+483,INPP4A,GO:0005829,cytosol,cellular_component,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+484,INPP4A,GO:0005515,protein binding,molecular_function,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+485,INPP4A,GO:0016316,"phosphatidylinositol-3,4-bisphosphate 4-phosphatase activity",molecular_function,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+486,INPP4A,GO:0016787,hydrolase activity,molecular_function,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+487,INPP4A,GO:0017161,"inositol-1,3,4-trisphosphate 4-phosphatase activity",molecular_function,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+488,INPP4A,GO:0034597,"phosphatidylinositol-4,5-bisphosphate 4-phosphatase activity",molecular_function,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+489,INPP4A,GO:0052828,"inositol-3,4-bisphosphate 4-phosphatase activity",molecular_function,"Type I inositol 3,4-bisphosphate 4-phosphatase"
+490,IPO11,GO:0006610,ribosomal protein import into nucleus,biological_process,Importin-11
+491,IPO11,GO:0006810,transport,biological_process,Importin-11
+492,IPO11,GO:0006886,intracellular protein transport,biological_process,Importin-11
+493,IPO11,GO:0015031,protein transport,biological_process,Importin-11
+494,IPO11,GO:0042991,transcription factor import into nucleus,biological_process,Importin-11
+495,IPO11,GO:0005622,intracellular,cellular_component,Importin-11
+496,IPO11,GO:0005634,nucleus,cellular_component,Importin-11
+497,IPO11,GO:0005635,nuclear envelope,cellular_component,Importin-11
+498,IPO11,GO:0005737,cytoplasm,cellular_component,Importin-11
+499,IPO11,GO:0005829,cytosol,cellular_component,Importin-11
+500,IPO11,GO:0005515,protein binding,molecular_function,Importin-11
+501,IPO11,GO:0008536,Ran GTPase binding,molecular_function,Importin-11
+502,IPO11,GO:0008565,protein transporter activity,molecular_function,Importin-11
+503,ITPRIPL1,GO:0016020,membrane,cellular_component,"Inositol 1,4,5-trisphosphate receptor-interacting protein-like 1"
+504,ITPRIPL1,GO:0016021,integral component of membrane,cellular_component,"Inositol 1,4,5-trisphosphate receptor-interacting protein-like 1"
+505,ITPRIPL1,GO:0005515,protein binding,molecular_function,"Inositol 1,4,5-trisphosphate receptor-interacting protein-like 1"
+506,KANSL3,GO:0016568,chromatin modification,biological_process,KAT8 regulatory NSL complex subunit 3
+507,KANSL3,GO:0043981,histone H4-K5 acetylation,biological_process,KAT8 regulatory NSL complex subunit 3
+508,KANSL3,GO:0043982,histone H4-K8 acetylation,biological_process,KAT8 regulatory NSL complex subunit 3
+509,KANSL3,GO:0043984,histone H4-K16 acetylation,biological_process,KAT8 regulatory NSL complex subunit 3
+510,KANSL3,GO:0000123,histone acetyltransferase complex,cellular_component,KAT8 regulatory NSL complex subunit 3
+511,KANSL3,GO:0005634,nucleus,cellular_component,KAT8 regulatory NSL complex subunit 3
+512,KANSL3,GO:0005654,nucleoplasm,cellular_component,KAT8 regulatory NSL complex subunit 3
+513,KANSL3,GO:0005730,nucleolus,cellular_component,KAT8 regulatory NSL complex subunit 3
+514,KANSL3,GO:0043231,intracellular membrane-bounded organelle,cellular_component,KAT8 regulatory NSL complex subunit 3
+515,KANSL3,GO:0043995,histone acetyltransferase activity (H4-K5 specific),molecular_function,KAT8 regulatory NSL complex subunit 3
+516,KANSL3,GO:0043996,histone acetyltransferase activity (H4-K8 specific),molecular_function,KAT8 regulatory NSL complex subunit 3
+517,KANSL3,GO:0046972,histone acetyltransferase activity (H4-K16 specific),molecular_function,KAT8 regulatory NSL complex subunit 3
+518,KCNIP3,GO:0000122,negative regulation of transcription from RNA polymerase II promoter,biological_process,Calsenilin
+519,KCNIP3,GO:0000122,negative regulation of transcription from RNA polymerase II promoter,biological_process,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+520,KCNIP3,GO:0006351,"transcription, DNA-templated",biological_process,Calsenilin
+521,KCNIP3,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Calsenilin
+522,KCNIP3,GO:0006357,regulation of transcription from RNA polymerase II promoter,biological_process,Calsenilin
+523,KCNIP3,GO:0006810,transport,biological_process,Calsenilin
+524,KCNIP3,GO:0006811,ion transport,biological_process,Calsenilin
+525,KCNIP3,GO:0006813,potassium ion transport,biological_process,Calsenilin
+526,KCNIP3,GO:0006886,intracellular protein transport,biological_process,Calsenilin
+527,KCNIP3,GO:0006886,intracellular protein transport,biological_process,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+528,KCNIP3,GO:0006915,apoptotic process,biological_process,Calsenilin
+529,KCNIP3,GO:0007165,signal transduction,biological_process,Calsenilin
+530,KCNIP3,GO:0034765,regulation of ion transmembrane transport,biological_process,Calsenilin
+531,KCNIP3,GO:0061337,cardiac conduction,biological_process,Calsenilin
+532,KCNIP3,GO:0071805,potassium ion transmembrane transport,biological_process,Calsenilin
+533,KCNIP3,GO:0072659,protein localization to plasma membrane,biological_process,Calsenilin
+534,KCNIP3,GO:1901379,regulation of potassium ion transmembrane transport,biological_process,Calsenilin
+535,KCNIP3,GO:0005634,nucleus,cellular_component,Calsenilin
+536,KCNIP3,GO:0005634,nucleus,cellular_component,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+537,KCNIP3,GO:0005737,cytoplasm,cellular_component,Calsenilin
+538,KCNIP3,GO:0005783,endoplasmic reticulum,cellular_component,Calsenilin
+539,KCNIP3,GO:0005794,Golgi apparatus,cellular_component,Calsenilin
+540,KCNIP3,GO:0005829,cytosol,cellular_component,Calsenilin
+541,KCNIP3,GO:0005886,plasma membrane,cellular_component,Calsenilin
+542,KCNIP3,GO:0008076,voltage-gated potassium channel complex,cellular_component,Calsenilin
+543,KCNIP3,GO:0016020,membrane,cellular_component,Calsenilin
+544,KCNIP3,GO:0030424,axon,cellular_component,Calsenilin
+545,KCNIP3,GO:0030424,axon,cellular_component,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+546,KCNIP3,GO:0030425,dendrite,cellular_component,Calsenilin
+547,KCNIP3,GO:0030425,dendrite,cellular_component,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+548,KCNIP3,GO:0032993,protein-DNA complex,cellular_component,Calsenilin
+549,KCNIP3,GO:0032993,protein-DNA complex,cellular_component,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+550,KCNIP3,GO:0043679,axon terminus,cellular_component,Calsenilin
+551,KCNIP3,GO:0043679,axon terminus,cellular_component,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+552,KCNIP3,GO:0000978,RNA polymerase II core promoter proximal region sequence-specific DNA binding,molecular_function,Calsenilin
+553,KCNIP3,GO:0000978,RNA polymerase II core promoter proximal region sequence-specific DNA binding,molecular_function,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+554,KCNIP3,GO:0001078,"transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding",molecular_function,Calsenilin
+555,KCNIP3,GO:0001078,"transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding",molecular_function,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+556,KCNIP3,GO:0003677,DNA binding,molecular_function,Calsenilin
+557,KCNIP3,GO:0003714,transcription corepressor activity,molecular_function,Calsenilin
+558,KCNIP3,GO:0005244,voltage-gated ion channel activity,molecular_function,Calsenilin
+559,KCNIP3,GO:0005267,potassium channel activity,molecular_function,Calsenilin
+560,KCNIP3,GO:0005509,calcium ion binding,molecular_function,Calsenilin
+561,KCNIP3,GO:0005509,calcium ion binding,molecular_function,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+562,KCNIP3,GO:0005515,protein binding,molecular_function,Calsenilin
+563,KCNIP3,GO:0015459,potassium channel regulator activity,molecular_function,Calsenilin
+564,KCNIP3,GO:0015459,potassium channel regulator activity,molecular_function,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+565,KCNIP3,GO:0043565,sequence-specific DNA binding,molecular_function,Calsenilin
+566,KCNIP3,GO:0043565,sequence-specific DNA binding,molecular_function,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+567,KCNIP3,GO:0044325,ion channel binding,molecular_function,Calsenilin
+568,KCNIP3,GO:0044325,ion channel binding,molecular_function,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+569,KCNIP3,GO:0046872,metal ion binding,molecular_function,Calsenilin
+570,KCNIP3,GO:0046872,metal ion binding,molecular_function,"Kv channel interacting protein 3, calsenilin, isoform CRA_b"
+571,KCTD18,GO:0051260,protein homooligomerization,biological_process,BTB/POZ domain-containing protein KCTD18
+572,KCTD18,GO:0051260,protein homooligomerization,biological_process,"Potassium channel tetramerisation domain containing 18, isoform CRA_a"
+573,KIF2A,GO:0000090,mitotic anaphase,biological_process,Kinesin-like protein KIF2A
+574,KIF2A,GO:0000236,mitotic prometaphase,biological_process,Kinesin-like protein KIF2A
+575,KIF2A,GO:0006890,"retrograde vesicle-mediated transport, Golgi to ER",biological_process,Kinesin-like protein KIF2A
+576,KIF2A,GO:0007018,microtubule-based movement,biological_process,Kinesin-like protein KIF2A
+577,KIF2A,GO:0007049,cell cycle,biological_process,Kinesin-like protein KIF2A
+578,KIF2A,GO:0007052,mitotic spindle organization,biological_process,Kinesin-like protein KIF2A
+579,KIF2A,GO:0007062,sister chromatid cohesion,biological_process,Kinesin-like protein KIF2A
+580,KIF2A,GO:0007067,mitotic nuclear division,biological_process,Kinesin-like protein KIF2A
+581,KIF2A,GO:0007275,multicellular organism development,biological_process,Kinesin-like protein KIF2A
+582,KIF2A,GO:0007399,nervous system development,biological_process,Kinesin-like protein KIF2A
+583,KIF2A,GO:0019886,antigen processing and presentation of exogenous peptide antigen via MHC class II,biological_process,Kinesin-like protein KIF2A
+584,KIF2A,GO:0030154,cell differentiation,biological_process,Kinesin-like protein KIF2A
+585,KIF2A,GO:0051301,cell division,biological_process,Kinesin-like protein KIF2A
+586,KIF2A,GO:0090307,mitotic spindle assembly,biological_process,Kinesin-like protein KIF2A
+587,KIF2A,GO:0000922,spindle pole,cellular_component,Kinesin-like protein KIF2A
+588,KIF2A,GO:0005634,nucleus,cellular_component,Kinesin-like protein KIF2A
+589,KIF2A,GO:0005730,nucleolus,cellular_component,Kinesin-like protein KIF2A
+590,KIF2A,GO:0005737,cytoplasm,cellular_component,Kinesin-like protein KIF2A
+591,KIF2A,GO:0005813,centrosome,cellular_component,Kinesin-like protein KIF2A
+592,KIF2A,GO:0005815,microtubule organizing center,cellular_component,Kinesin-like protein KIF2A
+593,KIF2A,GO:0005819,spindle,cellular_component,Kinesin-like protein KIF2A
+594,KIF2A,GO:0005829,cytosol,cellular_component,Kinesin-like protein KIF2A
+595,KIF2A,GO:0005856,cytoskeleton,cellular_component,Kinesin-like protein KIF2A
+596,KIF2A,GO:0005871,kinesin complex,cellular_component,Kinesin-like protein KIF2A
+597,KIF2A,GO:0005874,microtubule,cellular_component,Kinesin-like protein KIF2A
+598,KIF2A,GO:0005876,spindle microtubule,cellular_component,Kinesin-like protein KIF2A
+599,KIF2A,GO:0016020,membrane,cellular_component,Kinesin-like protein KIF2A
+600,KIF2A,GO:0097228,sperm principal piece,cellular_component,Kinesin-like protein KIF2A
+601,KIF2A,GO:0000166,nucleotide binding,molecular_function,Kinesin-like protein KIF2A
+602,KIF2A,GO:0003774,motor activity,molecular_function,Kinesin-like protein KIF2A
+603,KIF2A,GO:0003777,microtubule motor activity,molecular_function,Kinesin-like protein KIF2A
+604,KIF2A,GO:0005515,protein binding,molecular_function,Kinesin-like protein KIF2A
+605,KIF2A,GO:0005524,ATP binding,molecular_function,Kinesin-like protein KIF2A
+606,KIF2A,GO:0008017,microtubule binding,molecular_function,Kinesin-like protein KIF2A
+607,KIF2A,GO:0016887,ATPase activity,molecular_function,Kinesin-like protein KIF2A
+608,LMAN2L,GO:0006457,protein folding,biological_process,VIP36-like protein
+609,LMAN2L,GO:0006888,ER to Golgi vesicle-mediated transport,biological_process,VIP36-like protein
+610,LMAN2L,GO:0015031,protein transport,biological_process,VIP36-like protein
+611,LMAN2L,GO:0000139,Golgi membrane,cellular_component,VIP36-like protein
+612,LMAN2L,GO:0005783,endoplasmic reticulum,cellular_component,VIP36-like protein
+613,LMAN2L,GO:0005789,endoplasmic reticulum membrane,cellular_component,VIP36-like protein
+614,LMAN2L,GO:0005794,Golgi apparatus,cellular_component,VIP36-like protein
+615,LMAN2L,GO:0016020,membrane,cellular_component,VIP36-like protein
+616,LMAN2L,GO:0016021,integral component of membrane,cellular_component,VIP36-like protein
+617,LMAN2L,GO:0030134,ER to Golgi transport vesicle,cellular_component,VIP36-like protein
+618,LMAN2L,GO:0005537,mannose binding,molecular_function,VIP36-like protein
+619,LMAN2L,GO:0030246,carbohydrate binding,molecular_function,VIP36-like protein
+620,LMAN2L,GO:0046872,metal ion binding,molecular_function,VIP36-like protein
+621,LRRC70,GO:0007409,axonogenesis,biological_process,Leucine-rich repeat-containing protein 70
+622,LRRC70,GO:0016020,membrane,cellular_component,Leucine-rich repeat-containing protein 70
+623,LRRC70,GO:0016021,integral component of membrane,cellular_component,Leucine-rich repeat-containing protein 70
+624,LRRFIP2,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Leucine-rich repeat flightless-interacting protein 2
+625,LRRFIP2,GO:0006355,"regulation of transcription, DNA-templated",biological_process,"Leucine rich repeat (In FLII) interacting protein 2, isoform CRA_b"
+626,LRRFIP2,GO:0008150,biological_process,biological_process,Leucine-rich repeat flightless-interacting protein 2
+627,LRRFIP2,GO:0016055,Wnt signaling pathway,biological_process,Leucine-rich repeat flightless-interacting protein 2
+628,LRRFIP2,GO:0005575,cellular_component,cellular_component,Leucine-rich repeat flightless-interacting protein 2
+629,LRRFIP2,GO:0005515,protein binding,molecular_function,Leucine-rich repeat flightless-interacting protein 2
+630,LRRFIP2,GO:0030275,LRR domain binding,molecular_function,Leucine-rich repeat flightless-interacting protein 2
+631,MAL,GO:0001766,membrane raft polarization,biological_process,Myelin and lymphocyte protein
+632,MAL,GO:0006915,apoptotic process,biological_process,Myelin and lymphocyte protein
+633,MAL,GO:0007417,central nervous system development,biological_process,Myelin and lymphocyte protein
+634,MAL,GO:0030154,cell differentiation,biological_process,Myelin and lymphocyte protein
+635,MAL,GO:0042552,myelination,biological_process,Myelin and lymphocyte protein
+636,MAL,GO:0042552,myelination,biological_process,"Mal, T-cell differentiation protein, isoform CRA_a"
+637,MAL,GO:0045176,apical protein localization,biological_process,Myelin and lymphocyte protein
+638,MAL,GO:0055085,transmembrane transport,biological_process,Myelin and lymphocyte protein
+639,MAL,GO:1902043,positive regulation of extrinsic apoptotic signaling pathway via death domain receptors,biological_process,Myelin and lymphocyte protein
+640,MAL,GO:1902043,positive regulation of extrinsic apoptotic signaling pathway via death domain receptors,biological_process,"Mal, T-cell differentiation protein, isoform CRA_a"
+641,MAL,GO:0005768,endosome,cellular_component,Myelin and lymphocyte protein
+642,MAL,GO:0005783,endoplasmic reticulum,cellular_component,Myelin and lymphocyte protein
+643,MAL,GO:0005887,integral component of plasma membrane,cellular_component,Myelin and lymphocyte protein
+644,MAL,GO:0016020,membrane,cellular_component,Myelin and lymphocyte protein
+645,MAL,GO:0016020,membrane,cellular_component,"Mal, T-cell differentiation protein, isoform CRA_a"
+646,MAL,GO:0016021,integral component of membrane,cellular_component,Myelin and lymphocyte protein
+647,MAL,GO:0016021,integral component of membrane,cellular_component,"Mal, T-cell differentiation protein, isoform CRA_a"
+648,MAL,GO:0016324,apical plasma membrane,cellular_component,Myelin and lymphocyte protein
+649,MAL,GO:0019898,extrinsic component of membrane,cellular_component,Myelin and lymphocyte protein
+650,MAL,GO:0019898,extrinsic component of membrane,cellular_component,"Mal, T-cell differentiation protein, isoform CRA_a"
+651,MAL,GO:0045121,membrane raft,cellular_component,Myelin and lymphocyte protein
+652,MAL,GO:0045121,membrane raft,cellular_component,"Mal, T-cell differentiation protein, isoform CRA_a"
+653,MAL,GO:0005515,protein binding,molecular_function,Myelin and lymphocyte protein
+654,MAL,GO:0008289,lipid binding,molecular_function,Myelin and lymphocyte protein
+655,MAL,GO:0015267,channel activity,molecular_function,Myelin and lymphocyte protein
+656,MAL,GO:0016505,peptidase activator activity involved in apoptotic process,molecular_function,Myelin and lymphocyte protein
+657,MAL,GO:0019911,structural constituent of myelin sheath,molecular_function,Myelin and lymphocyte protein
+658,MAL,GO:0019911,structural constituent of myelin sheath,molecular_function,"Mal, T-cell differentiation protein, isoform CRA_a"
+659,MLH1,GO:0000289,nuclear-transcribed mRNA poly(A) tail shortening,biological_process,DNA mismatch repair protein Mlh1
+660,MLH1,GO:0000712,resolution of meiotic recombination intermediates,biological_process,DNA mismatch repair protein Mlh1
+661,MLH1,GO:0002204,somatic recombination of immunoglobulin genes involved in immune response,biological_process,DNA mismatch repair protein Mlh1
+662,MLH1,GO:0006281,DNA repair,biological_process,DNA mismatch repair protein Mlh1
+663,MLH1,GO:0006298,mismatch repair,biological_process,DNA mismatch repair protein Mlh1
+664,MLH1,GO:0006298,mismatch repair,biological_process,"MutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli), isoform CRA_a"
+665,MLH1,GO:0006298,mismatch repair,biological_process,MutL-like 1 protein
+666,MLH1,GO:0006298,mismatch repair,biological_process,MLH1-Ex(9-10) isoform
+667,MLH1,GO:0006298,mismatch repair,biological_process,MLH1-Ex10 isoform
+668,MLH1,GO:0006298,mismatch repair,biological_process,Mismatch repair protein
+669,MLH1,GO:0006303,double-strand break repair via nonhomologous end joining,biological_process,DNA mismatch repair protein Mlh1
+670,MLH1,GO:0006974,cellular response to DNA damage stimulus,biological_process,DNA mismatch repair protein Mlh1
+671,MLH1,GO:0007049,cell cycle,biological_process,DNA mismatch repair protein Mlh1
+672,MLH1,GO:0007060,male meiosis chromosome segregation,biological_process,DNA mismatch repair protein Mlh1
+673,MLH1,GO:0007126,meiotic nuclear division,biological_process,DNA mismatch repair protein Mlh1
+674,MLH1,GO:0007129,synapsis,biological_process,DNA mismatch repair protein Mlh1
+675,MLH1,GO:0007131,reciprocal meiotic recombination,biological_process,DNA mismatch repair protein Mlh1
+676,MLH1,GO:0007140,male meiosis,biological_process,DNA mismatch repair protein Mlh1
+677,MLH1,GO:0007283,spermatogenesis,biological_process,DNA mismatch repair protein Mlh1
+678,MLH1,GO:0008630,intrinsic apoptotic signaling pathway in response to DNA damage,biological_process,DNA mismatch repair protein Mlh1
+679,MLH1,GO:0016321,female meiosis chromosome segregation,biological_process,DNA mismatch repair protein Mlh1
+680,MLH1,GO:0016446,somatic hypermutation of immunoglobulin genes,biological_process,DNA mismatch repair protein Mlh1
+681,MLH1,GO:0016447,somatic recombination of immunoglobulin gene segments,biological_process,DNA mismatch repair protein Mlh1
+682,MLH1,GO:0043060,meiotic metaphase I plate congression,biological_process,DNA mismatch repair protein Mlh1
+683,MLH1,GO:0045132,meiotic chromosome segregation,biological_process,DNA mismatch repair protein Mlh1
+684,MLH1,GO:0045141,meiotic telomere clustering,biological_process,DNA mismatch repair protein Mlh1
+685,MLH1,GO:0045143,homologous chromosome segregation,biological_process,DNA mismatch repair protein Mlh1
+686,MLH1,GO:0045190,isotype switching,biological_process,DNA mismatch repair protein Mlh1
+687,MLH1,GO:0045950,negative regulation of mitotic recombination,biological_process,DNA mismatch repair protein Mlh1
+688,MLH1,GO:0048477,oogenesis,biological_process,DNA mismatch repair protein Mlh1
+689,MLH1,GO:0051257,meiotic spindle midzone assembly,biological_process,DNA mismatch repair protein Mlh1
+690,MLH1,GO:0000793,condensed chromosome,cellular_component,DNA mismatch repair protein Mlh1
+691,MLH1,GO:0000794,condensed nuclear chromosome,cellular_component,DNA mismatch repair protein Mlh1
+692,MLH1,GO:0000795,synaptonemal complex,cellular_component,DNA mismatch repair protein Mlh1
+693,MLH1,GO:0001673,male germ cell nucleus,cellular_component,DNA mismatch repair protein Mlh1
+694,MLH1,GO:0005634,nucleus,cellular_component,DNA mismatch repair protein Mlh1
+695,MLH1,GO:0005654,nucleoplasm,cellular_component,DNA mismatch repair protein Mlh1
+696,MLH1,GO:0005654,nucleoplasm,cellular_component,"MutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli), isoform CRA_a"
+697,MLH1,GO:0005694,chromosome,cellular_component,DNA mismatch repair protein Mlh1
+698,MLH1,GO:0005712,chiasma,cellular_component,DNA mismatch repair protein Mlh1
+699,MLH1,GO:0016020,membrane,cellular_component,DNA mismatch repair protein Mlh1
+700,MLH1,GO:0032389,MutLalpha complex,cellular_component,DNA mismatch repair protein Mlh1
+701,MLH1,GO:0003682,chromatin binding,molecular_function,DNA mismatch repair protein Mlh1
+702,MLH1,GO:0003697,single-stranded DNA binding,molecular_function,DNA mismatch repair protein Mlh1
+703,MLH1,GO:0005515,protein binding,molecular_function,DNA mismatch repair protein Mlh1
+704,MLH1,GO:0005524,ATP binding,molecular_function,DNA mismatch repair protein Mlh1
+705,MLH1,GO:0005524,ATP binding,molecular_function,"MutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli), isoform CRA_a"
+706,MLH1,GO:0005524,ATP binding,molecular_function,MutL-like 1 protein
+707,MLH1,GO:0005524,ATP binding,molecular_function,MLH1-Ex(9-10) isoform
+708,MLH1,GO:0005524,ATP binding,molecular_function,MLH1-Ex10 isoform
+709,MLH1,GO:0005524,ATP binding,molecular_function,Mismatch repair protein
+710,MLH1,GO:0016887,ATPase activity,molecular_function,DNA mismatch repair protein Mlh1
+711,MLH1,GO:0030983,mismatched DNA binding,molecular_function,DNA mismatch repair protein Mlh1
+712,MLH1,GO:0030983,mismatched DNA binding,molecular_function,"MutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli), isoform CRA_a"
+713,MLH1,GO:0030983,mismatched DNA binding,molecular_function,MutL-like 1 protein
+714,MLH1,GO:0030983,mismatched DNA binding,molecular_function,MLH1-Ex(9-10) isoform
+715,MLH1,GO:0030983,mismatched DNA binding,molecular_function,MLH1-Ex10 isoform
+716,MLH1,GO:0030983,mismatched DNA binding,molecular_function,Mismatch repair protein
+717,MLH1,GO:0032137,guanine/thymine mispair binding,molecular_function,DNA mismatch repair protein Mlh1
+718,MLH1,GO:0032407,MutSalpha complex binding,molecular_function,DNA mismatch repair protein Mlh1
+719,MRPL33,GO:0006412,translation,biological_process,"39S ribosomal protein L33, mitochondrial"
+720,MRPL33,GO:0070125,mitochondrial translational elongation,biological_process,"39S ribosomal protein L33, mitochondrial"
+721,MRPL33,GO:0070126,mitochondrial translational termination,biological_process,"39S ribosomal protein L33, mitochondrial"
+722,MRPL33,GO:0005622,intracellular,cellular_component,"39S ribosomal protein L33, mitochondrial"
+723,MRPL33,GO:0005739,mitochondrion,cellular_component,"39S ribosomal protein L33, mitochondrial"
+724,MRPL33,GO:0005743,mitochondrial inner membrane,cellular_component,"39S ribosomal protein L33, mitochondrial"
+725,MRPL33,GO:0005762,mitochondrial large ribosomal subunit,cellular_component,"39S ribosomal protein L33, mitochondrial"
+726,MRPL33,GO:0005840,ribosome,cellular_component,"39S ribosomal protein L33, mitochondrial"
+727,MRPL33,GO:0030529,intracellular ribonucleoprotein complex,cellular_component,"39S ribosomal protein L33, mitochondrial"
+728,MRPL33,GO:0003735,structural constituent of ribosome,molecular_function,"39S ribosomal protein L33, mitochondrial"
+729,MRPS5,GO:0006412,translation,biological_process,"28S ribosomal protein S5, mitochondrial"
+730,MRPS5,GO:0070125,mitochondrial translational elongation,biological_process,"28S ribosomal protein S5, mitochondrial"
+731,MRPS5,GO:0070126,mitochondrial translational termination,biological_process,"28S ribosomal protein S5, mitochondrial"
+732,MRPS5,GO:0005739,mitochondrion,cellular_component,"28S ribosomal protein S5, mitochondrial"
+733,MRPS5,GO:0005743,mitochondrial inner membrane,cellular_component,"28S ribosomal protein S5, mitochondrial"
+734,MRPS5,GO:0005763,mitochondrial small ribosomal subunit,cellular_component,"28S ribosomal protein S5, mitochondrial"
+735,MRPS5,GO:0005840,ribosome,cellular_component,"28S ribosomal protein S5, mitochondrial"
+736,MRPS5,GO:0022627,cytosolic small ribosomal subunit,cellular_component,"28S ribosomal protein S5, mitochondrial"
+737,MRPS5,GO:0030529,intracellular ribonucleoprotein complex,cellular_component,"28S ribosomal protein S5, mitochondrial"
+738,MRPS5,GO:0003723,RNA binding,molecular_function,"28S ribosomal protein S5, mitochondrial"
+739,MRPS5,GO:0003735,structural constituent of ribosome,molecular_function,"28S ribosomal protein S5, mitochondrial"
+740,MRPS5,GO:0044822,poly(A) RNA binding,molecular_function,"28S ribosomal protein S5, mitochondrial"
+741,MYLK4,GO:0006468,protein phosphorylation,biological_process,Myosin light chain kinase family member 4
+742,MYLK4,GO:0016310,phosphorylation,biological_process,Myosin light chain kinase family member 4
+743,MYLK4,GO:0070062,extracellular exosome,cellular_component,Myosin light chain kinase family member 4
+744,MYLK4,GO:0000166,nucleotide binding,molecular_function,Myosin light chain kinase family member 4
+745,MYLK4,GO:0004672,protein kinase activity,molecular_function,Myosin light chain kinase family member 4
+746,MYLK4,GO:0004674,protein serine/threonine kinase activity,molecular_function,Myosin light chain kinase family member 4
+747,MYLK4,GO:0005524,ATP binding,molecular_function,Myosin light chain kinase family member 4
+748,MYLK4,GO:0016301,kinase activity,molecular_function,Myosin light chain kinase family member 4
+749,MYLK4,GO:0016740,transferase activity,molecular_function,Myosin light chain kinase family member 4
+750,NCAPH,GO:0000236,mitotic prometaphase,biological_process,Condensin complex subunit 2
+751,NCAPH,GO:0007049,cell cycle,biological_process,Condensin complex subunit 2
+752,NCAPH,GO:0007067,mitotic nuclear division,biological_process,Condensin complex subunit 2
+753,NCAPH,GO:0007076,mitotic chromosome condensation,biological_process,Condensin complex subunit 2
+754,NCAPH,GO:0030261,chromosome condensation,biological_process,Condensin complex subunit 2
+755,NCAPH,GO:0051301,cell division,biological_process,Condensin complex subunit 2
+756,NCAPH,GO:0000796,condensin complex,cellular_component,Condensin complex subunit 2
+757,NCAPH,GO:0005634,nucleus,cellular_component,Condensin complex subunit 2
+758,NCAPH,GO:0005694,chromosome,cellular_component,Condensin complex subunit 2
+759,NCAPH,GO:0005737,cytoplasm,cellular_component,Condensin complex subunit 2
+760,NCAPH,GO:0005829,cytosol,cellular_component,Condensin complex subunit 2
+761,NCAPH,GO:0016020,membrane,cellular_component,Condensin complex subunit 2
+762,NCAPH,GO:0005515,protein binding,molecular_function,Condensin complex subunit 2
+763,NEURL3,GO:0016567,protein ubiquitination,biological_process,E3 ubiquitin-protein ligase NEURL3
+764,NEURL3,GO:0008270,zinc ion binding,molecular_function,E3 ubiquitin-protein ligase NEURL3
+765,NEURL3,GO:0016874,ligase activity,molecular_function,E3 ubiquitin-protein ligase NEURL3
+766,NEURL3,GO:0046872,metal ion binding,molecular_function,E3 ubiquitin-protein ligase NEURL3
+767,NEURL3,GO:0061630,ubiquitin protein ligase activity,molecular_function,E3 ubiquitin-protein ligase NEURL3
+768,NIF3L1,GO:0030182,neuron differentiation,biological_process,NIF3-like protein 1
+769,NIF3L1,GO:0045893,"positive regulation of transcription, DNA-templated",biological_process,NIF3-like protein 1
+770,NIF3L1,GO:1903507,negative regulation of nucleic acid-templated transcription,biological_process,NIF3-like protein 1
+771,NIF3L1,GO:0005634,nucleus,cellular_component,NIF3-like protein 1
+772,NIF3L1,GO:0005737,cytoplasm,cellular_component,NIF3-like protein 1
+773,NIF3L1,GO:0005739,mitochondrion,cellular_component,NIF3-like protein 1
+774,NIF3L1,GO:0005515,protein binding,molecular_function,NIF3-like protein 1
+775,NIF3L1,GO:0008134,transcription factor binding,molecular_function,NIF3-like protein 1
+776,NIF3L1,GO:0042802,identical protein binding,molecular_function,NIF3-like protein 1
+777,NQO2,GO:0007613,memory,biological_process,Ribosyldihydronicotinamide dehydrogenase [quinone]
+778,NQO2,GO:0055114,oxidation-reduction process,biological_process,Ribosyldihydronicotinamide dehydrogenase [quinone]
+779,NQO2,GO:0005654,nucleoplasm,cellular_component,Ribosyldihydronicotinamide dehydrogenase [quinone]
+780,NQO2,GO:0005737,cytoplasm,cellular_component,Ribosyldihydronicotinamide dehydrogenase [quinone]
+781,NQO2,GO:0070062,extracellular exosome,cellular_component,Ribosyldihydronicotinamide dehydrogenase [quinone]
+782,NQO2,GO:0005515,protein binding,molecular_function,Ribosyldihydronicotinamide dehydrogenase [quinone]
+783,NQO2,GO:0008753,NADPH dehydrogenase (quinone) activity,molecular_function,Ribosyldihydronicotinamide dehydrogenase [quinone]
+784,NQO2,GO:0009055,electron carrier activity,molecular_function,Ribosyldihydronicotinamide dehydrogenase [quinone]
+785,NQO2,GO:0016491,oxidoreductase activity,molecular_function,Ribosyldihydronicotinamide dehydrogenase [quinone]
+786,NQO2,GO:0046872,metal ion binding,molecular_function,Ribosyldihydronicotinamide dehydrogenase [quinone]
+787,ORC2,GO:0000082,G1/S transition of mitotic cell cycle,biological_process,Origin recognition complex subunit 2
+788,ORC2,GO:0000122,negative regulation of transcription from RNA polymerase II promoter,biological_process,Origin recognition complex subunit 2
+789,ORC2,GO:0006260,DNA replication,biological_process,Origin recognition complex subunit 2
+790,ORC2,GO:0006270,DNA replication initiation,biological_process,Origin recognition complex subunit 2
+791,ORC2,GO:0000784,"nuclear chromosome, telomeric region",cellular_component,Origin recognition complex subunit 2
+792,ORC2,GO:0000785,chromatin,cellular_component,Origin recognition complex subunit 2
+793,ORC2,GO:0000792,heterochromatin,cellular_component,Origin recognition complex subunit 2
+794,ORC2,GO:0000808,origin recognition complex,cellular_component,Origin recognition complex subunit 2
+795,ORC2,GO:0000939,condensed chromosome inner kinetochore,cellular_component,Origin recognition complex subunit 2
+796,ORC2,GO:0005634,nucleus,cellular_component,Origin recognition complex subunit 2
+797,ORC2,GO:0005654,nucleoplasm,cellular_component,Origin recognition complex subunit 2
+798,ORC2,GO:0005664,nuclear origin of replication recognition complex,cellular_component,Origin recognition complex subunit 2
+799,ORC2,GO:0005813,centrosome,cellular_component,Origin recognition complex subunit 2
+800,ORC2,GO:0016020,membrane,cellular_component,Origin recognition complex subunit 2
+801,ORC2,GO:0003688,DNA replication origin binding,molecular_function,Origin recognition complex subunit 2
+802,ORC2,GO:0005515,protein binding,molecular_function,Origin recognition complex subunit 2
+803,PARP8,GO:0005622,intracellular,cellular_component,Poly [ADP-ribose] polymerase 8
+804,PARP8,GO:0003950,NAD+ ADP-ribosyltransferase activity,molecular_function,Poly [ADP-ribose] polymerase
+805,PARP8,GO:0003950,NAD+ ADP-ribosyltransferase activity,molecular_function,Poly [ADP-ribose] polymerase 8
+806,PARP8,GO:0016740,transferase activity,molecular_function,Poly [ADP-ribose] polymerase
+807,PARP8,GO:0016740,transferase activity,molecular_function,Poly [ADP-ribose] polymerase 8
+808,PARP8,GO:0016757,"transferase activity, transferring glycosyl groups",molecular_function,Poly [ADP-ribose] polymerase
+809,PARP8,GO:0016757,"transferase activity, transferring glycosyl groups",molecular_function,Poly [ADP-ribose] polymerase 8
+810,PPIL3,GO:0000398,"mRNA splicing, via spliceosome",biological_process,Peptidyl-prolyl cis-trans isomerase-like 3
+811,PPIL3,GO:0000413,protein peptidyl-prolyl isomerization,biological_process,Peptidyl-prolyl cis-trans isomerase
+812,PPIL3,GO:0000413,protein peptidyl-prolyl isomerization,biological_process,Peptidyl-prolyl cis-trans isomerase-like 3
+813,PPIL3,GO:0006397,mRNA processing,biological_process,Peptidyl-prolyl cis-trans isomerase-like 3
+814,PPIL3,GO:0006457,protein folding,biological_process,Peptidyl-prolyl cis-trans isomerase
+815,PPIL3,GO:0006457,protein folding,biological_process,Peptidyl-prolyl cis-trans isomerase-like 3
+816,PPIL3,GO:0008380,RNA splicing,biological_process,Peptidyl-prolyl cis-trans isomerase-like 3
+817,PPIL3,GO:0005681,spliceosomal complex,cellular_component,Peptidyl-prolyl cis-trans isomerase-like 3
+818,PPIL3,GO:0016020,membrane,cellular_component,Peptidyl-prolyl cis-trans isomerase-like 3
+819,PPIL3,GO:0016020,membrane,cellular_component,Peptidylprolyl isomerase-like 3 isoform 2
+820,PPIL3,GO:0016020,membrane,cellular_component,"Peptidylprolyl isomerase (Cyclophilin)-like 3, isoform CRA_c"
+821,PPIL3,GO:0016021,integral component of membrane,cellular_component,Peptidyl-prolyl cis-trans isomerase-like 3
+822,PPIL3,GO:0016021,integral component of membrane,cellular_component,Peptidylprolyl isomerase-like 3 isoform 2
+823,PPIL3,GO:0016021,integral component of membrane,cellular_component,"Peptidylprolyl isomerase (Cyclophilin)-like 3, isoform CRA_c"
+824,PPIL3,GO:0071013,catalytic step 2 spliceosome,cellular_component,Peptidyl-prolyl cis-trans isomerase-like 3
+825,PPIL3,GO:0003755,peptidyl-prolyl cis-trans isomerase activity,molecular_function,Peptidyl-prolyl cis-trans isomerase
+826,PPIL3,GO:0003755,peptidyl-prolyl cis-trans isomerase activity,molecular_function,Peptidyl-prolyl cis-trans isomerase-like 3
+827,PPIL3,GO:0005515,protein binding,molecular_function,Peptidyl-prolyl cis-trans isomerase-like 3
+828,PPIL3,GO:0016853,isomerase activity,molecular_function,Peptidyl-prolyl cis-trans isomerase
+829,PPIL3,GO:0016853,isomerase activity,molecular_function,Peptidyl-prolyl cis-trans isomerase-like 3
+830,PPIL3,GO:0016853,isomerase activity,molecular_function,Peptidylprolyl isomerase-like 3 isoform 2
+831,PPIL3,GO:0016853,isomerase activity,molecular_function,"Peptidylprolyl isomerase (Cyclophilin)-like 3, isoform CRA_c"
+832,PROM2,GO:0001934,positive regulation of protein phosphorylation,biological_process,Prominin-2
+833,PROM2,GO:0031346,positive regulation of cell projection organization,biological_process,Prominin-2
+834,PROM2,GO:0043087,regulation of GTPase activity,biological_process,Prominin-2
+835,PROM2,GO:0048550,negative regulation of pinocytosis,biological_process,Prominin-2
+836,PROM2,GO:2000369,regulation of clathrin-mediated endocytosis,biological_process,Prominin-2
+837,PROM2,GO:2001287,negative regulation of caveolin-mediated endocytosis,biological_process,Prominin-2
+838,PROM2,GO:0005886,plasma membrane,cellular_component,Prominin-2
+839,PROM2,GO:0005887,integral component of plasma membrane,cellular_component,Prominin-2
+840,PROM2,GO:0005902,microvillus,cellular_component,Prominin-2
+841,PROM2,GO:0005929,cilium,cellular_component,Prominin-2
+842,PROM2,GO:0009986,cell surface,cellular_component,Prominin-2
+843,PROM2,GO:0016020,membrane,cellular_component,Prominin-2
+844,PROM2,GO:0016020,membrane,cellular_component,"Prominin 2, isoform CRA_a"
+845,PROM2,GO:0016021,integral component of membrane,cellular_component,Prominin-2
+846,PROM2,GO:0016021,integral component of membrane,cellular_component,"Prominin 2, isoform CRA_a"
+847,PROM2,GO:0016323,basolateral plasma membrane,cellular_component,Prominin-2
+848,PROM2,GO:0016324,apical plasma membrane,cellular_component,Prominin-2
+849,PROM2,GO:0031410,cytoplasmic vesicle,cellular_component,Prominin-2
+850,PROM2,GO:0031528,microvillus membrane,cellular_component,Prominin-2
+851,PROM2,GO:0042995,cell projection,cellular_component,Prominin-2
+852,PROM2,GO:0044393,microspike,cellular_component,Prominin-2
+853,PROM2,GO:0045121,membrane raft,cellular_component,Prominin-2
+854,PROM2,GO:0060170,ciliary membrane,cellular_component,Prominin-2
+855,PROM2,GO:0070062,extracellular exosome,cellular_component,Prominin-2
+856,PROM2,GO:0071914,prominosome,cellular_component,Prominin-2
+857,PROM2,GO:0015485,cholesterol binding,molecular_function,Prominin-2
+858,PSMG4,GO:0043248,proteasome assembly,biological_process,Proteasome assembly chaperone 4
+859,RBKS,GO:0005975,carbohydrate metabolic process,biological_process,Ribokinase
+860,RBKS,GO:0006014,D-ribose metabolic process,biological_process,Ribokinase
+861,RBKS,GO:0016310,phosphorylation,biological_process,Ribokinase
+862,RBKS,GO:0019303,D-ribose catabolic process,biological_process,Ribokinase
+863,RBKS,GO:0046835,carbohydrate phosphorylation,biological_process,Ribokinase
+864,RBKS,GO:0005634,nucleus,cellular_component,Ribokinase
+865,RBKS,GO:0005737,cytoplasm,cellular_component,Ribokinase
+866,RBKS,GO:0070062,extracellular exosome,cellular_component,Ribokinase
+867,RBKS,GO:0000166,nucleotide binding,molecular_function,Ribokinase
+868,RBKS,GO:0004747,ribokinase activity,molecular_function,Ribokinase
+869,RBKS,GO:0005515,protein binding,molecular_function,Ribokinase
+870,RBKS,GO:0005524,ATP binding,molecular_function,Ribokinase
+871,RBKS,GO:0016301,kinase activity,molecular_function,Ribokinase
+872,RBKS,GO:0016740,transferase activity,molecular_function,Ribokinase
+873,RBKS,GO:0016773,"phosphotransferase activity, alcohol group as acceptor",molecular_function,Ribokinase
+874,RBKS,GO:0046872,metal ion binding,molecular_function,Ribokinase
+875,RIPK1,GO:0001934,positive regulation of protein phosphorylation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+876,RIPK1,GO:0006468,protein phosphorylation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+877,RIPK1,GO:0006468,protein phosphorylation,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+878,RIPK1,GO:0006915,apoptotic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+879,RIPK1,GO:0006919,activation of cysteine-type endopeptidase activity involved in apoptotic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+880,RIPK1,GO:0007165,signal transduction,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+881,RIPK1,GO:0007165,signal transduction,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+882,RIPK1,GO:0007249,I-kappaB kinase/NF-kappaB signaling,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+883,RIPK1,GO:0007257,activation of JUN kinase activity,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+884,RIPK1,GO:0010803,regulation of tumor necrosis factor-mediated signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+885,RIPK1,GO:0010939,regulation of necrotic cell death,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+886,RIPK1,GO:0010942,positive regulation of cell death,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+887,RIPK1,GO:0010942,positive regulation of cell death,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+888,RIPK1,GO:0012501,programmed cell death,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+889,RIPK1,GO:0016310,phosphorylation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+890,RIPK1,GO:0016310,phosphorylation,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+891,RIPK1,GO:0032757,positive regulation of interleukin-8 production,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+892,RIPK1,GO:0032760,positive regulation of tumor necrosis factor production,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+893,RIPK1,GO:0033209,tumor necrosis factor-mediated signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+894,RIPK1,GO:0034612,response to tumor necrosis factor,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+895,RIPK1,GO:0035666,TRIF-dependent toll-like receptor signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+896,RIPK1,GO:0036289,peptidyl-serine autophosphorylation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+897,RIPK1,GO:0042327,positive regulation of phosphorylation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+898,RIPK1,GO:0042327,positive regulation of phosphorylation,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+899,RIPK1,GO:0043065,positive regulation of apoptotic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+900,RIPK1,GO:0043068,positive regulation of programmed cell death,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+901,RIPK1,GO:0043123,positive regulation of I-kappaB kinase/NF-kappaB signaling,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+902,RIPK1,GO:0043123,positive regulation of I-kappaB kinase/NF-kappaB signaling,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+903,RIPK1,GO:0043124,negative regulation of I-kappaB kinase/NF-kappaB signaling,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+904,RIPK1,GO:0043410,positive regulation of MAPK cascade,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+905,RIPK1,GO:0043410,positive regulation of MAPK cascade,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+906,RIPK1,GO:0044257,cellular protein catabolic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+907,RIPK1,GO:0045651,positive regulation of macrophage differentiation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+908,RIPK1,GO:0045944,positive regulation of transcription from RNA polymerase II promoter,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+909,RIPK1,GO:0046330,positive regulation of JNK cascade,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+910,RIPK1,GO:0046330,positive regulation of JNK cascade,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+911,RIPK1,GO:0046777,protein autophosphorylation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+912,RIPK1,GO:0051092,positive regulation of NF-kappaB transcription factor activity,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+913,RIPK1,GO:0051092,positive regulation of NF-kappaB transcription factor activity,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+914,RIPK1,GO:0051260,protein homooligomerization,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+915,RIPK1,GO:0051291,protein heterooligomerization,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+916,RIPK1,GO:0051291,protein heterooligomerization,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+917,RIPK1,GO:0060545,positive regulation of necroptotic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+918,RIPK1,GO:0060545,positive regulation of necroptotic process,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+919,RIPK1,GO:0070231,T cell apoptotic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+920,RIPK1,GO:0070231,T cell apoptotic process,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+921,RIPK1,GO:0070266,necroptotic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+922,RIPK1,GO:0070266,necroptotic process,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+923,RIPK1,GO:0070926,regulation of ATP:ADP antiporter activity,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+924,RIPK1,GO:0071356,cellular response to tumor necrosis factor,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+925,RIPK1,GO:0071363,cellular response to growth factor stimulus,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+926,RIPK1,GO:0071363,cellular response to growth factor stimulus,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+927,RIPK1,GO:0071550,death-inducing signaling complex assembly,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+928,RIPK1,GO:0097190,apoptotic signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+929,RIPK1,GO:0097191,extrinsic apoptotic signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+930,RIPK1,GO:0097296,activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+931,RIPK1,GO:0097343,ripoptosome assembly,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+932,RIPK1,GO:0097527,necroptotic signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+933,RIPK1,GO:0097527,necroptotic signaling pathway,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+934,RIPK1,GO:1901026,ripoptosome assembly involved in necroptotic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+935,RIPK1,GO:1901026,ripoptosome assembly involved in necroptotic process,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+936,RIPK1,GO:1902041,regulation of extrinsic apoptotic signaling pathway via death domain receptors,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+937,RIPK1,GO:1902042,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+938,RIPK1,GO:1990000,amyloid fibril formation,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+939,RIPK1,GO:2000377,regulation of reactive oxygen species metabolic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+940,RIPK1,GO:2000377,regulation of reactive oxygen species metabolic process,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+941,RIPK1,GO:2000379,positive regulation of reactive oxygen species metabolic process,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+942,RIPK1,GO:2001237,negative regulation of extrinsic apoptotic signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+943,RIPK1,GO:2001237,negative regulation of extrinsic apoptotic signaling pathway,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+944,RIPK1,GO:2001238,positive regulation of extrinsic apoptotic signaling pathway,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+945,RIPK1,GO:2001238,positive regulation of extrinsic apoptotic signaling pathway,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+946,RIPK1,GO:2001240,negative regulation of extrinsic apoptotic signaling pathway in absence of ligand,biological_process,Receptor-interacting serine/threonine-protein kinase 1
+947,RIPK1,GO:2001240,negative regulation of extrinsic apoptotic signaling pathway in absence of ligand,biological_process,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+948,RIPK1,GO:0005737,cytoplasm,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+949,RIPK1,GO:0005737,cytoplasm,cellular_component,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+950,RIPK1,GO:0005739,mitochondrion,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+951,RIPK1,GO:0005829,cytosol,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+952,RIPK1,GO:0005886,plasma membrane,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+953,RIPK1,GO:0016020,membrane,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+954,RIPK1,GO:0031264,death-inducing signaling complex,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+955,RIPK1,GO:0043234,protein complex,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+956,RIPK1,GO:0043234,protein complex,cellular_component,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+957,RIPK1,GO:0043235,receptor complex,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+958,RIPK1,GO:0045121,membrane raft,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+959,RIPK1,GO:0045121,membrane raft,cellular_component,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+960,RIPK1,GO:0097342,ripoptosome,cellular_component,Receptor-interacting serine/threonine-protein kinase 1
+961,RIPK1,GO:0097342,ripoptosome,cellular_component,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+962,RIPK1,GO:0000166,nucleotide binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+963,RIPK1,GO:0004672,protein kinase activity,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+964,RIPK1,GO:0004672,protein kinase activity,molecular_function,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+965,RIPK1,GO:0004674,protein serine/threonine kinase activity,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+966,RIPK1,GO:0005123,death receptor binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+967,RIPK1,GO:0005123,death receptor binding,molecular_function,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+968,RIPK1,GO:0005515,protein binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+969,RIPK1,GO:0005524,ATP binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+970,RIPK1,GO:0005524,ATP binding,molecular_function,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+971,RIPK1,GO:0016301,kinase activity,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+972,RIPK1,GO:0016301,kinase activity,molecular_function,"Receptor (TNFRSF)-interacting serine-threonine kinase 1, isoform CRA_a"
+973,RIPK1,GO:0016740,transferase activity,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+974,RIPK1,GO:0031625,ubiquitin protein ligase binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+975,RIPK1,GO:0032403,protein complex binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+976,RIPK1,GO:0042802,identical protein binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+977,RIPK1,GO:0070513,death domain binding,molecular_function,Receptor-interacting serine/threonine-protein kinase 1
+978,SEMA4C,GO:0001755,neural crest cell migration,biological_process,Semaphorin-4C
+979,SEMA4C,GO:0001843,neural tube closure,biological_process,Semaphorin-4C
+980,SEMA4C,GO:0007275,multicellular organism development,biological_process,Semaphorin-4C
+981,SEMA4C,GO:0007399,nervous system development,biological_process,Semaphorin-4C
+982,SEMA4C,GO:0021535,cell migration in hindbrain,biological_process,Semaphorin-4C
+983,SEMA4C,GO:0021549,cerebellum development,biological_process,Semaphorin-4C
+984,SEMA4C,GO:0030154,cell differentiation,biological_process,Semaphorin-4C
+985,SEMA4C,GO:0030335,positive regulation of cell migration,biological_process,Semaphorin-4C
+986,SEMA4C,GO:0032874,positive regulation of stress-activated MAPK cascade,biological_process,Semaphorin-4C
+987,SEMA4C,GO:0042692,muscle cell differentiation,biological_process,Semaphorin-4C
+988,SEMA4C,GO:0048843,negative regulation of axon extension involved in axon guidance,biological_process,Semaphorin-4C
+989,SEMA4C,GO:0050919,negative chemotaxis,biological_process,Semaphorin-4C
+990,SEMA4C,GO:0071526,semaphorin-plexin signaling pathway,biological_process,Semaphorin-4C
+991,SEMA4C,GO:0005615,extracellular space,cellular_component,Semaphorin-4C
+992,SEMA4C,GO:0005886,plasma membrane,cellular_component,Semaphorin-4C
+993,SEMA4C,GO:0014069,postsynaptic density,cellular_component,Semaphorin-4C
+994,SEMA4C,GO:0016020,membrane,cellular_component,Semaphorin-4C
+995,SEMA4C,GO:0016020,membrane,cellular_component,Putative uncharacterized protein SEMA4C
+996,SEMA4C,GO:0016020,membrane,cellular_component,SEMA4C protein
+997,SEMA4C,GO:0016021,integral component of membrane,cellular_component,Semaphorin-4C
+998,SEMA4C,GO:0016021,integral component of membrane,cellular_component,Putative uncharacterized protein SEMA4C
+999,SEMA4C,GO:0016021,integral component of membrane,cellular_component,SEMA4C protein
+1000,SEMA4C,GO:0030054,cell junction,cellular_component,Semaphorin-4C
+1001,SEMA4C,GO:0030672,synaptic vesicle membrane,cellular_component,Semaphorin-4C
+1002,SEMA4C,GO:0031410,cytoplasmic vesicle,cellular_component,Semaphorin-4C
+1003,SEMA4C,GO:0045202,synapse,cellular_component,Semaphorin-4C
+1004,SEMA4C,GO:0045211,postsynaptic membrane,cellular_component,Semaphorin-4C
+1005,SEMA4C,GO:0005515,protein binding,molecular_function,Semaphorin-4C
+1006,SEMA4C,GO:0030215,semaphorin receptor binding,molecular_function,Semaphorin-4C
+1007,SEMA4C,GO:0038191,neuropilin binding,molecular_function,Semaphorin-4C
+1008,SEMA4C,GO:0045499,chemorepellent activity,molecular_function,Semaphorin-4C
+1009,SERPINB1,GO:0010466,negative regulation of peptidase activity,biological_process,Leukocyte elastase inhibitor
+1010,SERPINB1,GO:0010951,negative regulation of endopeptidase activity,biological_process,Leukocyte elastase inhibitor
+1011,SERPINB1,GO:0005615,extracellular space,cellular_component,Leukocyte elastase inhibitor
+1012,SERPINB1,GO:0005737,cytoplasm,cellular_component,Leukocyte elastase inhibitor
+1013,SERPINB1,GO:0016020,membrane,cellular_component,Leukocyte elastase inhibitor
+1014,SERPINB1,GO:0070062,extracellular exosome,cellular_component,Leukocyte elastase inhibitor
+1015,SERPINB1,GO:0004867,serine-type endopeptidase inhibitor activity,molecular_function,Leukocyte elastase inhibitor
+1016,SERPINB1,GO:0030414,peptidase inhibitor activity,molecular_function,Leukocyte elastase inhibitor
+1017,SERPINB6,GO:0007605,sensory perception of sound,biological_process,Serpin B6
+1018,SERPINB6,GO:0010466,negative regulation of peptidase activity,biological_process,Serpin B6
+1019,SERPINB6,GO:0010951,negative regulation of endopeptidase activity,biological_process,Serpin B6
+1020,SERPINB6,GO:0071470,cellular response to osmotic stress,biological_process,Serpin B6
+1021,SERPINB6,GO:0005615,extracellular space,cellular_component,Serpin B6
+1022,SERPINB6,GO:0005615,extracellular space,cellular_component,"Serpin peptidase inhibitor, clade B (Ovalbumin), member 6, isoform CRA_b"
+1023,SERPINB6,GO:0005615,extracellular space,cellular_component,"Serpin peptidase inhibitor, clade B (Ovalbumin), member 6, isoform CRA_a"
+1024,SERPINB6,GO:0005634,nucleus,cellular_component,Serpin B6
+1025,SERPINB6,GO:0005737,cytoplasm,cellular_component,Serpin B6
+1026,SERPINB6,GO:0005829,cytosol,cellular_component,Serpin B6
+1027,SERPINB6,GO:0043234,protein complex,cellular_component,Serpin B6
+1028,SERPINB6,GO:0070062,extracellular exosome,cellular_component,Serpin B6
+1029,SERPINB6,GO:0002020,protease binding,molecular_function,Serpin B6
+1030,SERPINB6,GO:0004867,serine-type endopeptidase inhibitor activity,molecular_function,Serpin B6
+1031,SERPINB6,GO:0030414,peptidase inhibitor activity,molecular_function,Serpin B6
+1032,SERPINB9,GO:0002448,mast cell mediated immunity,biological_process,Serpin B9
+1033,SERPINB9,GO:0006915,apoptotic process,biological_process,Serpin B9
+1034,SERPINB9,GO:0006955,immune response,biological_process,Serpin B9
+1035,SERPINB9,GO:0009617,response to bacterium,biological_process,Serpin B9
+1036,SERPINB9,GO:0010466,negative regulation of peptidase activity,biological_process,Serpin B9
+1037,SERPINB9,GO:0010628,positive regulation of gene expression,biological_process,Serpin B9
+1038,SERPINB9,GO:0010951,negative regulation of endopeptidase activity,biological_process,Serpin B9
+1039,SERPINB9,GO:0010951,negative regulation of endopeptidase activity,biological_process,"Serpin peptidase inhibitor, clade B (Ovalbumin), member 9, isoform CRA_a"
+1040,SERPINB9,GO:0033668,negative regulation by symbiont of host apoptotic process,biological_process,Serpin B9
+1041,SERPINB9,GO:0042270,protection from natural killer cell mediated cytotoxicity,biological_process,Serpin B9
+1042,SERPINB9,GO:0043066,negative regulation of apoptotic process,biological_process,Serpin B9
+1043,SERPINB9,GO:0043154,negative regulation of cysteine-type endopeptidase activity involved in apoptotic process,biological_process,Serpin B9
+1044,SERPINB9,GO:0071391,cellular response to estrogen stimulus,biological_process,Serpin B9
+1045,SERPINB9,GO:0005615,extracellular space,cellular_component,Serpin B9
+1046,SERPINB9,GO:0005615,extracellular space,cellular_component,"Serpin peptidase inhibitor, clade B (Ovalbumin), member 9, isoform CRA_a"
+1047,SERPINB9,GO:0005622,intracellular,cellular_component,Serpin B9
+1048,SERPINB9,GO:0005634,nucleus,cellular_component,Serpin B9
+1049,SERPINB9,GO:0005737,cytoplasm,cellular_component,Serpin B9
+1050,SERPINB9,GO:0005829,cytosol,cellular_component,Serpin B9
+1051,SERPINB9,GO:0016020,membrane,cellular_component,Serpin B9
+1052,SERPINB9,GO:0070062,extracellular exosome,cellular_component,Serpin B9
+1053,SERPINB9,GO:0002020,protease binding,molecular_function,Serpin B9
+1054,SERPINB9,GO:0004867,serine-type endopeptidase inhibitor activity,molecular_function,Serpin B9
+1055,SERPINB9,GO:0004867,serine-type endopeptidase inhibitor activity,molecular_function,"Serpin peptidase inhibitor, clade B (Ovalbumin), member 9, isoform CRA_a"
+1056,SERPINB9,GO:0005515,protein binding,molecular_function,Serpin B9
+1057,SERPINB9,GO:0030414,peptidase inhibitor activity,molecular_function,Serpin B9
+1058,SERPINB9,GO:0043027,cysteine-type endopeptidase inhibitor activity involved in apoptotic process,molecular_function,Serpin B9
+1059,SGO2,GO:0051754,"meiotic sister chromatid cohesion, centromeric",biological_process,Protein SGO2
+1060,SGO2,GO:0000775,"chromosome, centromeric region",cellular_component,Protein SGO2
+1061,SLC22A23,GO:0006810,transport,biological_process,Solute carrier family 22 member 23
+1062,SLC22A23,GO:0006811,ion transport,biological_process,Solute carrier family 22 member 23
+1063,SLC22A23,GO:0015711,organic anion transport,biological_process,Solute carrier family 22 member 23
+1064,SLC22A23,GO:0055085,transmembrane transport,biological_process,Solute carrier family 22 member 23
+1065,SLC22A23,GO:0005887,integral component of plasma membrane,cellular_component,Solute carrier family 22 member 23
+1066,SLC22A23,GO:0016020,membrane,cellular_component,Solute carrier family 22 member 23
+1067,SLC22A23,GO:0016021,integral component of membrane,cellular_component,Solute carrier family 22 member 23
+1068,SLC22A23,GO:0005215,transporter activity,molecular_function,Solute carrier family 22 member 23
+1069,SLC22A23,GO:0005515,protein binding,molecular_function,Solute carrier family 22 member 23
+1070,SLC22A23,GO:0005515,protein binding,molecular_function,"CDNA: FLJ21380 fis, clone COL03329"
+1071,SLC22A23,GO:0008514,organic anion transmembrane transporter activity,molecular_function,Solute carrier family 22 member 23
+1072,SLC22A23,GO:0022857,transmembrane transporter activity,molecular_function,Solute carrier family 22 member 23
+1073,SLC35F3,GO:0006810,transport,biological_process,Putative thiamine transporter SLC35F3
+1074,SLC35F3,GO:0015888,thiamine transport,biological_process,Putative thiamine transporter SLC35F3
+1075,SLC35F3,GO:0016020,membrane,cellular_component,Putative thiamine transporter SLC35F3
+1076,SLC35F3,GO:0016021,integral component of membrane,cellular_component,Putative thiamine transporter SLC35F3
+1077,SLC4A1AP,GO:0005634,nucleus,cellular_component,Kanadaptin
+1078,SLC4A1AP,GO:0005654,nucleoplasm,cellular_component,Kanadaptin
+1079,SLC4A1AP,GO:0005737,cytoplasm,cellular_component,Kanadaptin
+1080,SLC4A1AP,GO:0005886,plasma membrane,cellular_component,Kanadaptin
+1081,SLC4A1AP,GO:0043231,intracellular membrane-bounded organelle,cellular_component,Kanadaptin
+1082,SLC4A1AP,GO:0005515,protein binding,molecular_function,Kanadaptin
+1083,SNRNP200,GO:0000354,cis assembly of pre-catalytic spliceosome,biological_process,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1084,SNRNP200,GO:0000398,"mRNA splicing, via spliceosome",biological_process,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1085,SNRNP200,GO:0001649,osteoblast differentiation,biological_process,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1086,SNRNP200,GO:0006397,mRNA processing,biological_process,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1087,SNRNP200,GO:0008380,RNA splicing,biological_process,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1088,SNRNP200,GO:0005634,nucleus,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1089,SNRNP200,GO:0005654,nucleoplasm,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1090,SNRNP200,GO:0005681,spliceosomal complex,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1091,SNRNP200,GO:0005682,U5 snRNP,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1092,SNRNP200,GO:0016020,membrane,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1093,SNRNP200,GO:0019013,viral nucleocapsid,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1094,SNRNP200,GO:0030529,intracellular ribonucleoprotein complex,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1095,SNRNP200,GO:0071013,catalytic step 2 spliceosome,cellular_component,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1096,SNRNP200,GO:0000166,nucleotide binding,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1097,SNRNP200,GO:0003676,nucleic acid binding,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1098,SNRNP200,GO:0003676,nucleic acid binding,molecular_function,SNRNP200 protein
+1099,SNRNP200,GO:0004004,ATP-dependent RNA helicase activity,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1100,SNRNP200,GO:0004386,helicase activity,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1101,SNRNP200,GO:0004386,helicase activity,molecular_function,SNRNP200 protein
+1102,SNRNP200,GO:0005515,protein binding,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1103,SNRNP200,GO:0005524,ATP binding,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1104,SNRNP200,GO:0005524,ATP binding,molecular_function,SNRNP200 protein
+1105,SNRNP200,GO:0008026,ATP-dependent helicase activity,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1106,SNRNP200,GO:0016787,hydrolase activity,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1107,SNRNP200,GO:0016787,hydrolase activity,molecular_function,SNRNP200 protein
+1108,SNRNP200,GO:0042802,identical protein binding,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1109,SNRNP200,GO:0044822,poly(A) RNA binding,molecular_function,U5 small nuclear ribonucleoprotein 200 kDa helicase
+1110,SPATS2L,GO:0005634,nucleus,cellular_component,SPATS2-like protein
+1111,SPATS2L,GO:0005730,nucleolus,cellular_component,SPATS2-like protein
+1112,SPATS2L,GO:0005737,cytoplasm,cellular_component,SPATS2-like protein
+1113,SPATS2L,GO:0043234,protein complex,cellular_component,SPATS2-like protein
+1114,SPATS2L,GO:0044822,poly(A) RNA binding,molecular_function,SPATS2-like protein
+1115,STARD7,GO:1903955,positive regulation of protein targeting to mitochondrion,biological_process,"StAR-related lipid transfer protein 7, mitochondrial"
+1116,STARD7,GO:0005739,mitochondrion,cellular_component,"StAR-related lipid transfer protein 7, mitochondrial"
+1117,STARD7,GO:0008289,lipid binding,molecular_function,"StAR-related lipid transfer protein 7, mitochondrial"
+1118,SUPT7L,GO:0006351,"transcription, DNA-templated",biological_process,STAGA complex 65 subunit gamma
+1119,SUPT7L,GO:0006355,"regulation of transcription, DNA-templated",biological_process,STAGA complex 65 subunit gamma
+1120,SUPT7L,GO:0043966,histone H3 acetylation,biological_process,STAGA complex 65 subunit gamma
+1121,SUPT7L,GO:0051457,maintenance of protein location in nucleus,biological_process,STAGA complex 65 subunit gamma
+1122,SUPT7L,GO:0005634,nucleus,cellular_component,STAGA complex 65 subunit gamma
+1123,SUPT7L,GO:0030914,STAGA complex,cellular_component,STAGA complex 65 subunit gamma
+1124,SUPT7L,GO:0003713,transcription coactivator activity,molecular_function,STAGA complex 65 subunit gamma
+1125,SUPT7L,GO:0004402,histone acetyltransferase activity,molecular_function,STAGA complex 65 subunit gamma
+1126,SUPT7L,GO:0005515,protein binding,molecular_function,STAGA complex 65 subunit gamma
+1127,TEKT4,GO:0030030,cell projection organization,biological_process,Tektin-4
+1128,TEKT4,GO:0005634,nucleus,cellular_component,Tektin-4
+1129,TEKT4,GO:0005737,cytoplasm,cellular_component,Tektin-4
+1130,TEKT4,GO:0005856,cytoskeleton,cellular_component,Tektin-4
+1131,TEKT4,GO:0005874,microtubule,cellular_component,Tektin-4
+1132,TEKT4,GO:0005929,cilium,cellular_component,Tektin-4
+1133,TEKT4,GO:0031514,motile cilium,cellular_component,Tektin-4
+1134,TEKT4,GO:0042995,cell projection,cellular_component,Tektin-4
+1135,TEKT4,GO:0005515,protein binding,molecular_function,Tektin-4
+1136,TMEM127,GO:0007032,endosome organization,biological_process,Transmembrane protein 127
+1137,TMEM127,GO:0008285,negative regulation of cell proliferation,biological_process,Transmembrane protein 127
+1138,TMEM127,GO:0032006,regulation of TOR signaling,biological_process,Transmembrane protein 127
+1139,TMEM127,GO:0032007,negative regulation of TOR signaling,biological_process,Transmembrane protein 127
+1140,TMEM127,GO:0005737,cytoplasm,cellular_component,Transmembrane protein 127
+1141,TMEM127,GO:0005769,early endosome,cellular_component,Transmembrane protein 127
+1142,TMEM127,GO:0005886,plasma membrane,cellular_component,Transmembrane protein 127
+1143,TMEM127,GO:0016020,membrane,cellular_component,Transmembrane protein 127
+1144,TMEM127,GO:0016021,integral component of membrane,cellular_component,Transmembrane protein 127
+1145,TMEM127,GO:0003674,molecular_function,molecular_function,Transmembrane protein 127
+1146,TMEM127,GO:0017137,Rab GTPase binding,molecular_function,Transmembrane protein 127
+1147,TMEM131,GO:0008150,biological_process,biological_process,Transmembrane protein 131
+1148,TMEM131,GO:0005575,cellular_component,cellular_component,Transmembrane protein 131
+1149,TMEM131,GO:0016020,membrane,cellular_component,Transmembrane protein 131
+1150,TMEM131,GO:0016021,integral component of membrane,cellular_component,Transmembrane protein 131
+1151,TMEM131,GO:0003674,molecular_function,molecular_function,Transmembrane protein 131
+1152,TRANK1,GO:0005524,ATP binding,molecular_function,TPR and ankyrin repeat-containing protein 1
+1153,TRIM43,GO:0005622,intracellular,cellular_component,Tripartite motif-containing protein 43
+1154,TRIM43,GO:0005515,protein binding,molecular_function,Tripartite motif-containing protein 43
+1155,TRIM43,GO:0008270,zinc ion binding,molecular_function,Tripartite motif-containing protein 43
+1156,TRIM43,GO:0046872,metal ion binding,molecular_function,Tripartite motif-containing protein 43
+1157,TRIM43B,GO:0005622,intracellular,cellular_component,Tripartite motif-containing protein 43B
+1158,TRIM43B,GO:0008270,zinc ion binding,molecular_function,Tripartite motif-containing protein 43B
+1159,TRIM43B,GO:0046872,metal ion binding,molecular_function,Tripartite motif-containing protein 43B
+1160,TUBB2A,GO:0007017,microtubule-based process,biological_process,Tubulin beta-2A chain
+1161,TUBB2A,GO:0007017,microtubule-based process,biological_process,TUBB2A protein
+1162,TUBB2A,GO:0005634,nucleus,cellular_component,Tubulin beta-2A chain
+1163,TUBB2A,GO:0005737,cytoplasm,cellular_component,Tubulin beta-2A chain
+1164,TUBB2A,GO:0005856,cytoskeleton,cellular_component,Tubulin beta-2A chain
+1165,TUBB2A,GO:0005874,microtubule,cellular_component,Tubulin beta-2A chain
+1166,TUBB2A,GO:0005874,microtubule,cellular_component,TUBB2A protein
+1167,TUBB2A,GO:0070062,extracellular exosome,cellular_component,Tubulin beta-2A chain
+1168,TUBB2A,GO:1903561,extracellular vesicle,cellular_component,Tubulin beta-2A chain
+1169,TUBB2A,GO:0000166,nucleotide binding,molecular_function,Tubulin beta-2A chain
+1170,TUBB2A,GO:0000166,nucleotide binding,molecular_function,TUBB2A protein
+1171,TUBB2A,GO:0003924,GTPase activity,molecular_function,Tubulin beta-2A chain
+1172,TUBB2A,GO:0003924,GTPase activity,molecular_function,TUBB2A protein
+1173,TUBB2A,GO:0005200,structural constituent of cytoskeleton,molecular_function,Tubulin beta-2A chain
+1174,TUBB2A,GO:0005200,structural constituent of cytoskeleton,molecular_function,TUBB2A protein
+1175,TUBB2A,GO:0005515,protein binding,molecular_function,Tubulin beta-2A chain
+1176,TUBB2A,GO:0005525,GTP binding,molecular_function,Tubulin beta-2A chain
+1177,TUBB2A,GO:0005525,GTP binding,molecular_function,TUBB2A protein
+1178,TUBB2B,GO:0001764,neuron migration,biological_process,Tubulin beta-2B chain
+1179,TUBB2B,GO:0007017,microtubule-based process,biological_process,Tubulin beta-2B chain
+1180,TUBB2B,GO:0007017,microtubule-based process,biological_process,"Tubulin, beta 2B, isoform CRA_b"
+1181,TUBB2B,GO:0007017,microtubule-based process,biological_process,TUBB2B protein
+1182,TUBB2B,GO:0005634,nucleus,cellular_component,Tubulin beta-2B chain
+1183,TUBB2B,GO:0005737,cytoplasm,cellular_component,Tubulin beta-2B chain
+1184,TUBB2B,GO:0005856,cytoskeleton,cellular_component,Tubulin beta-2B chain
+1185,TUBB2B,GO:0005874,microtubule,cellular_component,Tubulin beta-2B chain
+1186,TUBB2B,GO:0005874,microtubule,cellular_component,"Tubulin, beta 2B, isoform CRA_b"
+1187,TUBB2B,GO:0005874,microtubule,cellular_component,TUBB2B protein
+1188,TUBB2B,GO:0000166,nucleotide binding,molecular_function,Tubulin beta-2B chain
+1189,TUBB2B,GO:0000166,nucleotide binding,molecular_function,"Tubulin, beta 2B, isoform CRA_b"
+1190,TUBB2B,GO:0000166,nucleotide binding,molecular_function,TUBB2B protein
+1191,TUBB2B,GO:0003924,GTPase activity,molecular_function,Tubulin beta-2B chain
+1192,TUBB2B,GO:0003924,GTPase activity,molecular_function,"Tubulin, beta 2B, isoform CRA_b"
+1193,TUBB2B,GO:0003924,GTPase activity,molecular_function,TUBB2B protein
+1194,TUBB2B,GO:0005200,structural constituent of cytoskeleton,molecular_function,Tubulin beta-2B chain
+1195,TUBB2B,GO:0005200,structural constituent of cytoskeleton,molecular_function,"Tubulin, beta 2B, isoform CRA_b"
+1196,TUBB2B,GO:0005200,structural constituent of cytoskeleton,molecular_function,TUBB2B protein
+1197,TUBB2B,GO:0005515,protein binding,molecular_function,Tubulin beta-2B chain
+1198,TUBB2B,GO:0005525,GTP binding,molecular_function,Tubulin beta-2B chain
+1199,TUBB2B,GO:0005525,GTP binding,molecular_function,"Tubulin, beta 2B, isoform CRA_b"
+1200,TUBB2B,GO:0005525,GTP binding,molecular_function,TUBB2B protein
+1201,UBTFL6,GO:0005634,nucleus,cellular_component,Putative upstream-binding factor 1-like protein 6
+1202,UBTFL6,GO:0003677,DNA binding,molecular_function,Putative upstream-binding factor 1-like protein 6
+1203,WRNIP1,GO:0000731,DNA synthesis involved in DNA repair,biological_process,ATPase WRNIP1
+1204,WRNIP1,GO:0006260,DNA replication,biological_process,ATPase WRNIP1
+1205,WRNIP1,GO:0006281,DNA repair,biological_process,ATPase WRNIP1
+1206,WRNIP1,GO:0006974,cellular response to DNA damage stimulus,biological_process,ATPase WRNIP1
+1207,WRNIP1,GO:0030174,regulation of DNA-dependent DNA replication initiation,biological_process,ATPase WRNIP1
+1208,WRNIP1,GO:0000784,"nuclear chromosome, telomeric region",cellular_component,ATPase WRNIP1
+1209,WRNIP1,GO:0005634,nucleus,cellular_component,ATPase WRNIP1
+1210,WRNIP1,GO:0016020,membrane,cellular_component,ATPase WRNIP1
+1211,WRNIP1,GO:0048471,perinuclear region of cytoplasm,cellular_component,ATPase WRNIP1
+1212,WRNIP1,GO:0000166,nucleotide binding,molecular_function,ATPase WRNIP1
+1213,WRNIP1,GO:0003677,DNA binding,molecular_function,ATPase WRNIP1
+1214,WRNIP1,GO:0005515,protein binding,molecular_function,ATPase WRNIP1
+1215,WRNIP1,GO:0005524,ATP binding,molecular_function,ATPase WRNIP1
+1216,WRNIP1,GO:0016787,hydrolase activity,molecular_function,ATPase WRNIP1
+1217,WRNIP1,GO:0016887,ATPase activity,molecular_function,ATPase WRNIP1
+1218,WRNIP1,GO:0042802,identical protein binding,molecular_function,ATPase WRNIP1
+1219,WRNIP1,GO:0046872,metal ion binding,molecular_function,ATPase WRNIP1
+1220,ZAP70,GO:0002250,adaptive immune response,biological_process,Tyrosine-protein kinase ZAP-70
+1221,ZAP70,GO:0002281,macrophage activation involved in immune response,biological_process,Tyrosine-protein kinase ZAP-70
+1222,ZAP70,GO:0002283,neutrophil activation involved in immune response,biological_process,Tyrosine-protein kinase ZAP-70
+1223,ZAP70,GO:0002376,immune system process,biological_process,Tyrosine-protein kinase ZAP-70
+1224,ZAP70,GO:0006468,protein phosphorylation,biological_process,Tyrosine-protein kinase ZAP-70
+1225,ZAP70,GO:0006954,inflammatory response,biological_process,Tyrosine-protein kinase ZAP-70
+1226,ZAP70,GO:0006955,immune response,biological_process,Tyrosine-protein kinase ZAP-70
+1227,ZAP70,GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,biological_process,Tyrosine-protein kinase ZAP-70
+1228,ZAP70,GO:0016310,phosphorylation,biological_process,Tyrosine-protein kinase ZAP-70
+1229,ZAP70,GO:0018108,peptidyl-tyrosine phosphorylation,biological_process,Tyrosine-protein kinase ZAP-70
+1230,ZAP70,GO:0030217,T cell differentiation,biological_process,Tyrosine-protein kinase ZAP-70
+1231,ZAP70,GO:0033630,positive regulation of cell adhesion mediated by integrin,biological_process,Tyrosine-protein kinase ZAP-70
+1232,ZAP70,GO:0035556,intracellular signal transduction,biological_process,Tyrosine-protein kinase ZAP-70
+1233,ZAP70,GO:0038083,peptidyl-tyrosine autophosphorylation,biological_process,Tyrosine-protein kinase ZAP-70
+1234,ZAP70,GO:0042110,T cell activation,biological_process,Tyrosine-protein kinase ZAP-70
+1235,ZAP70,GO:0042113,B cell activation,biological_process,Tyrosine-protein kinase ZAP-70
+1236,ZAP70,GO:0043306,positive regulation of mast cell degranulation,biological_process,Tyrosine-protein kinase ZAP-70
+1237,ZAP70,GO:0043366,beta selection,biological_process,Tyrosine-protein kinase ZAP-70
+1238,ZAP70,GO:0045059,positive thymic T cell selection,biological_process,Tyrosine-protein kinase ZAP-70
+1239,ZAP70,GO:0045060,negative thymic T cell selection,biological_process,Tyrosine-protein kinase ZAP-70
+1240,ZAP70,GO:0045061,thymic T cell selection,biological_process,Tyrosine-protein kinase ZAP-70
+1241,ZAP70,GO:0045087,innate immune response,biological_process,Tyrosine-protein kinase ZAP-70
+1242,ZAP70,GO:0045579,positive regulation of B cell differentiation,biological_process,Tyrosine-protein kinase ZAP-70
+1243,ZAP70,GO:0045582,positive regulation of T cell differentiation,biological_process,Tyrosine-protein kinase ZAP-70
+1244,ZAP70,GO:0046638,positive regulation of alpha-beta T cell differentiation,biological_process,Tyrosine-protein kinase ZAP-70
+1245,ZAP70,GO:0046641,positive regulation of alpha-beta T cell proliferation,biological_process,Tyrosine-protein kinase ZAP-70
+1246,ZAP70,GO:0046777,protein autophosphorylation,biological_process,Tyrosine-protein kinase ZAP-70
+1247,ZAP70,GO:0050850,positive regulation of calcium-mediated signaling,biological_process,Tyrosine-protein kinase ZAP-70
+1248,ZAP70,GO:0050852,T cell receptor signaling pathway,biological_process,Tyrosine-protein kinase ZAP-70
+1249,ZAP70,GO:0050853,B cell receptor signaling pathway,biological_process,Tyrosine-protein kinase ZAP-70
+1250,ZAP70,GO:0070489,T cell aggregation,biological_process,Tyrosine-protein kinase ZAP-70
+1251,ZAP70,GO:0072678,T cell migration,biological_process,Tyrosine-protein kinase ZAP-70
+1252,ZAP70,GO:0090330,regulation of platelet aggregation,biological_process,Tyrosine-protein kinase ZAP-70
+1253,ZAP70,GO:0001772,immunological synapse,cellular_component,Tyrosine-protein kinase ZAP-70
+1254,ZAP70,GO:0005737,cytoplasm,cellular_component,Tyrosine-protein kinase ZAP-70
+1255,ZAP70,GO:0005829,cytosol,cellular_component,Tyrosine-protein kinase ZAP-70
+1256,ZAP70,GO:0005886,plasma membrane,cellular_component,Tyrosine-protein kinase ZAP-70
+1257,ZAP70,GO:0005911,cell-cell junction,cellular_component,Tyrosine-protein kinase ZAP-70
+1258,ZAP70,GO:0016020,membrane,cellular_component,Tyrosine-protein kinase ZAP-70
+1259,ZAP70,GO:0031234,extrinsic component of cytoplasmic side of plasma membrane,cellular_component,Tyrosine-protein kinase ZAP-70
+1260,ZAP70,GO:0042101,T cell receptor complex,cellular_component,Tyrosine-protein kinase ZAP-70
+1261,ZAP70,GO:0045121,membrane raft,cellular_component,Tyrosine-protein kinase ZAP-70
+1262,ZAP70,GO:0000166,nucleotide binding,molecular_function,Tyrosine-protein kinase ZAP-70
+1263,ZAP70,GO:0001784,phosphotyrosine binding,molecular_function,Tyrosine-protein kinase ZAP-70
+1264,ZAP70,GO:0004672,protein kinase activity,molecular_function,Tyrosine-protein kinase ZAP-70
+1265,ZAP70,GO:0004713,protein tyrosine kinase activity,molecular_function,Tyrosine-protein kinase ZAP-70
+1266,ZAP70,GO:0004715,non-membrane spanning protein tyrosine kinase activity,molecular_function,Tyrosine-protein kinase ZAP-70
+1267,ZAP70,GO:0005102,receptor binding,molecular_function,Tyrosine-protein kinase ZAP-70
+1268,ZAP70,GO:0005515,protein binding,molecular_function,Tyrosine-protein kinase ZAP-70
+1269,ZAP70,GO:0005524,ATP binding,molecular_function,Tyrosine-protein kinase ZAP-70
+1270,ZAP70,GO:0016301,kinase activity,molecular_function,Tyrosine-protein kinase ZAP-70
+1271,ZAP70,GO:0016740,transferase activity,molecular_function,Tyrosine-protein kinase ZAP-70
+1272,ZNF2,GO:0006351,"transcription, DNA-templated",biological_process,Zinc finger protein 2
+1273,ZNF2,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Zinc finger protein 2
+1274,ZNF2,GO:0005622,intracellular,cellular_component,Zinc finger protein 2
+1275,ZNF2,GO:0005634,nucleus,cellular_component,Zinc finger protein 2
+1276,ZNF2,GO:0003676,nucleic acid binding,molecular_function,Zinc finger protein 2
+1277,ZNF2,GO:0003677,DNA binding,molecular_function,Zinc finger protein 2
+1278,ZNF2,GO:0003700,"transcription factor activity, sequence-specific DNA binding",molecular_function,Zinc finger protein 2
+1279,ZNF2,GO:0005515,protein binding,molecular_function,Zinc finger protein 2
+1280,ZNF2,GO:0008270,zinc ion binding,molecular_function,Zinc finger protein 2
+1281,ZNF2,GO:0046872,metal ion binding,molecular_function,Zinc finger protein 2
+1282,ZNF385D,GO:0072332,intrinsic apoptotic signaling pathway by p53 class mediator,biological_process,Zinc finger protein 385D
+1283,ZNF385D,GO:0005634,nucleus,cellular_component,Zinc finger protein 385D
+1284,ZNF385D,GO:0002039,p53 binding,molecular_function,Zinc finger protein 385D
+1285,ZNF385D,GO:0003676,nucleic acid binding,molecular_function,Zinc finger protein 385D
+1286,ZNF385D,GO:0003723,RNA binding,molecular_function,Zinc finger protein 385D
+1287,ZNF385D,GO:0008270,zinc ion binding,molecular_function,Zinc finger protein 385D
+1288,ZNF385D,GO:0046872,metal ion binding,molecular_function,Zinc finger protein 385D
+1289,ZNF512,GO:0006351,"transcription, DNA-templated",biological_process,Zinc finger protein 512
+1290,ZNF512,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Zinc finger protein 512
+1291,ZNF512,GO:0005634,nucleus,cellular_component,Zinc finger protein 512
+1292,ZNF512,GO:0003677,DNA binding,molecular_function,Zinc finger protein 512
+1293,ZNF512,GO:0046872,metal ion binding,molecular_function,Zinc finger protein 512
+1294,ZNF514,GO:0006351,"transcription, DNA-templated",biological_process,Zinc finger protein 514
+1295,ZNF514,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Zinc finger protein 514
+1296,ZNF514,GO:0005622,intracellular,cellular_component,Zinc finger protein 514
+1297,ZNF514,GO:0005634,nucleus,cellular_component,Zinc finger protein 514
+1298,ZNF514,GO:0003676,nucleic acid binding,molecular_function,Zinc finger protein 514
+1299,ZNF514,GO:0003677,DNA binding,molecular_function,Zinc finger protein 514
+1300,ZNF514,GO:0003700,"transcription factor activity, sequence-specific DNA binding",molecular_function,Zinc finger protein 514
+1301,ZNF514,GO:0046872,metal ion binding,molecular_function,Zinc finger protein 514

@@ -1,0 +1,906 @@
+,symbol,acc,name,term_type,full_name
+0,ALS2CL,GO:0007032,endosome organization,biological_process,ALS2 C-terminal-like protein
+1,ALS2CL,GO:0035023,regulation of Rho protein signal transduction,biological_process,"ALS2 C-terminal like, isoform CRA_a"
+2,ALS2CL,GO:0035023,regulation of Rho protein signal transduction,biological_process,ALS2 C-terminal-like protein
+3,ALS2CL,GO:0035023,regulation of Rho protein signal transduction,biological_process,"ALS2 C-terminal like, isoform CRA_c"
+4,ALS2CL,GO:0043547,positive regulation of GTPase activity,biological_process,"ALS2 C-terminal like, isoform CRA_a"
+5,ALS2CL,GO:0043547,positive regulation of GTPase activity,biological_process,ALS2 C-terminal-like protein
+6,ALS2CL,GO:0043547,positive regulation of GTPase activity,biological_process,"ALS2 C-terminal like, isoform CRA_c"
+7,ALS2CL,GO:0005737,cytoplasm,cellular_component,ALS2 C-terminal-like protein
+8,ALS2CL,GO:0005089,Rho guanyl-nucleotide exchange factor activity,molecular_function,"ALS2 C-terminal like, isoform CRA_a"
+9,ALS2CL,GO:0005089,Rho guanyl-nucleotide exchange factor activity,molecular_function,ALS2 C-terminal-like protein
+10,ALS2CL,GO:0005089,Rho guanyl-nucleotide exchange factor activity,molecular_function,"ALS2 C-terminal like, isoform CRA_c"
+11,ALS2CL,GO:0005096,GTPase activator activity,molecular_function,ALS2 C-terminal-like protein
+12,ALS2CL,GO:0042802,identical protein binding,molecular_function,ALS2 C-terminal-like protein
+13,ANKRD23,GO:0009612,response to mechanical stimulus,biological_process,Ankyrin repeat domain-containing protein 23
+14,ANKRD23,GO:0005634,nucleus,cellular_component,Ankyrin repeat domain-containing protein 23
+15,ANKRD23,GO:0005654,nucleoplasm,cellular_component,Ankyrin repeat domain-containing protein 23
+16,ANKRD23,GO:0005737,cytoplasm,cellular_component,Ankyrin repeat domain-containing protein 23
+17,ANKRD23,GO:0014704,intercalated disc,cellular_component,Ankyrin repeat domain-containing protein 23
+18,ANKRD23,GO:0015629,actin cytoskeleton,cellular_component,Ankyrin repeat domain-containing protein 23
+19,ANKRD23,GO:0030016,myofibril,cellular_component,Ankyrin repeat domain-containing protein 23
+20,ANKRD23,GO:0031432,titin binding,molecular_function,Ankyrin repeat domain-containing protein 23
+21,ANKRD39,GO:0008150,biological_process,biological_process,Ankyrin repeat domain-containing protein 39
+22,ANKRD39,GO:0005575,cellular_component,cellular_component,Ankyrin repeat domain-containing protein 39
+23,ANKRD39,GO:0003674,molecular_function,molecular_function,Ankyrin repeat domain-containing protein 39
+24,ASTE1,GO:0006281,DNA repair,biological_process,"Asteroid homolog 1 (Drosophila), isoform CRA_c"
+25,ASTE1,GO:0006281,DNA repair,biological_process,Protein asteroid homolog 1
+26,ASTE1,GO:0090305,nucleic acid phosphodiester bond hydrolysis,biological_process,"Asteroid homolog 1 (Drosophila), isoform CRA_c"
+27,ASTE1,GO:0090305,nucleic acid phosphodiester bond hydrolysis,biological_process,Protein asteroid homolog 1
+28,ASTE1,GO:0004518,nuclease activity,molecular_function,"Asteroid homolog 1 (Drosophila), isoform CRA_c"
+29,ASTE1,GO:0004518,nuclease activity,molecular_function,Protein asteroid homolog 1
+30,ASTE1,GO:0005515,protein binding,molecular_function,Protein asteroid homolog 1
+31,ATP2C1,GO:0006810,transport,biological_process,Calcium-transporting ATPase
+32,ATP2C1,GO:0006810,transport,biological_process,Calcium-transporting ATPase type 2C member 1
+33,ATP2C1,GO:0006811,ion transport,biological_process,Calcium-transporting ATPase
+34,ATP2C1,GO:0006811,ion transport,biological_process,Calcium-transporting ATPase type 2C member 1
+35,ATP2C1,GO:0006816,calcium ion transport,biological_process,Calcium-transporting ATPase
+36,ATP2C1,GO:0006816,calcium ion transport,biological_process,Calcium-transporting ATPase type 2C member 1
+37,ATP2C1,GO:0006828,manganese ion transport,biological_process,Calcium-transporting ATPase type 2C member 1
+38,ATP2C1,GO:0006874,cellular calcium ion homeostasis,biological_process,Calcium-transporting ATPase type 2C member 1
+39,ATP2C1,GO:0007165,signal transduction,biological_process,Calcium-transporting ATPase type 2C member 1
+40,ATP2C1,GO:0008544,epidermis development,biological_process,Calcium-transporting ATPase type 2C member 1
+41,ATP2C1,GO:0016339,calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules,biological_process,Calcium-transporting ATPase type 2C member 1
+42,ATP2C1,GO:0030026,cellular manganese ion homeostasis,biological_process,Calcium-transporting ATPase type 2C member 1
+43,ATP2C1,GO:0031532,actin cytoskeleton reorganization,biological_process,Calcium-transporting ATPase type 2C member 1
+44,ATP2C1,GO:0032468,Golgi calcium ion homeostasis,biological_process,Calcium-transporting ATPase type 2C member 1
+45,ATP2C1,GO:0032472,Golgi calcium ion transport,biological_process,Calcium-transporting ATPase type 2C member 1
+46,ATP2C1,GO:0034220,ion transmembrane transport,biological_process,Calcium-transporting ATPase type 2C member 1
+47,ATP2C1,GO:0043123,positive regulation of I-kappaB kinase/NF-kappaB signaling,biological_process,Calcium-transporting ATPase type 2C member 1
+48,ATP2C1,GO:0070588,calcium ion transmembrane transport,biological_process,Calcium-transporting ATPase
+49,ATP2C1,GO:0070588,calcium ion transmembrane transport,biological_process,Calcium-transporting ATPase type 2C member 1
+50,ATP2C1,GO:0071421,manganese ion transmembrane transport,biological_process,Calcium-transporting ATPase type 2C member 1
+51,ATP2C1,GO:0000139,Golgi membrane,cellular_component,Calcium-transporting ATPase type 2C member 1
+52,ATP2C1,GO:0005794,Golgi apparatus,cellular_component,Calcium-transporting ATPase type 2C member 1
+53,ATP2C1,GO:0005802,trans-Golgi network,cellular_component,Calcium-transporting ATPase type 2C member 1
+54,ATP2C1,GO:0005887,integral component of plasma membrane,cellular_component,Calcium-transporting ATPase type 2C member 1
+55,ATP2C1,GO:0016020,membrane,cellular_component,Calcium-transporting ATPase
+56,ATP2C1,GO:0016020,membrane,cellular_component,Calcium-transporting ATPase type 2C member 1
+57,ATP2C1,GO:0016021,integral component of membrane,cellular_component,Calcium-transporting ATPase
+58,ATP2C1,GO:0016021,integral component of membrane,cellular_component,Calcium-transporting ATPase type 2C member 1
+59,ATP2C1,GO:0000166,nucleotide binding,molecular_function,Calcium-transporting ATPase
+60,ATP2C1,GO:0000166,nucleotide binding,molecular_function,Calcium-transporting ATPase type 2C member 1
+61,ATP2C1,GO:0004871,signal transducer activity,molecular_function,Calcium-transporting ATPase type 2C member 1
+62,ATP2C1,GO:0005388,calcium-transporting ATPase activity,molecular_function,Calcium-transporting ATPase
+63,ATP2C1,GO:0005388,calcium-transporting ATPase activity,molecular_function,Calcium-transporting ATPase type 2C member 1
+64,ATP2C1,GO:0005509,calcium ion binding,molecular_function,Calcium-transporting ATPase type 2C member 1
+65,ATP2C1,GO:0005524,ATP binding,molecular_function,Calcium-transporting ATPase
+66,ATP2C1,GO:0005524,ATP binding,molecular_function,Calcium-transporting ATPase type 2C member 1
+67,ATP2C1,GO:0015410,manganese-transporting ATPase activity,molecular_function,Calcium-transporting ATPase type 2C member 1
+68,ATP2C1,GO:0016787,hydrolase activity,molecular_function,Calcium-transporting ATPase
+69,ATP2C1,GO:0016787,hydrolase activity,molecular_function,Calcium-transporting ATPase type 2C member 1
+70,ATP2C1,GO:0030145,manganese ion binding,molecular_function,Calcium-transporting ATPase type 2C member 1
+71,ATP2C1,GO:0046872,metal ion binding,molecular_function,Calcium-transporting ATPase
+72,ATP2C1,GO:0046872,metal ion binding,molecular_function,Calcium-transporting ATPase type 2C member 1
+73,BLK,GO:0006468,protein phosphorylation,biological_process,Tyrosine-protein kinase
+74,BLK,GO:0006468,protein phosphorylation,biological_process,Tyrosine-protein kinase Blk
+75,BLK,GO:0007010,cytoskeleton organization,biological_process,Tyrosine-protein kinase Blk
+76,BLK,GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,biological_process,Tyrosine-protein kinase Blk
+77,BLK,GO:0016310,phosphorylation,biological_process,Tyrosine-protein kinase
+78,BLK,GO:0016310,phosphorylation,biological_process,Tyrosine-protein kinase Blk
+79,BLK,GO:0018108,peptidyl-tyrosine phosphorylation,biological_process,Tyrosine-protein kinase
+80,BLK,GO:0030154,cell differentiation,biological_process,Tyrosine-protein kinase Blk
+81,BLK,GO:0032024,positive regulation of insulin secretion,biological_process,Tyrosine-protein kinase Blk
+82,BLK,GO:0035556,intracellular signal transduction,biological_process,Tyrosine-protein kinase Blk
+83,BLK,GO:0038083,peptidyl-tyrosine autophosphorylation,biological_process,Tyrosine-protein kinase Blk
+84,BLK,GO:0042127,regulation of cell proliferation,biological_process,Tyrosine-protein kinase Blk
+85,BLK,GO:0043066,negative regulation of apoptotic process,biological_process,Tyrosine-protein kinase Blk
+86,BLK,GO:0045087,innate immune response,biological_process,Tyrosine-protein kinase Blk
+87,BLK,GO:0050764,regulation of phagocytosis,biological_process,Tyrosine-protein kinase Blk
+88,BLK,GO:0050853,B cell receptor signaling pathway,biological_process,Tyrosine-protein kinase Blk
+89,BLK,GO:0071801,regulation of podosome assembly,biological_process,Tyrosine-protein kinase Blk
+90,BLK,GO:0005886,plasma membrane,cellular_component,Tyrosine-protein kinase Blk
+91,BLK,GO:0016020,membrane,cellular_component,Tyrosine-protein kinase Blk
+92,BLK,GO:0031234,extrinsic component of cytoplasmic side of plasma membrane,cellular_component,Tyrosine-protein kinase Blk
+93,BLK,GO:0000166,nucleotide binding,molecular_function,Tyrosine-protein kinase
+94,BLK,GO:0000166,nucleotide binding,molecular_function,Tyrosine-protein kinase Blk
+95,BLK,GO:0004672,protein kinase activity,molecular_function,Tyrosine-protein kinase
+96,BLK,GO:0004672,protein kinase activity,molecular_function,Tyrosine-protein kinase Blk
+97,BLK,GO:0004713,protein tyrosine kinase activity,molecular_function,Tyrosine-protein kinase
+98,BLK,GO:0004713,protein tyrosine kinase activity,molecular_function,Tyrosine-protein kinase Blk
+99,BLK,GO:0004715,non-membrane spanning protein tyrosine kinase activity,molecular_function,Tyrosine-protein kinase
+100,BLK,GO:0004715,non-membrane spanning protein tyrosine kinase activity,molecular_function,Tyrosine-protein kinase Blk
+101,BLK,GO:0005102,receptor binding,molecular_function,Tyrosine-protein kinase Blk
+102,BLK,GO:0005515,protein binding,molecular_function,Tyrosine-protein kinase Blk
+103,BLK,GO:0005524,ATP binding,molecular_function,Tyrosine-protein kinase
+104,BLK,GO:0005524,ATP binding,molecular_function,Tyrosine-protein kinase Blk
+105,BLK,GO:0016301,kinase activity,molecular_function,Tyrosine-protein kinase
+106,BLK,GO:0016301,kinase activity,molecular_function,Tyrosine-protein kinase Blk
+107,BLK,GO:0016740,transferase activity,molecular_function,Tyrosine-protein kinase
+108,BLK,GO:0016740,transferase activity,molecular_function,Tyrosine-protein kinase Blk
+109,C8orf74,GO:0005515,protein binding,molecular_function,Uncharacterized protein C8orf74
+110,CCR2,GO:0001974,blood vessel remodeling,biological_process,C-C chemokine receptor type 2
+111,CCR2,GO:0001974,blood vessel remodeling,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+112,CCR2,GO:0002407,dendritic cell chemotaxis,biological_process,C-C chemokine receptor type 2
+113,CCR2,GO:0002437,inflammatory response to antigenic stimulus,biological_process,C-C chemokine receptor type 2
+114,CCR2,GO:0002827,positive regulation of T-helper 1 type immune response,biological_process,C-C chemokine receptor type 2
+115,CCR2,GO:0002829,negative regulation of type 2 immune response,biological_process,C-C chemokine receptor type 2
+116,CCR2,GO:0006874,cellular calcium ion homeostasis,biological_process,C-C chemokine receptor type 2
+117,CCR2,GO:0006935,chemotaxis,biological_process,C-C chemokine receptor type 2
+118,CCR2,GO:0006935,chemotaxis,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+119,CCR2,GO:0006935,chemotaxis,biological_process,Chemokine receptor 2
+120,CCR2,GO:0006954,inflammatory response,biological_process,C-C chemokine receptor type 2
+121,CCR2,GO:0006954,inflammatory response,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+122,CCR2,GO:0006955,immune response,biological_process,C-C chemokine receptor type 2
+123,CCR2,GO:0006955,immune response,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+124,CCR2,GO:0006968,cellular defense response,biological_process,C-C chemokine receptor type 2
+125,CCR2,GO:0007165,signal transduction,biological_process,C-C chemokine receptor type 2
+126,CCR2,GO:0007165,signal transduction,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+127,CCR2,GO:0007165,signal transduction,biological_process,Chemokine receptor 2
+128,CCR2,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C chemokine receptor type 2
+129,CCR2,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+130,CCR2,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,Chemokine receptor 2
+131,CCR2,GO:0007194,negative regulation of adenylate cyclase activity,biological_process,C-C chemokine receptor type 2
+132,CCR2,GO:0007204,positive regulation of cytosolic calcium ion concentration,biological_process,C-C chemokine receptor type 2
+133,CCR2,GO:0007259,JAK-STAT cascade,biological_process,C-C chemokine receptor type 2
+134,CCR2,GO:0007568,aging,biological_process,C-C chemokine receptor type 2
+135,CCR2,GO:0009611,response to wounding,biological_process,C-C chemokine receptor type 2
+136,CCR2,GO:0010212,response to ionizing radiation,biological_process,C-C chemokine receptor type 2
+137,CCR2,GO:0010574,regulation of vascular endothelial growth factor production,biological_process,C-C chemokine receptor type 2
+138,CCR2,GO:0010628,positive regulation of gene expression,biological_process,C-C chemokine receptor type 2
+139,CCR2,GO:0010820,positive regulation of T cell chemotaxis,biological_process,C-C chemokine receptor type 2
+140,CCR2,GO:0016032,viral process,biological_process,C-C chemokine receptor type 2
+141,CCR2,GO:0016525,negative regulation of angiogenesis,biological_process,C-C chemokine receptor type 2
+142,CCR2,GO:0019221,cytokine-mediated signaling pathway,biological_process,C-C chemokine receptor type 2
+143,CCR2,GO:0019725,cellular homeostasis,biological_process,C-C chemokine receptor type 2
+144,CCR2,GO:0022409,positive regulation of cell-cell adhesion,biological_process,C-C chemokine receptor type 2
+145,CCR2,GO:0030336,negative regulation of cell migration,biological_process,C-C chemokine receptor type 2
+146,CCR2,GO:0030517,negative regulation of axon extension,biological_process,C-C chemokine receptor type 2
+147,CCR2,GO:0030900,forebrain development,biological_process,C-C chemokine receptor type 2
+148,CCR2,GO:0031622,positive regulation of fever generation,biological_process,C-C chemokine receptor type 2
+149,CCR2,GO:0032496,response to lipopolysaccharide,biological_process,C-C chemokine receptor type 2
+150,CCR2,GO:0032729,positive regulation of interferon-gamma production,biological_process,C-C chemokine receptor type 2
+151,CCR2,GO:0032743,positive regulation of interleukin-2 production,biological_process,C-C chemokine receptor type 2
+152,CCR2,GO:0032755,positive regulation of interleukin-6 production,biological_process,C-C chemokine receptor type 2
+153,CCR2,GO:0032760,positive regulation of tumor necrosis factor production,biological_process,C-C chemokine receptor type 2
+154,CCR2,GO:0035705,T-helper 17 cell chemotaxis,biological_process,C-C chemokine receptor type 2
+155,CCR2,GO:0042535,positive regulation of tumor necrosis factor biosynthetic process,biological_process,C-C chemokine receptor type 2
+156,CCR2,GO:0042742,defense response to bacterium,biological_process,C-C chemokine receptor type 2
+157,CCR2,GO:0043310,negative regulation of eosinophil degranulation,biological_process,C-C chemokine receptor type 2
+158,CCR2,GO:0045444,fat cell differentiation,biological_process,C-C chemokine receptor type 2
+159,CCR2,GO:0045666,positive regulation of neuron differentiation,biological_process,C-C chemokine receptor type 2
+160,CCR2,GO:0046641,positive regulation of alpha-beta T cell proliferation,biological_process,C-C chemokine receptor type 2
+161,CCR2,GO:0050718,positive regulation of interleukin-1 beta secretion,biological_process,C-C chemokine receptor type 2
+162,CCR2,GO:0050729,positive regulation of inflammatory response,biological_process,C-C chemokine receptor type 2
+163,CCR2,GO:0050870,positive regulation of T cell activation,biological_process,C-C chemokine receptor type 2
+164,CCR2,GO:0060139,positive regulation of apoptotic process by virus,biological_process,C-C chemokine receptor type 2
+165,CCR2,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C chemokine receptor type 2
+166,CCR2,GO:0070098,chemokine-mediated signaling pathway,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+167,CCR2,GO:0070098,chemokine-mediated signaling pathway,biological_process,Chemokine receptor 2
+168,CCR2,GO:0070997,neuron death,biological_process,C-C chemokine receptor type 2
+169,CCR2,GO:0090026,positive regulation of monocyte chemotaxis,biological_process,C-C chemokine receptor type 2
+170,CCR2,GO:0090026,positive regulation of monocyte chemotaxis,biological_process,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+171,CCR2,GO:0090050,positive regulation of cell migration involved in sprouting angiogenesis,biological_process,C-C chemokine receptor type 2
+172,CCR2,GO:0090265,positive regulation of immune complex clearance by monocytes and macrophages,biological_process,C-C chemokine receptor type 2
+173,CCR2,GO:2000178,negative regulation of neural precursor cell proliferation,biological_process,C-C chemokine receptor type 2
+174,CCR2,GO:2000439,positive regulation of monocyte extravasation,biological_process,C-C chemokine receptor type 2
+175,CCR2,GO:2000451,"positive regulation of CD8-positive, alpha-beta T cell extravasation",biological_process,C-C chemokine receptor type 2
+176,CCR2,GO:2000464,positive regulation of astrocyte chemotaxis,biological_process,C-C chemokine receptor type 2
+177,CCR2,GO:2000473,positive regulation of hematopoietic stem cell migration,biological_process,C-C chemokine receptor type 2
+178,CCR2,GO:0005737,cytoplasm,cellular_component,C-C chemokine receptor type 2
+179,CCR2,GO:0005768,endosome,cellular_component,C-C chemokine receptor type 2
+180,CCR2,GO:0005829,cytosol,cellular_component,C-C chemokine receptor type 2
+181,CCR2,GO:0005886,plasma membrane,cellular_component,C-C chemokine receptor type 2
+182,CCR2,GO:0005887,integral component of plasma membrane,cellular_component,C-C chemokine receptor type 2
+183,CCR2,GO:0009986,cell surface,cellular_component,C-C chemokine receptor type 2
+184,CCR2,GO:0016020,membrane,cellular_component,C-C chemokine receptor type 2
+185,CCR2,GO:0016020,membrane,cellular_component,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+186,CCR2,GO:0016020,membrane,cellular_component,Chemokine receptor 2
+187,CCR2,GO:0016021,integral component of membrane,cellular_component,C-C chemokine receptor type 2
+188,CCR2,GO:0016021,integral component of membrane,cellular_component,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+189,CCR2,GO:0016021,integral component of membrane,cellular_component,Chemokine receptor 2
+190,CCR2,GO:0030425,dendrite,cellular_component,C-C chemokine receptor type 2
+191,CCR2,GO:0043025,neuronal cell body,cellular_component,C-C chemokine receptor type 2
+192,CCR2,GO:0043204,perikaryon,cellular_component,C-C chemokine receptor type 2
+193,CCR2,GO:0048471,perinuclear region of cytoplasm,cellular_component,C-C chemokine receptor type 2
+194,CCR2,GO:0004871,signal transducer activity,molecular_function,C-C chemokine receptor type 2
+195,CCR2,GO:0004871,signal transducer activity,molecular_function,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+196,CCR2,GO:0004871,signal transducer activity,molecular_function,Chemokine receptor 2
+197,CCR2,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C chemokine receptor type 2
+198,CCR2,GO:0004930,G-protein coupled receptor activity,molecular_function,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+199,CCR2,GO:0004930,G-protein coupled receptor activity,molecular_function,Chemokine receptor 2
+200,CCR2,GO:0004950,chemokine receptor activity,molecular_function,C-C chemokine receptor type 2
+201,CCR2,GO:0004950,chemokine receptor activity,molecular_function,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+202,CCR2,GO:0004950,chemokine receptor activity,molecular_function,Chemokine receptor 2
+203,CCR2,GO:0005515,protein binding,molecular_function,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+204,CCR2,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C chemokine receptor type 2
+205,CCR2,GO:0016493,C-C chemokine receptor activity,molecular_function,"Chemokine (C-C motif) receptor 2, isoform CRA_a"
+206,CCR2,GO:0019901,protein kinase binding,molecular_function,C-C chemokine receptor type 2
+207,CCR2,GO:0031727,CCR2 chemokine receptor binding,molecular_function,C-C chemokine receptor type 2
+208,CCR2,GO:0042803,protein homodimerization activity,molecular_function,C-C chemokine receptor type 2
+209,CCR2,GO:0071791,chemokine (C-C motif) ligand 5 binding,molecular_function,C-C chemokine receptor type 2
+210,CCR5,GO:0000165,MAPK cascade,biological_process,C-C chemokine receptor type 5
+211,CCR5,GO:0002407,dendritic cell chemotaxis,biological_process,C-C chemokine receptor type 5
+212,CCR5,GO:0006816,calcium ion transport,biological_process,C-C chemokine receptor type 5
+213,CCR5,GO:0006935,chemotaxis,biological_process,C-C chemokine receptor type 5
+214,CCR5,GO:0006935,chemotaxis,biological_process,CC chemokine receptor 5
+215,CCR5,GO:0006935,chemotaxis,biological_process,Chemokine receptor 5 V131F variant
+216,CCR5,GO:0006935,chemotaxis,biological_process,Chemokine receptor 5 A159V variant
+217,CCR5,GO:0006935,chemotaxis,biological_process,CCR5 chemokine receptor T143N variant
+218,CCR5,GO:0006935,chemotaxis,biological_process,CCR5 chemokine receptor T239A variant
+219,CCR5,GO:0006935,chemotaxis,biological_process,CCR5 chemokine receptor G301R variant
+220,CCR5,GO:0006935,chemotaxis,biological_process,C-C motif chemokine receptor 5 V130I variant
+221,CCR5,GO:0006935,chemotaxis,biological_process,Chemokine receptor 5
+222,CCR5,GO:0006935,chemotaxis,biological_process,CCR5
+223,CCR5,GO:0006935,chemotaxis,biological_process,C-C motif chemokine receptor 5 F158Y variant
+224,CCR5,GO:0006935,chemotaxis,biological_process,Mutant C-C motif chemokine receptor
+225,CCR5,GO:0006935,chemotaxis,biological_process,C-C motif chemokine receptor 5 I49M variant
+226,CCR5,GO:0006935,chemotaxis,biological_process,C-C motif chemokine receptor 5 M64K variant
+227,CCR5,GO:0006935,chemotaxis,biological_process,C-C motif chemokine receptor 5 P250R variant
+228,CCR5,GO:0006935,chemotaxis,biological_process,C-C motif chemokine receptor
+229,CCR5,GO:0006935,chemotaxis,biological_process,C-C motif chemokine receptor 5 E227D variant
+230,CCR5,GO:0006935,chemotaxis,biological_process,CCR5 receptor
+231,CCR5,GO:0006935,chemotaxis,biological_process,Mutant CCR5 chemokine receptor
+232,CCR5,GO:0006935,chemotaxis,biological_process,CC chemokine receptor 5 variant
+233,CCR5,GO:0006935,chemotaxis,biological_process,CCR5 chemokine receptor
+234,CCR5,GO:0006935,chemotaxis,biological_process,C-C chemokine receptor 5
+235,CCR5,GO:0006954,inflammatory response,biological_process,C-C chemokine receptor type 5
+236,CCR5,GO:0006954,inflammatory response,biological_process,CC chemokine receptor 5
+237,CCR5,GO:0006954,inflammatory response,biological_process,Chemokine receptor 5 V131F variant
+238,CCR5,GO:0006954,inflammatory response,biological_process,Chemokine receptor 5 A159V variant
+239,CCR5,GO:0006954,inflammatory response,biological_process,CCR5 chemokine receptor T143N variant
+240,CCR5,GO:0006954,inflammatory response,biological_process,CCR5 chemokine receptor T239A variant
+241,CCR5,GO:0006954,inflammatory response,biological_process,CCR5 chemokine receptor G301R variant
+242,CCR5,GO:0006954,inflammatory response,biological_process,C-C motif chemokine receptor 5 V130I variant
+243,CCR5,GO:0006954,inflammatory response,biological_process,Chemokine receptor 5
+244,CCR5,GO:0006954,inflammatory response,biological_process,C-C motif chemokine receptor 5 F158Y variant
+245,CCR5,GO:0006954,inflammatory response,biological_process,C-C motif chemokine receptor 5 I49M variant
+246,CCR5,GO:0006954,inflammatory response,biological_process,C-C motif chemokine receptor 5 M64K variant
+247,CCR5,GO:0006954,inflammatory response,biological_process,C-C motif chemokine receptor 5 P250R variant
+248,CCR5,GO:0006954,inflammatory response,biological_process,C-C motif chemokine receptor
+249,CCR5,GO:0006954,inflammatory response,biological_process,C-C motif chemokine receptor 5 E227D variant
+250,CCR5,GO:0006954,inflammatory response,biological_process,CCR5 receptor
+251,CCR5,GO:0006954,inflammatory response,biological_process,Mutant CCR5 chemokine receptor
+252,CCR5,GO:0006954,inflammatory response,biological_process,CC chemokine receptor 5 variant
+253,CCR5,GO:0006954,inflammatory response,biological_process,CCR5 chemokine receptor
+254,CCR5,GO:0006954,inflammatory response,biological_process,C-C chemokine receptor 5
+255,CCR5,GO:0006955,immune response,biological_process,C-C chemokine receptor type 5
+256,CCR5,GO:0006955,immune response,biological_process,CC chemokine receptor 5
+257,CCR5,GO:0006955,immune response,biological_process,Chemokine receptor 5 V131F variant
+258,CCR5,GO:0006955,immune response,biological_process,Chemokine receptor 5 A159V variant
+259,CCR5,GO:0006955,immune response,biological_process,CCR5 chemokine receptor T143N variant
+260,CCR5,GO:0006955,immune response,biological_process,CCR5 chemokine receptor T239A variant
+261,CCR5,GO:0006955,immune response,biological_process,CCR5 chemokine receptor G301R variant
+262,CCR5,GO:0006955,immune response,biological_process,C-C motif chemokine receptor 5 V130I variant
+263,CCR5,GO:0006955,immune response,biological_process,Chemokine receptor 5
+264,CCR5,GO:0006955,immune response,biological_process,C-C motif chemokine receptor 5 F158Y variant
+265,CCR5,GO:0006955,immune response,biological_process,C-C motif chemokine receptor 5 I49M variant
+266,CCR5,GO:0006955,immune response,biological_process,C-C motif chemokine receptor 5 M64K variant
+267,CCR5,GO:0006955,immune response,biological_process,C-C motif chemokine receptor 5 P250R variant
+268,CCR5,GO:0006955,immune response,biological_process,C-C motif chemokine receptor
+269,CCR5,GO:0006955,immune response,biological_process,C-C motif chemokine receptor 5 E227D variant
+270,CCR5,GO:0006955,immune response,biological_process,CCR5 receptor
+271,CCR5,GO:0006955,immune response,biological_process,Mutant CCR5 chemokine receptor
+272,CCR5,GO:0006955,immune response,biological_process,CC chemokine receptor 5 variant
+273,CCR5,GO:0006955,immune response,biological_process,CCR5 chemokine receptor
+274,CCR5,GO:0006955,immune response,biological_process,C-C chemokine receptor 5
+275,CCR5,GO:0006968,cellular defense response,biological_process,C-C chemokine receptor type 5
+276,CCR5,GO:0007165,signal transduction,biological_process,C-C chemokine receptor type 5
+277,CCR5,GO:0007165,signal transduction,biological_process,CC chemokine receptor 5
+278,CCR5,GO:0007165,signal transduction,biological_process,Chemokine receptor 5 V131F variant
+279,CCR5,GO:0007165,signal transduction,biological_process,Chemokine receptor 5 A159V variant
+280,CCR5,GO:0007165,signal transduction,biological_process,CCR5 chemokine receptor T143N variant
+281,CCR5,GO:0007165,signal transduction,biological_process,CCR5 chemokine receptor T239A variant
+282,CCR5,GO:0007165,signal transduction,biological_process,CCR5 chemokine receptor G301R variant
+283,CCR5,GO:0007165,signal transduction,biological_process,C-C motif chemokine receptor 5 V130I variant
+284,CCR5,GO:0007165,signal transduction,biological_process,Chemokine receptor 5
+285,CCR5,GO:0007165,signal transduction,biological_process,CCR5
+286,CCR5,GO:0007165,signal transduction,biological_process,C-C motif chemokine receptor 5 F158Y variant
+287,CCR5,GO:0007165,signal transduction,biological_process,Mutant C-C motif chemokine receptor
+288,CCR5,GO:0007165,signal transduction,biological_process,C-C motif chemokine receptor 5 I49M variant
+289,CCR5,GO:0007165,signal transduction,biological_process,C-C motif chemokine receptor 5 M64K variant
+290,CCR5,GO:0007165,signal transduction,biological_process,C-C motif chemokine receptor 5 P250R variant
+291,CCR5,GO:0007165,signal transduction,biological_process,C-C motif chemokine receptor
+292,CCR5,GO:0007165,signal transduction,biological_process,C-C motif chemokine receptor 5 E227D variant
+293,CCR5,GO:0007165,signal transduction,biological_process,CCR5 receptor
+294,CCR5,GO:0007165,signal transduction,biological_process,Mutant CCR5 chemokine receptor
+295,CCR5,GO:0007165,signal transduction,biological_process,CC chemokine receptor 5 variant
+296,CCR5,GO:0007165,signal transduction,biological_process,CCR5 chemokine receptor
+297,CCR5,GO:0007165,signal transduction,biological_process,C-C chemokine receptor 5
+298,CCR5,GO:0007166,cell surface receptor signaling pathway,biological_process,C-C chemokine receptor type 5
+299,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C chemokine receptor type 5
+300,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CC chemokine receptor 5
+301,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,Chemokine receptor 5 V131F variant
+302,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,Chemokine receptor 5 A159V variant
+303,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CCR5 chemokine receptor T143N variant
+304,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CCR5 chemokine receptor T239A variant
+305,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CCR5 chemokine receptor G301R variant
+306,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C motif chemokine receptor 5 V130I variant
+307,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,Chemokine receptor 5
+308,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CCR5
+309,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C motif chemokine receptor 5 F158Y variant
+310,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,Mutant C-C motif chemokine receptor
+311,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C motif chemokine receptor 5 I49M variant
+312,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C motif chemokine receptor 5 M64K variant
+313,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C motif chemokine receptor 5 P250R variant
+314,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C motif chemokine receptor
+315,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C motif chemokine receptor 5 E227D variant
+316,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CCR5 receptor
+317,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,Mutant CCR5 chemokine receptor
+318,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CC chemokine receptor 5 variant
+319,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,CCR5 chemokine receptor
+320,CCR5,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C chemokine receptor 5
+321,CCR5,GO:0007204,positive regulation of cytosolic calcium ion concentration,biological_process,C-C chemokine receptor type 5
+322,CCR5,GO:0007267,cell-cell signaling,biological_process,C-C chemokine receptor type 5
+323,CCR5,GO:0014808,release of sequestered calcium ion into cytosol by sarcoplasmic reticulum,biological_process,C-C chemokine receptor type 5
+324,CCR5,GO:0016032,viral process,biological_process,C-C chemokine receptor type 5
+325,CCR5,GO:0019064,fusion of virus membrane with host plasma membrane,biological_process,C-C chemokine receptor type 5
+326,CCR5,GO:0019722,calcium-mediated signaling,biological_process,C-C chemokine receptor type 5
+327,CCR5,GO:0023052,signaling,biological_process,C-C chemokine receptor type 5
+328,CCR5,GO:0030260,entry into host cell,biological_process,C-C chemokine receptor type 5
+329,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C chemokine receptor type 5
+330,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CC chemokine receptor 5
+331,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,Chemokine receptor 5 V131F variant
+332,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,Chemokine receptor 5 A159V variant
+333,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CCR5 chemokine receptor T143N variant
+334,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CCR5 chemokine receptor T239A variant
+335,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CCR5 chemokine receptor G301R variant
+336,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C motif chemokine receptor 5 V130I variant
+337,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,Chemokine receptor 5
+338,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CCR5
+339,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C motif chemokine receptor 5 F158Y variant
+340,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,Mutant C-C motif chemokine receptor
+341,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C motif chemokine receptor 5 I49M variant
+342,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C motif chemokine receptor 5 M64K variant
+343,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C motif chemokine receptor 5 P250R variant
+344,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C motif chemokine receptor
+345,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C motif chemokine receptor 5 E227D variant
+346,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CCR5 receptor
+347,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,Mutant CCR5 chemokine receptor
+348,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CC chemokine receptor 5 variant
+349,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,CCR5 chemokine receptor
+350,CCR5,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C chemokine receptor 5
+351,CCR5,GO:0070723,response to cholesterol,biological_process,C-C chemokine receptor type 5
+352,CCR5,GO:0071222,cellular response to lipopolysaccharide,biological_process,C-C chemokine receptor type 5
+353,CCR5,GO:0005737,cytoplasm,cellular_component,C-C chemokine receptor type 5
+354,CCR5,GO:0005768,endosome,cellular_component,C-C chemokine receptor type 5
+355,CCR5,GO:0005886,plasma membrane,cellular_component,C-C chemokine receptor type 5
+356,CCR5,GO:0005887,integral component of plasma membrane,cellular_component,C-C chemokine receptor type 5
+357,CCR5,GO:0009897,external side of plasma membrane,cellular_component,C-C chemokine receptor type 5
+358,CCR5,GO:0009986,cell surface,cellular_component,C-C chemokine receptor type 5
+359,CCR5,GO:0016020,membrane,cellular_component,C-C chemokine receptor type 5
+360,CCR5,GO:0016020,membrane,cellular_component,CC chemokine receptor 5
+361,CCR5,GO:0016020,membrane,cellular_component,Chemokine receptor 5 V131F variant
+362,CCR5,GO:0016020,membrane,cellular_component,Chemokine receptor 5 A159V variant
+363,CCR5,GO:0016020,membrane,cellular_component,CCR5 chemokine receptor T143N variant
+364,CCR5,GO:0016020,membrane,cellular_component,CCR5 chemokine receptor T239A variant
+365,CCR5,GO:0016020,membrane,cellular_component,CCR5 chemokine receptor G301R variant
+366,CCR5,GO:0016020,membrane,cellular_component,C-C motif chemokine receptor 5 V130I variant
+367,CCR5,GO:0016020,membrane,cellular_component,Chemokine receptor 5
+368,CCR5,GO:0016020,membrane,cellular_component,Mutant chemokine receptor 5
+369,CCR5,GO:0016020,membrane,cellular_component,CCR5
+370,CCR5,GO:0016020,membrane,cellular_component,C-C motif chemokine receptor 5 F158Y variant
+371,CCR5,GO:0016020,membrane,cellular_component,Mutant C-C motif chemokine receptor
+372,CCR5,GO:0016020,membrane,cellular_component,C-C motif chemokine receptor 5 I49M variant
+373,CCR5,GO:0016020,membrane,cellular_component,C-C motif chemokine receptor 5 M64K variant
+374,CCR5,GO:0016020,membrane,cellular_component,C-C motif chemokine receptor 5 P250R variant
+375,CCR5,GO:0016020,membrane,cellular_component,C-C motif chemokine receptor
+376,CCR5,GO:0016020,membrane,cellular_component,C-C motif chemokine receptor 5 E227D variant
+377,CCR5,GO:0016020,membrane,cellular_component,CCR5 receptor
+378,CCR5,GO:0016020,membrane,cellular_component,Mutant CCR5 chemokine receptor
+379,CCR5,GO:0016020,membrane,cellular_component,CC chemokine receptor 5 variant
+380,CCR5,GO:0016020,membrane,cellular_component,CCR5 chemokine receptor
+381,CCR5,GO:0016020,membrane,cellular_component,Chemokine receptor CCR5
+382,CCR5,GO:0016020,membrane,cellular_component,Mutant chemokine receptor CCR5
+383,CCR5,GO:0016020,membrane,cellular_component,C-C chemokine receptor 5
+384,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C chemokine receptor type 5
+385,CCR5,GO:0016021,integral component of membrane,cellular_component,CC chemokine receptor 5
+386,CCR5,GO:0016021,integral component of membrane,cellular_component,Chemokine receptor 5 V131F variant
+387,CCR5,GO:0016021,integral component of membrane,cellular_component,Chemokine receptor 5 A159V variant
+388,CCR5,GO:0016021,integral component of membrane,cellular_component,CCR5 chemokine receptor T143N variant
+389,CCR5,GO:0016021,integral component of membrane,cellular_component,CCR5 chemokine receptor T239A variant
+390,CCR5,GO:0016021,integral component of membrane,cellular_component,CCR5 chemokine receptor G301R variant
+391,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C motif chemokine receptor 5 V130I variant
+392,CCR5,GO:0016021,integral component of membrane,cellular_component,Chemokine receptor 5
+393,CCR5,GO:0016021,integral component of membrane,cellular_component,Mutant chemokine receptor 5
+394,CCR5,GO:0016021,integral component of membrane,cellular_component,CCR5
+395,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C motif chemokine receptor 5 F158Y variant
+396,CCR5,GO:0016021,integral component of membrane,cellular_component,Mutant C-C motif chemokine receptor
+397,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C motif chemokine receptor 5 I49M variant
+398,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C motif chemokine receptor 5 M64K variant
+399,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C motif chemokine receptor 5 P250R variant
+400,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C motif chemokine receptor
+401,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C motif chemokine receptor 5 E227D variant
+402,CCR5,GO:0016021,integral component of membrane,cellular_component,CCR5 receptor
+403,CCR5,GO:0016021,integral component of membrane,cellular_component,Mutant CCR5 chemokine receptor
+404,CCR5,GO:0016021,integral component of membrane,cellular_component,CC chemokine receptor 5 variant
+405,CCR5,GO:0016021,integral component of membrane,cellular_component,CCR5 chemokine receptor
+406,CCR5,GO:0016021,integral component of membrane,cellular_component,Chemokine receptor CCR5
+407,CCR5,GO:0016021,integral component of membrane,cellular_component,Mutant chemokine receptor CCR5
+408,CCR5,GO:0016021,integral component of membrane,cellular_component,C-C chemokine receptor 5
+409,CCR5,GO:0001618,virus receptor activity,molecular_function,C-C chemokine receptor type 5
+410,CCR5,GO:0003779,actin binding,molecular_function,C-C chemokine receptor type 5
+411,CCR5,GO:0004435,phosphatidylinositol phospholipase C activity,molecular_function,C-C chemokine receptor type 5
+412,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C chemokine receptor type 5
+413,CCR5,GO:0004871,signal transducer activity,molecular_function,CC chemokine receptor 5
+414,CCR5,GO:0004871,signal transducer activity,molecular_function,Chemokine receptor 5 V131F variant
+415,CCR5,GO:0004871,signal transducer activity,molecular_function,Chemokine receptor 5 A159V variant
+416,CCR5,GO:0004871,signal transducer activity,molecular_function,CCR5 chemokine receptor T143N variant
+417,CCR5,GO:0004871,signal transducer activity,molecular_function,CCR5 chemokine receptor T239A variant
+418,CCR5,GO:0004871,signal transducer activity,molecular_function,CCR5 chemokine receptor G301R variant
+419,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C motif chemokine receptor 5 V130I variant
+420,CCR5,GO:0004871,signal transducer activity,molecular_function,Chemokine receptor 5
+421,CCR5,GO:0004871,signal transducer activity,molecular_function,CCR5
+422,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C motif chemokine receptor 5 F158Y variant
+423,CCR5,GO:0004871,signal transducer activity,molecular_function,Mutant C-C motif chemokine receptor
+424,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C motif chemokine receptor 5 I49M variant
+425,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C motif chemokine receptor 5 M64K variant
+426,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C motif chemokine receptor 5 P250R variant
+427,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C motif chemokine receptor
+428,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C motif chemokine receptor 5 E227D variant
+429,CCR5,GO:0004871,signal transducer activity,molecular_function,CCR5 receptor
+430,CCR5,GO:0004871,signal transducer activity,molecular_function,Mutant CCR5 chemokine receptor
+431,CCR5,GO:0004871,signal transducer activity,molecular_function,CC chemokine receptor 5 variant
+432,CCR5,GO:0004871,signal transducer activity,molecular_function,CCR5 chemokine receptor
+433,CCR5,GO:0004871,signal transducer activity,molecular_function,C-C chemokine receptor 5
+434,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C chemokine receptor type 5
+435,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CC chemokine receptor 5
+436,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,Chemokine receptor 5 V131F variant
+437,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,Chemokine receptor 5 A159V variant
+438,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CCR5 chemokine receptor T143N variant
+439,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CCR5 chemokine receptor T239A variant
+440,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CCR5 chemokine receptor G301R variant
+441,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C motif chemokine receptor 5 V130I variant
+442,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,Chemokine receptor 5
+443,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CCR5
+444,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C motif chemokine receptor 5 F158Y variant
+445,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,Mutant C-C motif chemokine receptor
+446,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C motif chemokine receptor 5 I49M variant
+447,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C motif chemokine receptor 5 M64K variant
+448,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C motif chemokine receptor 5 P250R variant
+449,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C motif chemokine receptor
+450,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C motif chemokine receptor 5 E227D variant
+451,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CCR5 receptor
+452,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,Mutant CCR5 chemokine receptor
+453,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CC chemokine receptor 5 variant
+454,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,CCR5 chemokine receptor
+455,CCR5,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C chemokine receptor 5
+456,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C chemokine receptor type 5
+457,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CC chemokine receptor 5
+458,CCR5,GO:0004950,chemokine receptor activity,molecular_function,Chemokine receptor 5 V131F variant
+459,CCR5,GO:0004950,chemokine receptor activity,molecular_function,Chemokine receptor 5 A159V variant
+460,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CCR5 chemokine receptor T143N variant
+461,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CCR5 chemokine receptor T239A variant
+462,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CCR5 chemokine receptor G301R variant
+463,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 V130I variant
+464,CCR5,GO:0004950,chemokine receptor activity,molecular_function,Chemokine receptor 5
+465,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CCR5
+466,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 F158Y variant
+467,CCR5,GO:0004950,chemokine receptor activity,molecular_function,Mutant C-C motif chemokine receptor
+468,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 I49M variant
+469,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 M64K variant
+470,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 P250R variant
+471,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C motif chemokine receptor
+472,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 E227D variant
+473,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CCR5 receptor
+474,CCR5,GO:0004950,chemokine receptor activity,molecular_function,Mutant CCR5 chemokine receptor
+475,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CC chemokine receptor 5 variant
+476,CCR5,GO:0004950,chemokine receptor activity,molecular_function,CCR5 chemokine receptor
+477,CCR5,GO:0004950,chemokine receptor activity,molecular_function,C-C chemokine receptor 5
+478,CCR5,GO:0005515,protein binding,molecular_function,C-C chemokine receptor type 5
+479,CCR5,GO:0015026,coreceptor activity,molecular_function,C-C chemokine receptor type 5
+480,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C chemokine receptor type 5
+481,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,CC chemokine receptor 5
+482,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,Chemokine receptor 5 V131F variant
+483,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,Chemokine receptor 5 A159V variant
+484,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,CCR5 chemokine receptor T143N variant
+485,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,CCR5 chemokine receptor T239A variant
+486,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,CCR5 chemokine receptor G301R variant
+487,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 V130I variant
+488,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,Chemokine receptor 5
+489,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 F158Y variant
+490,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 I49M variant
+491,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 M64K variant
+492,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 P250R variant
+493,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C motif chemokine receptor
+494,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C motif chemokine receptor 5 E227D variant
+495,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,CCR5 receptor
+496,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,Mutant CCR5 chemokine receptor
+497,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,CC chemokine receptor 5 variant
+498,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,CCR5 chemokine receptor
+499,CCR5,GO:0016493,C-C chemokine receptor activity,molecular_function,C-C chemokine receptor 5
+500,CCR5,GO:0019957,C-C chemokine binding,molecular_function,C-C chemokine receptor type 5
+501,CCR5,GO:0071791,chemokine (C-C motif) ligand 5 binding,molecular_function,C-C chemokine receptor type 5
+502,CCRL2,GO:0006935,chemotaxis,biological_process,C-C chemokine receptor-like 2
+503,CCRL2,GO:0006935,chemotaxis,biological_process,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+504,CCRL2,GO:0006954,inflammatory response,biological_process,C-C chemokine receptor-like 2
+505,CCRL2,GO:0007165,signal transduction,biological_process,C-C chemokine receptor-like 2
+506,CCRL2,GO:0007165,signal transduction,biological_process,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+507,CCRL2,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,C-C chemokine receptor-like 2
+508,CCRL2,GO:0007186,G-protein coupled receptor signaling pathway,biological_process,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+509,CCRL2,GO:0070098,chemokine-mediated signaling pathway,biological_process,C-C chemokine receptor-like 2
+510,CCRL2,GO:0070098,chemokine-mediated signaling pathway,biological_process,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+511,CCRL2,GO:0005886,plasma membrane,cellular_component,C-C chemokine receptor-like 2
+512,CCRL2,GO:0005887,integral component of plasma membrane,cellular_component,C-C chemokine receptor-like 2
+513,CCRL2,GO:0016020,membrane,cellular_component,C-C chemokine receptor-like 2
+514,CCRL2,GO:0016020,membrane,cellular_component,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+515,CCRL2,GO:0016021,integral component of membrane,cellular_component,C-C chemokine receptor-like 2
+516,CCRL2,GO:0016021,integral component of membrane,cellular_component,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+517,CCRL2,GO:0004871,signal transducer activity,molecular_function,C-C chemokine receptor-like 2
+518,CCRL2,GO:0004871,signal transducer activity,molecular_function,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+519,CCRL2,GO:0004930,G-protein coupled receptor activity,molecular_function,C-C chemokine receptor-like 2
+520,CCRL2,GO:0004930,G-protein coupled receptor activity,molecular_function,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+521,CCRL2,GO:0004950,chemokine receptor activity,molecular_function,C-C chemokine receptor-like 2
+522,CCRL2,GO:0004950,chemokine receptor activity,molecular_function,"Chemokine (C-C motif) receptor-like 2, isoform CRA_a"
+523,CCRL2,GO:0042379,chemokine receptor binding,molecular_function,C-C chemokine receptor-like 2
+524,CCRL2,GO:0048020,CCR chemokine receptor binding,molecular_function,C-C chemokine receptor-like 2
+525,CNNM3,GO:0006810,transport,biological_process,Metal transporter CNNM3
+526,CNNM3,GO:0006811,ion transport,biological_process,Metal transporter CNNM3
+527,CNNM3,GO:0005886,plasma membrane,cellular_component,Metal transporter CNNM3
+528,CNNM3,GO:0016020,membrane,cellular_component,Metal transporter CNNM3
+529,CNNM3,GO:0016021,integral component of membrane,cellular_component,Metal transporter CNNM3
+530,CNNM3,GO:0005515,protein binding,molecular_function,Metal transporter CNNM3
+531,CNNM4,GO:0006810,transport,biological_process,Metal transporter CNNM4
+532,CNNM4,GO:0006811,ion transport,biological_process,Metal transporter CNNM4
+533,CNNM4,GO:0007601,visual perception,biological_process,Metal transporter CNNM4
+534,CNNM4,GO:0010960,magnesium ion homeostasis,biological_process,Metal transporter CNNM4
+535,CNNM4,GO:0015693,magnesium ion transport,biological_process,Metal transporter CNNM4
+536,CNNM4,GO:0031214,biomineral tissue development,biological_process,Metal transporter CNNM4
+537,CNNM4,GO:0035725,sodium ion transmembrane transport,biological_process,Metal transporter CNNM4
+538,CNNM4,GO:0050896,response to stimulus,biological_process,Metal transporter CNNM4
+539,CNNM4,GO:0070166,enamel mineralization,biological_process,Metal transporter CNNM4
+540,CNNM4,GO:1903830,magnesium ion transmembrane transport,biological_process,Metal transporter CNNM4
+541,CNNM4,GO:0005886,plasma membrane,cellular_component,Metal transporter CNNM4
+542,CNNM4,GO:0016020,membrane,cellular_component,Metal transporter CNNM4
+543,CNNM4,GO:0016021,integral component of membrane,cellular_component,Metal transporter CNNM4
+544,CNNM4,GO:0016323,basolateral plasma membrane,cellular_component,Metal transporter CNNM4
+545,CNNM4,GO:0015081,sodium ion transmembrane transporter activity,molecular_function,Metal transporter CNNM4
+546,CNNM4,GO:0015095,magnesium ion transmembrane transporter activity,molecular_function,Metal transporter CNNM4
+547,CPNE4,GO:0070062,extracellular exosome,cellular_component,Copine-4
+548,CPNE4,GO:0005515,protein binding,molecular_function,Copine-4
+549,FAHD2B,GO:0008152,metabolic process,biological_process,Fumarylacetoacetate hydrolase domain-containing protein 2B
+550,FAHD2B,GO:0003824,catalytic activity,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2B
+551,FAHD2B,GO:0016787,hydrolase activity,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2B
+552,FAHD2B,GO:0046872,metal ion binding,molecular_function,Fumarylacetoacetate hydrolase domain-containing protein 2B
+553,FAM167A,GO:0005515,protein binding,molecular_function,Protein FAM167A
+554,FER1L5,GO:0007520,myoblast fusion,biological_process,Fer-1-like protein 5
+555,FER1L5,GO:0007520,myoblast fusion,biological_process,FER1L5 protein
+556,FER1L5,GO:0005886,plasma membrane,cellular_component,Fer-1-like protein 5
+557,FER1L5,GO:0016020,membrane,cellular_component,Fer-1-like protein 5
+558,FER1L5,GO:0016020,membrane,cellular_component,FER1L5 protein
+559,FER1L5,GO:0016021,integral component of membrane,cellular_component,Fer-1-like protein 5
+560,FER1L5,GO:0016021,integral component of membrane,cellular_component,FER1L5 protein
+561,LMAN2L,GO:0006457,protein folding,biological_process,VIP36-like protein
+562,LMAN2L,GO:0006888,ER to Golgi vesicle-mediated transport,biological_process,VIP36-like protein
+563,LMAN2L,GO:0015031,protein transport,biological_process,VIP36-like protein
+564,LMAN2L,GO:0000139,Golgi membrane,cellular_component,VIP36-like protein
+565,LMAN2L,GO:0005783,endoplasmic reticulum,cellular_component,VIP36-like protein
+566,LMAN2L,GO:0005789,endoplasmic reticulum membrane,cellular_component,VIP36-like protein
+567,LMAN2L,GO:0005794,Golgi apparatus,cellular_component,VIP36-like protein
+568,LMAN2L,GO:0016020,membrane,cellular_component,VIP36-like protein
+569,LMAN2L,GO:0016021,integral component of membrane,cellular_component,VIP36-like protein
+570,LMAN2L,GO:0030134,ER to Golgi transport vesicle,cellular_component,VIP36-like protein
+571,LMAN2L,GO:0005537,mannose binding,molecular_function,VIP36-like protein
+572,LMAN2L,GO:0030246,carbohydrate binding,molecular_function,VIP36-like protein
+573,LMAN2L,GO:0046872,metal ion binding,molecular_function,VIP36-like protein
+574,LTF,GO:0001503,ossification,biological_process,Lactotransferrin
+575,LTF,GO:0001817,regulation of cytokine production,biological_process,Lactotransferrin
+576,LTF,GO:0001895,retina homeostasis,biological_process,Lactotransferrin
+577,LTF,GO:0002227,innate immune response in mucosa,biological_process,Lactotransferrin
+578,LTF,GO:0002376,immune system process,biological_process,Lactotransferrin
+579,LTF,GO:0006351,"transcription, DNA-templated",biological_process,Lactotransferrin
+580,LTF,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Lactotransferrin
+581,LTF,GO:0006508,proteolysis,biological_process,Lactotransferrin
+582,LTF,GO:0006810,transport,biological_process,Lactotransferrin
+583,LTF,GO:0006811,ion transport,biological_process,Lactotransferrin
+584,LTF,GO:0006959,humoral immune response,biological_process,Lactotransferrin
+585,LTF,GO:0019731,antibacterial humoral response,biological_process,Lactotransferrin
+586,LTF,GO:0019732,antifungal humoral response,biological_process,Lactotransferrin
+587,LTF,GO:0031665,negative regulation of lipopolysaccharide-mediated signaling pathway,biological_process,Lactotransferrin
+588,LTF,GO:0032680,regulation of tumor necrosis factor production,biological_process,Lactotransferrin
+589,LTF,GO:0032780,negative regulation of ATPase activity,biological_process,Lactotransferrin
+590,LTF,GO:0033214,iron assimilation by chelation and transport,biological_process,Lactotransferrin
+591,LTF,GO:0033690,positive regulation of osteoblast proliferation,biological_process,Lactotransferrin
+592,LTF,GO:0034145,positive regulation of toll-like receptor 4 signaling pathway,biological_process,Lactotransferrin
+593,LTF,GO:0042742,defense response to bacterium,biological_process,Lactotransferrin
+594,LTF,GO:0043066,negative regulation of apoptotic process,biological_process,Lactotransferrin
+595,LTF,GO:0043123,positive regulation of I-kappaB kinase/NF-kappaB signaling,biological_process,Lactotransferrin
+596,LTF,GO:0044267,cellular protein metabolic process,biological_process,Lactotransferrin
+597,LTF,GO:0044793,negative regulation by host of viral process,biological_process,Lactotransferrin
+598,LTF,GO:0045071,negative regulation of viral genome replication,biological_process,Lactotransferrin
+599,LTF,GO:0045454,cell redox homeostasis,biological_process,Lactotransferrin
+600,LTF,GO:0045669,positive regulation of osteoblast differentiation,biological_process,Lactotransferrin
+601,LTF,GO:0048525,negative regulation of viral process,biological_process,Lactotransferrin
+602,LTF,GO:0051092,positive regulation of NF-kappaB transcription factor activity,biological_process,Lactotransferrin
+603,LTF,GO:0055072,iron ion homeostasis,biological_process,Lactotransferrin
+604,LTF,GO:0060349,bone morphogenesis,biological_process,Lactotransferrin
+605,LTF,GO:0071902,positive regulation of protein serine/threonine kinase activity,biological_process,Lactotransferrin
+606,LTF,GO:1900159,positive regulation of bone mineralization involved in bone maturation,biological_process,Lactotransferrin
+607,LTF,GO:1900229,negative regulation of single-species biofilm formation in or on host organism,biological_process,Lactotransferrin
+608,LTF,GO:1902732,positive regulation of chondrocyte proliferation,biological_process,Lactotransferrin
+609,LTF,GO:2000308,negative regulation of tumor necrosis factor (ligand) superfamily member 11 production,biological_process,Lactotransferrin
+610,LTF,GO:2001205,negative regulation of osteoclast development,biological_process,Lactotransferrin
+611,LTF,GO:0005576,extracellular region,cellular_component,Lactotransferrin
+612,LTF,GO:0005576,extracellular region,cellular_component,Truncated lactoferrin
+613,LTF,GO:0005615,extracellular space,cellular_component,Lactotransferrin
+614,LTF,GO:0005615,extracellular space,cellular_component,Truncated lactoferrin
+615,LTF,GO:0005634,nucleus,cellular_component,Lactotransferrin
+616,LTF,GO:0005737,cytoplasm,cellular_component,Lactotransferrin
+617,LTF,GO:0009986,cell surface,cellular_component,Lactotransferrin
+618,LTF,GO:0030141,secretory granule,cellular_component,Lactotransferrin
+619,LTF,GO:0042581,specific granule,cellular_component,Lactotransferrin
+620,LTF,GO:0043234,protein complex,cellular_component,Lactotransferrin
+621,LTF,GO:0070062,extracellular exosome,cellular_component,Lactotransferrin
+622,LTF,GO:0097013,phagocytic vesicle lumen,cellular_component,Lactotransferrin
+623,LTF,GO:0003677,DNA binding,molecular_function,Lactotransferrin
+624,LTF,GO:0004252,serine-type endopeptidase activity,molecular_function,Lactotransferrin
+625,LTF,GO:0005506,iron ion binding,molecular_function,Lactotransferrin
+626,LTF,GO:0005515,protein binding,molecular_function,Lactotransferrin
+627,LTF,GO:0008201,heparin binding,molecular_function,Lactotransferrin
+628,LTF,GO:0008233,peptidase activity,molecular_function,Lactotransferrin
+629,LTF,GO:0008236,serine-type peptidase activity,molecular_function,Lactotransferrin
+630,LTF,GO:0016787,hydrolase activity,molecular_function,Lactotransferrin
+631,LTF,GO:0043539,protein serine/threonine kinase activator activity,molecular_function,Lactotransferrin
+632,LTF,GO:0046872,metal ion binding,molecular_function,Lactotransferrin
+633,MRPL3,GO:0006412,translation,biological_process,"39S ribosomal protein L3, mitochondrial"
+634,MRPL3,GO:0070125,mitochondrial translational elongation,biological_process,"39S ribosomal protein L3, mitochondrial"
+635,MRPL3,GO:0070126,mitochondrial translational termination,biological_process,"39S ribosomal protein L3, mitochondrial"
+636,MRPL3,GO:0005622,intracellular,cellular_component,"39S ribosomal protein L3, mitochondrial"
+637,MRPL3,GO:0005739,mitochondrion,cellular_component,"39S ribosomal protein L3, mitochondrial"
+638,MRPL3,GO:0005743,mitochondrial inner membrane,cellular_component,"39S ribosomal protein L3, mitochondrial"
+639,MRPL3,GO:0005762,mitochondrial large ribosomal subunit,cellular_component,"39S ribosomal protein L3, mitochondrial"
+640,MRPL3,GO:0005840,ribosome,cellular_component,"39S ribosomal protein L3, mitochondrial"
+641,MRPL3,GO:0005840,ribosome,cellular_component,Mitochondrial ribosomal protein L3
+642,MRPL3,GO:0030529,intracellular ribonucleoprotein complex,cellular_component,"39S ribosomal protein L3, mitochondrial"
+643,MRPL3,GO:0003723,RNA binding,molecular_function,"39S ribosomal protein L3, mitochondrial"
+644,MRPL3,GO:0003735,structural constituent of ribosome,molecular_function,"39S ribosomal protein L3, mitochondrial"
+645,MRPL3,GO:0044822,poly(A) RNA binding,molecular_function,"39S ribosomal protein L3, mitochondrial"
+646,MSRA,GO:0006464,cellular protein modification process,biological_process,Mitochondrial peptide methionine sulfoxide reductase
+647,MSRA,GO:0006555,methionine metabolic process,biological_process,Mitochondrial peptide methionine sulfoxide reductase
+648,MSRA,GO:0006979,response to oxidative stress,biological_process,Mitochondrial peptide methionine sulfoxide reductase
+649,MSRA,GO:0030091,protein repair,biological_process,Mitochondrial peptide methionine sulfoxide reductase
+650,MSRA,GO:0055114,oxidation-reduction process,biological_process,Mitochondrial peptide methionine sulfoxide reductase
+651,MSRA,GO:0005634,nucleus,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+652,MSRA,GO:0005654,nucleoplasm,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+653,MSRA,GO:0005737,cytoplasm,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+654,MSRA,GO:0005739,mitochondrion,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+655,MSRA,GO:0005829,cytosol,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+656,MSRA,GO:0015629,actin cytoskeleton,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+657,MSRA,GO:0016020,membrane,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+658,MSRA,GO:0070062,extracellular exosome,cellular_component,Mitochondrial peptide methionine sulfoxide reductase
+659,MSRA,GO:0008113,peptide-methionine (S)-S-oxide reductase activity,molecular_function,Mitochondrial peptide methionine sulfoxide reductase
+660,MSRA,GO:0016491,oxidoreductase activity,molecular_function,Mitochondrial peptide methionine sulfoxide reductase
+661,MSRA,GO:0016671,"oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor",molecular_function,Mitochondrial peptide methionine sulfoxide reductase
+662,MTMR9,GO:0050790,regulation of catalytic activity,biological_process,Myotubularin-related protein 9
+663,MTMR9,GO:0005737,cytoplasm,cellular_component,Myotubularin-related protein 9
+664,MTMR9,GO:0005515,protein binding,molecular_function,Myotubularin-related protein 9
+665,MTMR9,GO:0030234,enzyme regulator activity,molecular_function,Myotubularin-related protein 9
+666,NEK11,GO:0006468,protein phosphorylation,biological_process,Serine/threonine-protein kinase Nek11
+667,NEK11,GO:0007049,cell cycle,biological_process,Serine/threonine-protein kinase Nek11
+668,NEK11,GO:0016310,phosphorylation,biological_process,Serine/threonine-protein kinase Nek11
+669,NEK11,GO:0016572,histone phosphorylation,biological_process,Serine/threonine-protein kinase Nek11
+670,NEK11,GO:0031572,G2 DNA damage checkpoint,biological_process,Serine/threonine-protein kinase Nek11
+671,NEK11,GO:0031573,intra-S DNA damage checkpoint,biological_process,Serine/threonine-protein kinase Nek11
+672,NEK11,GO:0035556,intracellular signal transduction,biological_process,Serine/threonine-protein kinase Nek11
+673,NEK11,GO:0044772,mitotic cell cycle phase transition,biological_process,Serine/threonine-protein kinase Nek11
+674,NEK11,GO:1901990,regulation of mitotic cell cycle phase transition,biological_process,Serine/threonine-protein kinase Nek11
+675,NEK11,GO:0005634,nucleus,cellular_component,Serine/threonine-protein kinase Nek11
+676,NEK11,GO:0005654,nucleoplasm,cellular_component,Serine/threonine-protein kinase Nek11
+677,NEK11,GO:0005730,nucleolus,cellular_component,Serine/threonine-protein kinase Nek11
+678,NEK11,GO:0000166,nucleotide binding,molecular_function,Serine/threonine-protein kinase Nek11
+679,NEK11,GO:0004672,protein kinase activity,molecular_function,Serine/threonine-protein kinase Nek11
+680,NEK11,GO:0004674,protein serine/threonine kinase activity,molecular_function,Serine/threonine-protein kinase Nek11
+681,NEK11,GO:0005515,protein binding,molecular_function,Serine/threonine-protein kinase Nek11
+682,NEK11,GO:0005524,ATP binding,molecular_function,Serine/threonine-protein kinase Nek11
+683,NEK11,GO:0016301,kinase activity,molecular_function,Serine/threonine-protein kinase Nek11
+684,NEK11,GO:0016740,transferase activity,molecular_function,Serine/threonine-protein kinase Nek11
+685,NEK11,GO:0046872,metal ion binding,molecular_function,Serine/threonine-protein kinase Nek11
+686,NUDT16,GO:0006382,adenosine to inosine editing,biological_process,U8 snoRNA-decapping enzyme
+687,NUDT16,GO:0006402,mRNA catabolic process,biological_process,U8 snoRNA-decapping enzyme
+688,NUDT16,GO:0006508,proteolysis,biological_process,U8 snoRNA-decapping enzyme
+689,NUDT16,GO:0008284,positive regulation of cell proliferation,biological_process,U8 snoRNA-decapping enzyme
+690,NUDT16,GO:0009117,nucleotide metabolic process,biological_process,U8 snoRNA-decapping enzyme
+691,NUDT16,GO:0016077,snoRNA catabolic process,biological_process,U8 snoRNA-decapping enzyme
+692,NUDT16,GO:0016311,dephosphorylation,biological_process,U8 snoRNA-decapping enzyme
+693,NUDT16,GO:0034656,nucleobase-containing small molecule catabolic process,biological_process,U8 snoRNA-decapping enzyme
+694,NUDT16,GO:0035863,dITP catabolic process,biological_process,U8 snoRNA-decapping enzyme
+695,NUDT16,GO:0046709,IDP catabolic process,biological_process,U8 snoRNA-decapping enzyme
+696,NUDT16,GO:0090068,positive regulation of cell cycle process,biological_process,U8 snoRNA-decapping enzyme
+697,NUDT16,GO:1901639,XDP catabolic process,biological_process,U8 snoRNA-decapping enzyme
+698,NUDT16,GO:2000233,negative regulation of rRNA processing,biological_process,U8 snoRNA-decapping enzyme
+699,NUDT16,GO:2000781,positive regulation of double-strand break repair,biological_process,U8 snoRNA-decapping enzyme
+700,NUDT16,GO:0005634,nucleus,cellular_component,U8 snoRNA-decapping enzyme
+701,NUDT16,GO:0005654,nucleoplasm,cellular_component,U8 snoRNA-decapping enzyme
+702,NUDT16,GO:0005730,nucleolus,cellular_component,U8 snoRNA-decapping enzyme
+703,NUDT16,GO:0005737,cytoplasm,cellular_component,U8 snoRNA-decapping enzyme
+704,NUDT16,GO:0000166,nucleotide binding,molecular_function,U8 snoRNA-decapping enzyme
+705,NUDT16,GO:0000287,magnesium ion binding,molecular_function,U8 snoRNA-decapping enzyme
+706,NUDT16,GO:0003723,RNA binding,molecular_function,U8 snoRNA-decapping enzyme
+707,NUDT16,GO:0003729,mRNA binding,molecular_function,U8 snoRNA-decapping enzyme
+708,NUDT16,GO:0005525,GTP binding,molecular_function,U8 snoRNA-decapping enzyme
+709,NUDT16,GO:0008235,metalloexopeptidase activity,molecular_function,U8 snoRNA-decapping enzyme
+710,NUDT16,GO:0016787,hydrolase activity,molecular_function,U8 snoRNA-decapping enzyme
+711,NUDT16,GO:0030145,manganese ion binding,molecular_function,U8 snoRNA-decapping enzyme
+712,NUDT16,GO:0030515,snoRNA binding,molecular_function,U8 snoRNA-decapping enzyme
+713,NUDT16,GO:0035870,dITP diphosphatase activity,molecular_function,U8 snoRNA-decapping enzyme
+714,NUDT16,GO:0042802,identical protein binding,molecular_function,U8 snoRNA-decapping enzyme
+715,NUDT16,GO:0042803,protein homodimerization activity,molecular_function,U8 snoRNA-decapping enzyme
+716,NUDT16,GO:0046872,metal ion binding,molecular_function,U8 snoRNA-decapping enzyme
+717,NUDT16,GO:0050072,m7G(5')pppN diphosphatase activity,molecular_function,U8 snoRNA-decapping enzyme
+718,NUDT16,GO:0050897,cobalt ion binding,molecular_function,U8 snoRNA-decapping enzyme
+719,NUDT16,GO:0090450,inosine-diphosphatase activity,molecular_function,U8 snoRNA-decapping enzyme
+720,NUDT16,GO:0097383,dIDP diphosphatase activity,molecular_function,U8 snoRNA-decapping enzyme
+721,NUDT16,GO:0098519,"nucleotide phosphatase activity, acting on free nucleotides",molecular_function,U8 snoRNA-decapping enzyme
+722,NUDT16,GO:1901640,XTP binding,molecular_function,U8 snoRNA-decapping enzyme
+723,NUDT16,GO:1901641,ITP binding,molecular_function,U8 snoRNA-decapping enzyme
+724,PINX1,GO:0007004,telomere maintenance via telomerase,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+725,PINX1,GO:0007080,mitotic metaphase plate congression,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+726,PINX1,GO:0008285,negative regulation of cell proliferation,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+727,PINX1,GO:0031397,negative regulation of protein ubiquitination,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+728,PINX1,GO:0031647,regulation of protein stability,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+729,PINX1,GO:0032211,negative regulation of telomere maintenance via telomerase,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+730,PINX1,GO:0051972,regulation of telomerase activity,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+731,PINX1,GO:0051974,negative regulation of telomerase activity,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+732,PINX1,GO:0070198,"protein localization to chromosome, telomeric region",biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+733,PINX1,GO:1902570,protein localization to nucleolus,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+734,PINX1,GO:1904357,negative regulation of telomere maintenance via telomere lengthening,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+735,PINX1,GO:1904744,positive regulation of telomeric DNA binding,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+736,PINX1,GO:1904751,positive regulation of protein localization to nucleolus,biological_process,PIN2/TERF1-interacting telomerase inhibitor 1
+737,PINX1,GO:0000228,nuclear chromosome,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+738,PINX1,GO:0000775,"chromosome, centromeric region",cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+739,PINX1,GO:0000776,kinetochore,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+740,PINX1,GO:0000777,condensed chromosome kinetochore,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+741,PINX1,GO:0000781,"chromosome, telomeric region",cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+742,PINX1,GO:0000784,"nuclear chromosome, telomeric region",cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+743,PINX1,GO:0005634,nucleus,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+744,PINX1,GO:0005694,chromosome,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+745,PINX1,GO:0005730,nucleolus,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+746,PINX1,GO:0005737,cytoplasm,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+747,PINX1,GO:0005739,mitochondrion,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+748,PINX1,GO:0005819,spindle,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+749,PINX1,GO:0043231,intracellular membrane-bounded organelle,cellular_component,PIN2/TERF1-interacting telomerase inhibitor 1
+750,PINX1,GO:0003676,nucleic acid binding,molecular_function,PIN2/TERF1-interacting telomerase inhibitor 1
+751,PINX1,GO:0005515,protein binding,molecular_function,PIN2/TERF1-interacting telomerase inhibitor 1
+752,PINX1,GO:0010521,telomerase inhibitor activity,molecular_function,PIN2/TERF1-interacting telomerase inhibitor 1
+753,PINX1,GO:0070034,telomerase RNA binding,molecular_function,PIN2/TERF1-interacting telomerase inhibitor 1
+754,PRSS45,GO:0006508,proteolysis,biological_process,Serine protease 45
+755,PRSS45,GO:0004252,serine-type endopeptidase activity,molecular_function,Serine protease 45
+756,PRSS45,GO:0008233,peptidase activity,molecular_function,Serine protease 45
+757,PRSS45,GO:0008236,serine-type peptidase activity,molecular_function,Serine protease 45
+758,PRSS45,GO:0016787,hydrolase activity,molecular_function,Serine protease 45
+759,PRSS46,GO:0006508,proteolysis,biological_process,Putative serine protease 46
+760,PRSS46,GO:0004252,serine-type endopeptidase activity,molecular_function,Putative serine protease 46
+761,PRSS46,GO:0008233,peptidase activity,molecular_function,Putative serine protease 46
+762,PRSS46,GO:0008236,serine-type peptidase activity,molecular_function,Putative serine protease 46
+763,PRSS46,GO:0016787,hydrolase activity,molecular_function,Putative serine protease 46
+764,PRSS50,GO:0006508,proteolysis,biological_process,Probable threonine protease PRSS50
+765,PRSS50,GO:0005737,cytoplasm,cellular_component,Probable threonine protease PRSS50
+766,PRSS50,GO:0005783,endoplasmic reticulum,cellular_component,Probable threonine protease PRSS50
+767,PRSS50,GO:0004252,serine-type endopeptidase activity,molecular_function,Probable threonine protease PRSS50
+768,PRSS50,GO:0004298,threonine-type endopeptidase activity,molecular_function,Probable threonine protease PRSS50
+769,PRSS50,GO:0008233,peptidase activity,molecular_function,Probable threonine protease PRSS50
+770,PRSS50,GO:0016787,hydrolase activity,molecular_function,Probable threonine protease PRSS50
+771,PRSS55,GO:0006508,proteolysis,biological_process,Serine protease 55
+772,PRSS55,GO:0005737,cytoplasm,cellular_component,Serine protease 55
+773,PRSS55,GO:0005829,cytosol,cellular_component,Serine protease 55
+774,PRSS55,GO:0016020,membrane,cellular_component,Serine protease 55
+775,PRSS55,GO:0016021,integral component of membrane,cellular_component,Serine protease 55
+776,PRSS55,GO:0004252,serine-type endopeptidase activity,molecular_function,Serine protease 55
+777,PRSS55,GO:0008233,peptidase activity,molecular_function,Serine protease 55
+778,PRSS55,GO:0008236,serine-type peptidase activity,molecular_function,Serine protease 55
+779,PRSS55,GO:0016787,hydrolase activity,molecular_function,Serine protease 55
+780,RP1L1,GO:0007601,visual perception,biological_process,Retinitis pigmentosa 1-like 1 protein
+781,RP1L1,GO:0030030,cell projection organization,biological_process,Retinitis pigmentosa 1-like 1 protein
+782,RP1L1,GO:0035082,axoneme assembly,biological_process,Retinitis pigmentosa 1-like 1 protein
+783,RP1L1,GO:0035556,intracellular signal transduction,biological_process,Retinitis pigmentosa 1-like 1 protein
+784,RP1L1,GO:0042461,photoreceptor cell development,biological_process,Retinitis pigmentosa 1-like 1 protein
+785,RP1L1,GO:0045494,photoreceptor cell maintenance,biological_process,Retinitis pigmentosa 1-like 1 protein
+786,RP1L1,GO:0050896,response to stimulus,biological_process,Retinitis pigmentosa 1-like 1 protein
+787,RP1L1,GO:0060041,retina development in camera-type eye,biological_process,Retinitis pigmentosa 1-like 1 protein
+788,RP1L1,GO:0001750,photoreceptor outer segment,cellular_component,Retinitis pigmentosa 1-like 1 protein
+789,RP1L1,GO:0005622,intracellular,cellular_component,Retinitis pigmentosa 1-like 1 protein
+790,RP1L1,GO:0005737,cytoplasm,cellular_component,Retinitis pigmentosa 1-like 1 protein
+791,RP1L1,GO:0005856,cytoskeleton,cellular_component,Retinitis pigmentosa 1-like 1 protein
+792,RP1L1,GO:0005874,microtubule,cellular_component,Retinitis pigmentosa 1-like 1 protein
+793,RP1L1,GO:0005929,cilium,cellular_component,Retinitis pigmentosa 1-like 1 protein
+794,RP1L1,GO:0005930,axoneme,cellular_component,Retinitis pigmentosa 1-like 1 protein
+795,RP1L1,GO:0032391,photoreceptor connecting cilium,cellular_component,Retinitis pigmentosa 1-like 1 protein
+796,RP1L1,GO:0042995,cell projection,cellular_component,Retinitis pigmentosa 1-like 1 protein
+797,RP1L1,GO:0070062,extracellular exosome,cellular_component,Retinitis pigmentosa 1-like 1 protein
+798,RTP3,GO:0001580,detection of chemical stimulus involved in sensory perception of bitter taste,biological_process,Receptor-transporting protein 3
+799,RTP3,GO:0006612,protein targeting to membrane,biological_process,Receptor-transporting protein 3
+800,RTP3,GO:0051205,protein insertion into membrane,biological_process,Receptor-transporting protein 3
+801,RTP3,GO:0005737,cytoplasm,cellular_component,Receptor-transporting protein 3
+802,RTP3,GO:0016020,membrane,cellular_component,Receptor-transporting protein 3
+803,RTP3,GO:0016021,integral component of membrane,cellular_component,Receptor-transporting protein 3
+804,RTP3,GO:0005515,protein binding,molecular_function,Receptor-transporting protein 3
+805,RTP3,GO:0031849,olfactory receptor binding,molecular_function,Receptor-transporting protein 3
+806,SEMA4C,GO:0001755,neural crest cell migration,biological_process,Semaphorin-4C
+807,SEMA4C,GO:0001843,neural tube closure,biological_process,Semaphorin-4C
+808,SEMA4C,GO:0007275,multicellular organism development,biological_process,Semaphorin-4C
+809,SEMA4C,GO:0007399,nervous system development,biological_process,Semaphorin-4C
+810,SEMA4C,GO:0021535,cell migration in hindbrain,biological_process,Semaphorin-4C
+811,SEMA4C,GO:0021549,cerebellum development,biological_process,Semaphorin-4C
+812,SEMA4C,GO:0030154,cell differentiation,biological_process,Semaphorin-4C
+813,SEMA4C,GO:0030335,positive regulation of cell migration,biological_process,Semaphorin-4C
+814,SEMA4C,GO:0032874,positive regulation of stress-activated MAPK cascade,biological_process,Semaphorin-4C
+815,SEMA4C,GO:0042692,muscle cell differentiation,biological_process,Semaphorin-4C
+816,SEMA4C,GO:0048843,negative regulation of axon extension involved in axon guidance,biological_process,Semaphorin-4C
+817,SEMA4C,GO:0050919,negative chemotaxis,biological_process,Semaphorin-4C
+818,SEMA4C,GO:0071526,semaphorin-plexin signaling pathway,biological_process,Semaphorin-4C
+819,SEMA4C,GO:0005615,extracellular space,cellular_component,Semaphorin-4C
+820,SEMA4C,GO:0005886,plasma membrane,cellular_component,Semaphorin-4C
+821,SEMA4C,GO:0014069,postsynaptic density,cellular_component,Semaphorin-4C
+822,SEMA4C,GO:0016020,membrane,cellular_component,Semaphorin-4C
+823,SEMA4C,GO:0016020,membrane,cellular_component,Putative uncharacterized protein SEMA4C
+824,SEMA4C,GO:0016020,membrane,cellular_component,SEMA4C protein
+825,SEMA4C,GO:0016021,integral component of membrane,cellular_component,Semaphorin-4C
+826,SEMA4C,GO:0016021,integral component of membrane,cellular_component,Putative uncharacterized protein SEMA4C
+827,SEMA4C,GO:0016021,integral component of membrane,cellular_component,SEMA4C protein
+828,SEMA4C,GO:0030054,cell junction,cellular_component,Semaphorin-4C
+829,SEMA4C,GO:0030672,synaptic vesicle membrane,cellular_component,Semaphorin-4C
+830,SEMA4C,GO:0031410,cytoplasmic vesicle,cellular_component,Semaphorin-4C
+831,SEMA4C,GO:0045202,synapse,cellular_component,Semaphorin-4C
+832,SEMA4C,GO:0045211,postsynaptic membrane,cellular_component,Semaphorin-4C
+833,SEMA4C,GO:0005515,protein binding,molecular_function,Semaphorin-4C
+834,SEMA4C,GO:0030215,semaphorin receptor binding,molecular_function,Semaphorin-4C
+835,SEMA4C,GO:0038191,neuropilin binding,molecular_function,Semaphorin-4C
+836,SEMA4C,GO:0045499,chemorepellent activity,molecular_function,Semaphorin-4C
+837,SLC35G5,GO:0016020,membrane,cellular_component,Solute carrier family 35 member G5
+838,SLC35G5,GO:0016021,integral component of membrane,cellular_component,Solute carrier family 35 member G5
+839,SOX7,GO:0001706,endoderm formation,biological_process,Transcription factor SOX-7
+840,SOX7,GO:0006351,"transcription, DNA-templated",biological_process,Transcription factor SOX-7
+841,SOX7,GO:0006355,"regulation of transcription, DNA-templated",biological_process,Transcription factor SOX-7
+842,SOX7,GO:0008285,negative regulation of cell proliferation,biological_process,Transcription factor SOX-7
+843,SOX7,GO:0043280,positive regulation of cysteine-type endopeptidase activity involved in apoptotic process,biological_process,Transcription factor SOX-7
+844,SOX7,GO:0045892,"negative regulation of transcription, DNA-templated",biological_process,Transcription factor SOX-7
+845,SOX7,GO:0060828,regulation of canonical Wnt signaling pathway,biological_process,Transcription factor SOX-7
+846,SOX7,GO:0005634,nucleus,cellular_component,Transcription factor SOX-7
+847,SOX7,GO:0005654,nucleoplasm,cellular_component,Transcription factor SOX-7
+848,SOX7,GO:0005737,cytoplasm,cellular_component,Transcription factor SOX-7
+849,SOX7,GO:0003677,DNA binding,molecular_function,Transcription factor SOX-7
+850,SOX7,GO:0003700,"transcription factor activity, sequence-specific DNA binding",molecular_function,Transcription factor SOX-7
+851,SOX7,GO:0005515,protein binding,molecular_function,Transcription factor SOX-7
+852,SOX7,GO:0044212,transcription regulatory region DNA binding,molecular_function,Transcription factor SOX-7
+853,TDGF1,GO:0000187,activation of MAPK activity,biological_process,Teratocarcinoma-derived growth factor 1
+854,TDGF1,GO:0001763,morphogenesis of a branching structure,biological_process,Teratocarcinoma-derived growth factor 1
+855,TDGF1,GO:0002042,cell migration involved in sprouting angiogenesis,biological_process,Teratocarcinoma-derived growth factor 1
+856,TDGF1,GO:0007173,epidermal growth factor receptor signaling pathway,biological_process,Teratocarcinoma-derived growth factor 1
+857,TDGF1,GO:0007507,heart development,biological_process,Teratocarcinoma-derived growth factor 1
+858,TDGF1,GO:0008284,positive regulation of cell proliferation,biological_process,Teratocarcinoma-derived growth factor 1
+859,TDGF1,GO:0008595,"anterior/posterior axis specification, embryo",biological_process,Teratocarcinoma-derived growth factor 1
+860,TDGF1,GO:0009790,embryo development,biological_process,Teratocarcinoma-derived growth factor 1
+861,TDGF1,GO:0009966,regulation of signal transduction,biological_process,Teratocarcinoma-derived growth factor 1
+862,TDGF1,GO:0010595,positive regulation of endothelial cell migration,biological_process,Teratocarcinoma-derived growth factor 1
+863,TDGF1,GO:0018105,peptidyl-serine phosphorylation,biological_process,Teratocarcinoma-derived growth factor 1
+864,TDGF1,GO:0030154,cell differentiation,biological_process,Teratocarcinoma-derived growth factor 1
+865,TDGF1,GO:0030335,positive regulation of cell migration,biological_process,Teratocarcinoma-derived growth factor 1
+866,TDGF1,GO:0030879,mammary gland development,biological_process,Teratocarcinoma-derived growth factor 1
+867,TDGF1,GO:0035019,somatic stem cell population maintenance,biological_process,Teratocarcinoma-derived growth factor 1
+868,TDGF1,GO:0035729,cellular response to hepatocyte growth factor stimulus,biological_process,Teratocarcinoma-derived growth factor 1
+869,TDGF1,GO:0043066,negative regulation of apoptotic process,biological_process,Teratocarcinoma-derived growth factor 1
+870,TDGF1,GO:0044344,cellular response to fibroblast growth factor stimulus,biological_process,Teratocarcinoma-derived growth factor 1
+871,TDGF1,GO:0050731,positive regulation of peptidyl-tyrosine phosphorylation,biological_process,Teratocarcinoma-derived growth factor 1
+872,TDGF1,GO:0071346,cellular response to interferon-gamma,biological_process,Teratocarcinoma-derived growth factor 1
+873,TDGF1,GO:0071354,cellular response to interleukin-6,biological_process,Teratocarcinoma-derived growth factor 1
+874,TDGF1,GO:0071356,cellular response to tumor necrosis factor,biological_process,Teratocarcinoma-derived growth factor 1
+875,TDGF1,GO:0071364,cellular response to epidermal growth factor stimulus,biological_process,Teratocarcinoma-derived growth factor 1
+876,TDGF1,GO:0005615,extracellular space,cellular_component,Teratocarcinoma-derived growth factor 1
+877,TDGF1,GO:0005886,plasma membrane,cellular_component,Teratocarcinoma-derived growth factor 1
+878,TDGF1,GO:0009986,cell surface,cellular_component,Teratocarcinoma-derived growth factor 1
+879,TDGF1,GO:0016020,membrane,cellular_component,Teratocarcinoma-derived growth factor 1
+880,TDGF1,GO:0016020,membrane,cellular_component,"Teratocarcinoma-derived growth factor 1, isoform CRA_a"
+881,TDGF1,GO:0016020,membrane,cellular_component,Alternative protein TDGF1
+882,TDGF1,GO:0016021,integral component of membrane,cellular_component,"Teratocarcinoma-derived growth factor 1, isoform CRA_a"
+883,TDGF1,GO:0016021,integral component of membrane,cellular_component,Alternative protein TDGF1
+884,TDGF1,GO:0016324,apical plasma membrane,cellular_component,Teratocarcinoma-derived growth factor 1
+885,TDGF1,GO:0019897,extrinsic component of plasma membrane,cellular_component,Teratocarcinoma-derived growth factor 1
+886,TDGF1,GO:0031225,anchored component of membrane,cellular_component,Teratocarcinoma-derived growth factor 1
+887,TDGF1,GO:0045121,membrane raft,cellular_component,Teratocarcinoma-derived growth factor 1
+888,TDGF1,GO:0005102,receptor binding,molecular_function,Teratocarcinoma-derived growth factor 1
+889,TDGF1,GO:0005515,protein binding,molecular_function,Teratocarcinoma-derived growth factor 1
+890,TDGF1,GO:0008083,growth factor activity,molecular_function,Teratocarcinoma-derived growth factor 1
+891,TDGF1,GO:0008083,growth factor activity,molecular_function,"Teratocarcinoma-derived growth factor 1, isoform CRA_a"
+892,TDH,GO:0019518,L-threonine catabolic process to glycine,biological_process,"Inactive L-threonine 3-dehydrogenase, mitochondrial"
+893,TDH,GO:0005739,mitochondrion,cellular_component,"Inactive L-threonine 3-dehydrogenase, mitochondrial"
+894,TDH,GO:0005743,mitochondrial inner membrane,cellular_component,"Inactive L-threonine 3-dehydrogenase, mitochondrial"
+895,TDH,GO:0003824,catalytic activity,molecular_function,"Inactive L-threonine 3-dehydrogenase, mitochondrial"
+896,TDH,GO:0050662,coenzyme binding,molecular_function,"Inactive L-threonine 3-dehydrogenase, mitochondrial"
+897,TMIE,GO:0007605,sensory perception of sound,biological_process,Transmembrane inner ear expressed protein
+898,TMIE,GO:0042472,inner ear morphogenesis,biological_process,Transmembrane inner ear expressed protein
+899,TMIE,GO:0016020,membrane,cellular_component,Transmembrane inner ear expressed protein
+900,TMIE,GO:0016021,integral component of membrane,cellular_component,Transmembrane inner ear expressed protein
+901,XKR6,GO:0016020,membrane,cellular_component,XK-related protein
+902,XKR6,GO:0016020,membrane,cellular_component,XK-related protein 6
+903,XKR6,GO:0016021,integral component of membrane,cellular_component,XK-related protein
+904,XKR6,GO:0016021,integral component of membrane,cellular_component,XK-related protein 6
