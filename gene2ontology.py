@@ -1,5 +1,6 @@
 import MySQLdb
 import pandas as pd
+import operator
 
 def get_conn():
     db = MySQLdb.connect(host="mysql-amigo.ebi.ac.uk",    # your host, usually localhost
@@ -60,6 +61,26 @@ def get_annotations_from_disease(disease1, disease2):
     df.to_csv('annotations/annot_'+disease1+'_'+disease2+'.csv')
     return df
 
+def analysis():
+    diseases = ['aut', 'add', 'bip', 'mdd', 'scz']
+    go_dict = {}
+    for i in xrange(len(diseases) - 1):
+        for j in xrange(i + 1, len(diseases)):
+            df = pd.read_csv('annotations/annot_'+diseases[i]+'_'+diseases[j]+'.csv')
+            df = df[df.term_type == 'biological_process']
+            for index, row in df.iterrows():
+                go = row['acc']
+                go_dict[go] = go_dict.get(go, {})
+                go_dict[go]['diseases'] = go_dict.get('diseases', set()) | {diseases[i], diseases[j]}
+                go_dict[go]['description'] = go_dict.get('description', set()) | {row['name']}
+    df = pd.DataFrame()
+    df['go'] = pd.Series([go for go in go_dict])
+    df['diseases'] = pd.Series([go_dict[go]['diseases'] for go in go_dict])
+    df['counts'] = pd.Series(len(go_dict[go]['diseases']) for go in go_dict)
+    df['descriptions'] = pd.Series([go_dict[go]['description'] for go in go_dict])
+
+    df.to_csv('test', sep='\t')
+    return df.sort_values(['counts'], ascending=False)
 
 if __name__ == '__main__':
     diseases = ['aut', 'add', 'bip', 'mdd', 'scz']
