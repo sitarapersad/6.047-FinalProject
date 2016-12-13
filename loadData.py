@@ -42,12 +42,16 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         ''' Runs munge_sumstats on one disease in preparation for ldsc, and returns the path to the munged data'''
 
         disease_file = DISEASES[disease]['filename']
-        disease_N = sum(DISEASES[disease]['sample_size'])
+        disease_N_cas = DISEASES[disease]['sample_size'][0]
+        disease_N_con = DISEASES[disease]['sample_size'][1]
+        disease_N = disease_N_cas+disease_N_con
 
         FNULL = open(os.devnull, 'w')
         subprocess.call(['python', 'ldsc/munge_sumstats.py',
                          '--sumstats', rootdir + disease_file,
                          '--N', str(disease_N),
+                         '--N-cas', str(disease_N_cas),
+                         '--N-con', str(disease_N_con),
                          '--out', str(disease),
                          '--merge-alleles', rootdir + REF_SNP_LIST],
                          stdout=FNULL, stderr=subprocess.STDOUT
@@ -55,7 +59,7 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
 
         return str(disease)
 
-    def get_genetic_corr(disease1_sumstats_file, disease2_sumstats_file):
+    def get_genetic_corr(disease1_sumstats_file, disease2_sumstats_file, M):
         '''Runs ldsc on two diseases to estimate the genetic correlation
         between the two selected diseases. Assumes that the data has already
         been munged and that the relevant .sumstats.gz files for the desired regions
@@ -67,6 +71,7 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
                          '--rg', disease1_sumstats_file + ',' + disease2_sumstats_file,
                          '--ref-ld-chr', rootdir + 'eur_w_ld_chr/',
                          '--w-ld-chr', rootdir + 'eur_w_ld_chr/',
+                         '--M', str(M),
                          '--out', disease1_sumstats_file + '_' + disease2_sumstats_file],
                          stdout=FNULL, stderr=subprocess.STDOUT
                         )
@@ -137,7 +142,7 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
         partition2.to_csv(sumstats_filename2, '\t', compression='gzip', index=False)
 
         # Estimate the genetic correlation
-        corr, pval, std_err, num_SNPs = get_genetic_corr(sumstats_filename1, sumstats_filename2)
+        corr, pval, std_err, num_SNPs = get_genetic_corr(sumstats_filename1, sumstats_filename2, len(set(partition1['SNP']) | set(partition2['SNP'])))
 
         # Remove the .gz files
         os.remove(sumstats_filename1)
@@ -237,7 +242,13 @@ def OVERALL_FUNCTION(disease1, disease2, verbose=False):
 def main(argv):
     print 'Disease 1:', argv[0]
     print 'Disease 2:', argv[1]
-    OVERALL_FUNCTION('bip','scz',verbose=True)
+    OVERALL_FUNCTION(argv[0],argv[1],verbose=True)
 
 if __name__ == "__main__":
-   main(sys.argv[1:])
+   #main(sys.argv[1:])
+   diseases = ['aut', 'add', 'bip', 'mdd', 'scz']
+   for i in xrange(len(diseases)-1):
+       for j in xrange(i+1, len(diseases)):
+           if j == 4 and i == 2:
+               continue
+           OVERALL_FUNCTION(diseases[i], diseases[j], verbose=True)

@@ -1,0 +1,156 @@
+,symbol,acc,name,term_type,full_name
+0,DPP4,GO:0001662,behavioral fear response,biological_process,Dipeptidyl peptidase 4
+1,DPP4,GO:0001666,response to hypoxia,biological_process,Dipeptidyl peptidase 4
+2,DPP4,GO:0006508,proteolysis,biological_process,Dipeptidyl peptidase 4
+3,DPP4,GO:0007155,cell adhesion,biological_process,Dipeptidyl peptidase 4
+4,DPP4,GO:0008284,positive regulation of cell proliferation,biological_process,Dipeptidyl peptidase 4
+5,DPP4,GO:0010716,negative regulation of extracellular matrix disassembly,biological_process,Dipeptidyl peptidase 4
+6,DPP4,GO:0031295,T cell costimulation,biological_process,Dipeptidyl peptidase 4
+7,DPP4,GO:0033632,regulation of cell-cell adhesion mediated by integrin,biological_process,Dipeptidyl peptidase 4
+8,DPP4,GO:0035641,locomotory exploration behavior,biological_process,Dipeptidyl peptidase 4
+9,DPP4,GO:0036343,psychomotor behavior,biological_process,Dipeptidyl peptidase 4
+10,DPP4,GO:0042110,T cell activation,biological_process,Dipeptidyl peptidase 4
+11,DPP4,GO:0043542,endothelial cell migration,biological_process,Dipeptidyl peptidase 4
+12,DPP4,GO:0046718,viral entry into host cell,biological_process,Dipeptidyl peptidase 4
+13,DPP4,GO:0005576,extracellular region,cellular_component,Dipeptidyl peptidase 4
+14,DPP4,GO:0005765,lysosomal membrane,cellular_component,Dipeptidyl peptidase 4
+15,DPP4,GO:0005886,plasma membrane,cellular_component,Dipeptidyl peptidase 4
+16,DPP4,GO:0005925,focal adhesion,cellular_component,Dipeptidyl peptidase 4
+17,DPP4,GO:0009986,cell surface,cellular_component,Dipeptidyl peptidase 4
+18,DPP4,GO:0016020,membrane,cellular_component,Dipeptidyl peptidase 4
+19,DPP4,GO:0016021,integral component of membrane,cellular_component,Dipeptidyl peptidase 4
+20,DPP4,GO:0016324,apical plasma membrane,cellular_component,Dipeptidyl peptidase 4
+21,DPP4,GO:0030027,lamellipodium,cellular_component,Dipeptidyl peptidase 4
+22,DPP4,GO:0030054,cell junction,cellular_component,Dipeptidyl peptidase 4
+23,DPP4,GO:0030139,endocytic vesicle,cellular_component,Dipeptidyl peptidase 4
+24,DPP4,GO:0031258,lamellipodium membrane,cellular_component,Dipeptidyl peptidase 4
+25,DPP4,GO:0042995,cell projection,cellular_component,Dipeptidyl peptidase 4
+26,DPP4,GO:0045121,membrane raft,cellular_component,Dipeptidyl peptidase 4
+27,DPP4,GO:0046581,intercellular canaliculus,cellular_component,Dipeptidyl peptidase 4
+28,DPP4,GO:0070062,extracellular exosome,cellular_component,Dipeptidyl peptidase 4
+29,DPP4,GO:0071438,invadopodium membrane,cellular_component,Dipeptidyl peptidase 4
+30,DPP4,GO:0001618,virus receptor activity,molecular_function,Dipeptidyl peptidase 4
+31,DPP4,GO:0002020,protease binding,molecular_function,Dipeptidyl peptidase 4
+32,DPP4,GO:0004177,aminopeptidase activity,molecular_function,Dipeptidyl peptidase 4
+33,DPP4,GO:0004252,serine-type endopeptidase activity,molecular_function,Dipeptidyl peptidase 4
+34,DPP4,GO:0005102,receptor binding,molecular_function,Dipeptidyl peptidase 4
+35,DPP4,GO:0005515,protein binding,molecular_function,Dipeptidyl peptidase 4
+36,DPP4,GO:0008233,peptidase activity,molecular_function,Dipeptidyl peptidase 4
+37,DPP4,GO:0008236,serine-type peptidase activity,molecular_function,Dipeptidyl peptidase 4
+38,DPP4,GO:0008239,dipeptidyl-peptidase activity,molecular_function,Dipeptidyl peptidase 4
+39,DPP4,GO:0016787,hydrolase activity,molecular_function,Dipeptidyl peptidase 4
+40,DPP4,GO:0042802,identical protein binding,molecular_function,Dipeptidyl peptidase 4
+41,DPP4,GO:0042803,protein homodimerization activity,molecular_function,Dipeptidyl peptidase 4
+42,ETAA1,GO:0005737,cytoplasm,cellular_component,Ewing's tumor-associated antigen 1
+43,PSMD14,GO:0000090,mitotic anaphase,biological_process,26S proteasome non-ATPase regulatory subunit 14
+44,PSMD14,GO:0000165,MAPK cascade,biological_process,26S proteasome non-ATPase regulatory subunit 14
+45,PSMD14,GO:0000209,protein polyubiquitination,biological_process,26S proteasome non-ATPase regulatory subunit 14
+46,PSMD14,GO:0000724,double-strand break repair via homologous recombination,biological_process,26S proteasome non-ATPase regulatory subunit 14
+47,PSMD14,GO:0002223,stimulatory C-type lectin receptor signaling pathway,biological_process,26S proteasome non-ATPase regulatory subunit 14
+48,PSMD14,GO:0002479,"antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent",biological_process,26S proteasome non-ATPase regulatory subunit 14
+49,PSMD14,GO:0006281,DNA repair,biological_process,26S proteasome non-ATPase regulatory subunit 14
+50,PSMD14,GO:0006303,double-strand break repair via nonhomologous end joining,biological_process,26S proteasome non-ATPase regulatory subunit 14
+51,PSMD14,GO:0006508,proteolysis,biological_process,26S proteasome non-ATPase regulatory subunit 14
+52,PSMD14,GO:0006511,ubiquitin-dependent protein catabolic process,biological_process,26S proteasome non-ATPase regulatory subunit 14
+53,PSMD14,GO:0006521,regulation of cellular amino acid metabolic process,biological_process,26S proteasome non-ATPase regulatory subunit 14
+54,PSMD14,GO:0006974,cellular response to DNA damage stimulus,biological_process,26S proteasome non-ATPase regulatory subunit 14
+55,PSMD14,GO:0010950,positive regulation of endopeptidase activity,biological_process,26S proteasome non-ATPase regulatory subunit 14
+56,PSMD14,GO:0031145,anaphase-promoting complex-dependent catabolic process,biological_process,26S proteasome non-ATPase regulatory subunit 14
+57,PSMD14,GO:0033209,tumor necrosis factor-mediated signaling pathway,biological_process,26S proteasome non-ATPase regulatory subunit 14
+58,PSMD14,GO:0038061,NIK/NF-kappaB signaling,biological_process,26S proteasome non-ATPase regulatory subunit 14
+59,PSMD14,GO:0038095,Fc-epsilon receptor signaling pathway,biological_process,26S proteasome non-ATPase regulatory subunit 14
+60,PSMD14,GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,biological_process,26S proteasome non-ATPase regulatory subunit 14
+61,PSMD14,GO:0043488,regulation of mRNA stability,biological_process,26S proteasome non-ATPase regulatory subunit 14
+62,PSMD14,GO:0045471,response to ethanol,biological_process,26S proteasome non-ATPase regulatory subunit 14
+63,PSMD14,GO:0050852,T cell receptor signaling pathway,biological_process,26S proteasome non-ATPase regulatory subunit 14
+64,PSMD14,GO:0051436,negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle,biological_process,26S proteasome non-ATPase regulatory subunit 14
+65,PSMD14,GO:0051437,positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition,biological_process,26S proteasome non-ATPase regulatory subunit 14
+66,PSMD14,GO:0060071,"Wnt signaling pathway, planar cell polarity pathway",biological_process,26S proteasome non-ATPase regulatory subunit 14
+67,PSMD14,GO:0061136,regulation of proteasomal protein catabolic process,biological_process,26S proteasome non-ATPase regulatory subunit 14
+68,PSMD14,GO:0070536,protein K63-linked deubiquitination,biological_process,26S proteasome non-ATPase regulatory subunit 14
+69,PSMD14,GO:0090090,negative regulation of canonical Wnt signaling pathway,biological_process,26S proteasome non-ATPase regulatory subunit 14
+70,PSMD14,GO:0090263,positive regulation of canonical Wnt signaling pathway,biological_process,26S proteasome non-ATPase regulatory subunit 14
+71,PSMD14,GO:0000502,proteasome complex,cellular_component,26S proteasome non-ATPase regulatory subunit 14
+72,PSMD14,GO:0005634,nucleus,cellular_component,26S proteasome non-ATPase regulatory subunit 14
+73,PSMD14,GO:0005654,nucleoplasm,cellular_component,26S proteasome non-ATPase regulatory subunit 14
+74,PSMD14,GO:0005829,cytosol,cellular_component,26S proteasome non-ATPase regulatory subunit 14
+75,PSMD14,GO:0008541,"proteasome regulatory particle, lid subcomplex",cellular_component,26S proteasome non-ATPase regulatory subunit 14
+76,PSMD14,GO:0022624,proteasome accessory complex,cellular_component,26S proteasome non-ATPase regulatory subunit 14
+77,PSMD14,GO:0031597,cytosolic proteasome complex,cellular_component,26S proteasome non-ATPase regulatory subunit 14
+78,PSMD14,GO:0070062,extracellular exosome,cellular_component,26S proteasome non-ATPase regulatory subunit 14
+79,PSMD14,GO:0005515,protein binding,molecular_function,26S proteasome non-ATPase regulatory subunit 14
+80,PSMD14,GO:0008233,peptidase activity,molecular_function,26S proteasome non-ATPase regulatory subunit 14
+81,PSMD14,GO:0008237,metallopeptidase activity,molecular_function,26S proteasome non-ATPase regulatory subunit 14
+82,PSMD14,GO:0016787,hydrolase activity,molecular_function,26S proteasome non-ATPase regulatory subunit 14
+83,PSMD14,GO:0046872,metal ion binding,molecular_function,26S proteasome non-ATPase regulatory subunit 14
+84,PSMD14,GO:0061133,endopeptidase activator activity,molecular_function,26S proteasome non-ATPase regulatory subunit 14
+85,PSMD14,GO:0070628,proteasome binding,molecular_function,26S proteasome non-ATPase regulatory subunit 14
+86,SLC4A10,GO:0006810,transport,biological_process,Anion exchange protein
+87,SLC4A10,GO:0006810,transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+88,SLC4A10,GO:0006811,ion transport,biological_process,Anion exchange protein
+89,SLC4A10,GO:0006811,ion transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+90,SLC4A10,GO:0006814,sodium ion transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+91,SLC4A10,GO:0006820,anion transport,biological_process,Anion exchange protein
+92,SLC4A10,GO:0006820,anion transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+93,SLC4A10,GO:0006821,chloride transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+94,SLC4A10,GO:0006885,regulation of pH,biological_process,Sodium-driven chloride bicarbonate exchanger
+95,SLC4A10,GO:0007399,nervous system development,biological_process,Sodium-driven chloride bicarbonate exchanger
+96,SLC4A10,GO:0009416,response to light stimulus,biological_process,Sodium-driven chloride bicarbonate exchanger
+97,SLC4A10,GO:0009791,post-embryonic development,biological_process,Sodium-driven chloride bicarbonate exchanger
+98,SLC4A10,GO:0015698,inorganic anion transport,biological_process,Anion exchange protein
+99,SLC4A10,GO:0015698,inorganic anion transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+100,SLC4A10,GO:0015701,bicarbonate transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+101,SLC4A10,GO:0021860,pyramidal neuron development,biological_process,Sodium-driven chloride bicarbonate exchanger
+102,SLC4A10,GO:0030641,regulation of cellular pH,biological_process,Sodium-driven chloride bicarbonate exchanger
+103,SLC4A10,GO:0035264,multicellular organism growth,biological_process,Sodium-driven chloride bicarbonate exchanger
+104,SLC4A10,GO:0035641,locomotory exploration behavior,biological_process,Sodium-driven chloride bicarbonate exchanger
+105,SLC4A10,GO:0048854,brain morphogenesis,biological_process,Sodium-driven chloride bicarbonate exchanger
+106,SLC4A10,GO:0051453,regulation of intracellular pH,biological_process,Sodium-driven chloride bicarbonate exchanger
+107,SLC4A10,GO:0098656,anion transmembrane transport,biological_process,Anion exchange protein
+108,SLC4A10,GO:0098656,anion transmembrane transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+109,SLC4A10,GO:1902600,hydrogen ion transmembrane transport,biological_process,Sodium-driven chloride bicarbonate exchanger
+110,SLC4A10,GO:0005886,plasma membrane,cellular_component,Sodium-driven chloride bicarbonate exchanger
+111,SLC4A10,GO:0005887,integral component of plasma membrane,cellular_component,Sodium-driven chloride bicarbonate exchanger
+112,SLC4A10,GO:0016020,membrane,cellular_component,Anion exchange protein
+113,SLC4A10,GO:0016020,membrane,cellular_component,Sodium-driven chloride bicarbonate exchanger
+114,SLC4A10,GO:0016021,integral component of membrane,cellular_component,Anion exchange protein
+115,SLC4A10,GO:0016021,integral component of membrane,cellular_component,Sodium-driven chloride bicarbonate exchanger
+116,SLC4A10,GO:0016323,basolateral plasma membrane,cellular_component,Sodium-driven chloride bicarbonate exchanger
+117,SLC4A10,GO:0043025,neuronal cell body,cellular_component,Sodium-driven chloride bicarbonate exchanger
+118,SLC4A10,GO:0097440,apical dendrite,cellular_component,Sodium-driven chloride bicarbonate exchanger
+119,SLC4A10,GO:0097441,basilar dendrite,cellular_component,Sodium-driven chloride bicarbonate exchanger
+120,SLC4A10,GO:0097442,CA3 pyramidal cell dendrite,cellular_component,Sodium-driven chloride bicarbonate exchanger
+121,SLC4A10,GO:0005215,transporter activity,molecular_function,Anion exchange protein
+122,SLC4A10,GO:0005215,transporter activity,molecular_function,Sodium-driven chloride bicarbonate exchanger
+123,SLC4A10,GO:0005452,inorganic anion exchanger activity,molecular_function,Anion exchange protein
+124,SLC4A10,GO:0005452,inorganic anion exchanger activity,molecular_function,Sodium-driven chloride bicarbonate exchanger
+125,SLC4A10,GO:0008509,anion transmembrane transporter activity,molecular_function,Anion exchange protein
+126,SLC4A10,GO:0008509,anion transmembrane transporter activity,molecular_function,Sodium-driven chloride bicarbonate exchanger
+127,SLC4A10,GO:0015293,symporter activity,molecular_function,Sodium-driven chloride bicarbonate exchanger
+128,SLC4A10,GO:0015297,antiporter activity,molecular_function,Sodium-driven chloride bicarbonate exchanger
+129,SLC4A10,GO:0015301,anion:anion antiporter activity,molecular_function,Sodium-driven chloride bicarbonate exchanger
+130,TANK,GO:0007165,signal transduction,biological_process,TRAF family member-associated NF-kappa-B activator
+131,TANK,GO:0007249,I-kappaB kinase/NF-kappaB signaling,biological_process,TRAF family member-associated NF-kappa-B activator
+132,TANK,GO:0035666,TRIF-dependent toll-like receptor signaling pathway,biological_process,TRAF family member-associated NF-kappa-B activator
+133,TANK,GO:0005737,cytoplasm,cellular_component,TRAF family member-associated NF-kappa-B activator
+134,TANK,GO:0005829,cytosol,cellular_component,TRAF family member-associated NF-kappa-B activator
+135,TANK,GO:0005515,protein binding,molecular_function,TRAF family member-associated NF-kappa-B activator
+136,TANK,GO:0031625,ubiquitin protein ligase binding,molecular_function,TRAF family member-associated NF-kappa-B activator
+137,TANK,GO:0046872,metal ion binding,molecular_function,TRAF family member-associated NF-kappa-B activator
+138,TBR1,GO:0001661,conditioned taste aversion,biological_process,T-box brain protein 1
+139,TBR1,GO:0006351,"transcription, DNA-templated",biological_process,T-box brain protein 1
+140,TBR1,GO:0006355,"regulation of transcription, DNA-templated",biological_process,T-box brain protein 1
+141,TBR1,GO:0007420,brain development,biological_process,T-box brain protein 1
+142,TBR1,GO:0010092,specification of organ identity,biological_process,T-box brain protein 1
+143,TBR1,GO:0010468,regulation of gene expression,biological_process,T-box brain protein 1
+144,TBR1,GO:0010975,regulation of neuron projection development,biological_process,T-box brain protein 1
+145,TBR1,GO:0021764,amygdala development,biological_process,T-box brain protein 1
+146,TBR1,GO:0021902,commitment of neuronal cell to specific neuron type in forebrain,biological_process,T-box brain protein 1
+147,TBR1,GO:0030182,neuron differentiation,biological_process,T-box brain protein 1
+148,TBR1,GO:0030902,hindbrain development,biological_process,T-box brain protein 1
+149,TBR1,GO:0045944,positive regulation of transcription from RNA polymerase II promoter,biological_process,T-box brain protein 1
+150,TBR1,GO:1902667,regulation of axon guidance,biological_process,T-box brain protein 1
+151,TBR1,GO:0005634,nucleus,cellular_component,T-box brain protein 1
+152,TBR1,GO:0000979,RNA polymerase II core promoter sequence-specific DNA binding,molecular_function,T-box brain protein 1
+153,TBR1,GO:0003677,DNA binding,molecular_function,T-box brain protein 1
+154,TBR1,GO:0003700,"transcription factor activity, sequence-specific DNA binding",molecular_function,T-box brain protein 1
